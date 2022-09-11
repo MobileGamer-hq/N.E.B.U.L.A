@@ -110,8 +110,24 @@ class Assistant:
                     print('OK')
                     break
 
+                elif "your name" in statement or "who are you" in statement or "what is your name" in statement:
+                    speak("I am Nebula")
+                    print("I am Nebula")
+
+                elif "who made you" in statement or "who created you" in statement or "who discovered you" in statement:
+                    speak("I was built by Mobile Gamer")
+                    print("I was built by MobileGamer")
+
+                elif "what did i say" in statement:
+                    speak(statement)
+                    print(statement)
+
+                elif "why do i programme" in statement or "why do i code" in statement:
+                    speak("because you are good at it and thats what you are")
+                    print(":) you are a great programmer")
+
                 # Search on wikipedia
-                if 'wikipedia' in statement or 'search' in statement or "who is" in  statement:
+                elif 'wikipedia' in statement or 'search' in statement or "who is" in  statement:
                     speak('Searching Wikipedia...')
                     result = functions.SearchWiki(statement)
                     speak("According to Wikipedia")
@@ -192,15 +208,6 @@ class Assistant:
                     strTime = datetime.datetime.now().strftime("%H:%M:%S")
                     speak(f"the time is {strTime}")
                     print(strTime)
-
-                # Ans simple question (how are you)
-                elif 'who are you' in statement or 'what are you' in statement:
-                    speak(
-                        'I am Sophie version 1 point O your personal assistant. I was created by Mobile Gamer to carry out his simple daily tasks')
-
-                elif "who made you" in statement or "who created you" in statement or "who discovered you" in statement:
-                    speak("I was built by Mobile Gamer")
-                    print("I was built by MobileGamer")
 
                 elif "compliment" in statement or "tell me a compliment" in statement:
                     speak(P_compliment)
@@ -314,14 +321,6 @@ class Assistant:
                     webbrowser.open("https://www.sololearn.com/learning")
                     speak("which language will you like to learn")
                     print("opening.....")
-
-                elif "what did i say" in statement:
-                    speak(statement)
-                    print(statement)
-
-                elif "why do i programme" in statement or "why do i code" in statement:
-                    speak("because you are good at it and thats what you are")
-                    print(":) you are a great programmer")
 
 #all code for changing and checking the content of list goes here
 
