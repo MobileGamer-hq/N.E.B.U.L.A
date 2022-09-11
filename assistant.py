@@ -369,24 +369,26 @@ class Assistant:
                 
                 #all aplication opennning code goes here
                 elif "open visual studio code" in statement or "i want to programme" in statement or "visual studio code" in statement or "visual studio" in statement:
-                    subprocess.call("C:\\Users\KINGSLEY-DURU\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe")
                     speak("openning visual studio code")
                     print("openning.....")
+                    subprocess.call("C:\\Users\KINGSLEY-DURU\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe")
 
                 elif "open unity" in statement:
-                    subprocess.call("C:\\Program Files\\Unity Hub\\Unity Hub.exe")
                     speak("openning unity hub")
                     print("openning.....")
+                    subprocess.call("C:\\Program Files\\Unity Hub\\Unity Hub.exe")
 
                 elif "open calculator" in statement:
-                    subprocess.call("calc.exe")
                     speak("openning calculator")
                     print("openning.....")
+                    subprocess.call("calc.exe")
+                    
 
                 elif "open rider" in statement:
-                    subprocess.call("C:\\Users\\KINGSLEY-DURU\\AppData\\Local\\JetBrains\\Toolbox\\apps\\Rider\\ch-0\\213.6775.4\\bin\\rider64.exe")
-                    speak("openning calculator")
+                    speak("openning Rider")
                     print("openning.....")
+                    subprocess.call("C:\\Users\\KINGSLEY-DURU\\AppData\\Local\\JetBrains\\Toolbox\\apps\\Rider\\ch-0\\213.6775.4\\bin\\rider64.exe")
+
 
                 elif "add to my to do" in statement or "to do" in statement or "todo" in statement:
                     statement = statement.replace("add","")
