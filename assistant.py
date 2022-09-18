@@ -30,6 +30,7 @@ class Assistant:
     IWT = lists.IWT
 
     assistData = data.data
+    spoken_words = ""
 
 
     def Start(self):
@@ -54,6 +55,7 @@ class Assistant:
         def speak(text):
             engine.say(text)
             engine.runAndWait()
+            self.spoken_words = text
 
 
         # This is the greeting which she will choose from depending on the time of day
@@ -399,3 +401,10 @@ class Assistant:
                     lists.ToDo.append(statement)
                     speak("adding to to do")
                     print("Adding to ToDo")
+
+                values = {
+                    "nebula": self.spoken_words,
+                    "you": statement,
+                }
+
+                print(values)
