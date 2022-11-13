@@ -27,3 +27,5 @@ def loadData(location = filename):
 def saveData(data: data, location = filename):
     with open(location, 'w') as file_object:  #open the file in write mode
         json.dump(data, file_object)
+
+saveData(data, filename)

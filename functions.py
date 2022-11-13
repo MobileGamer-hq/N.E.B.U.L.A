@@ -16,7 +16,7 @@ def SearchWiki(statement):
     statement = statement.replace("who", "")
     statement = statement.replace("is", "")
     statement = statement.replace("for", "")
-    results = wikipedia.summary(statement, sentences=3)
+    results = str(wikipedia.summary(statement, sentences=3))
     return results
 
 
@@ -40,6 +40,17 @@ def addVillains(ans):
     villains.sort()
     villains.append(ans)
     print("done.....")
+
+def createProject(name, description = ""):
+    newProject = {
+        "name": name,
+        "description": description,
+        "completed": False,
+    }
+    lists.projects.sort()
+    lists.projects.append(newProject)
+    print("created new project "+name)
+    return newProject
 
 
 #compliment_file = open("compliments.txt", "r")

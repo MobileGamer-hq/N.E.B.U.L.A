@@ -31,6 +31,7 @@ class Assistant:
 
     assistData = data.data
     spoken_words = ""
+    conversations = []#list(data.loadData("conversations.json"))
 
 
     def Start(self):
@@ -99,9 +100,6 @@ class Assistant:
                 data.saveData(assistData)
                 speak("what can i do for you?")
                 statement = takeCommand().lower()
-                whatYouSaid = open("statement.txt","w")
-
-                whatYouSaid.write(statement)
                 
                 if statement == 0:
                     continue
@@ -403,8 +401,13 @@ class Assistant:
                     print("Adding to ToDo")
 
                 values = {
-                    "nebula": self.spoken_words,
                     "you": statement,
+                    "nebula": self.spoken_words,
                 }
 
-                print(values)
+                self.conversations.append(values)
+
+                whatYouSaid = open("statement.txt","w")
+                whatYouSaid.write(str(self.conversations))
+
+                data.saveData(self.conversations, "conversations.json")

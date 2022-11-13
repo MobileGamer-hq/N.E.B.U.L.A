@@ -71,4 +71,4 @@ projects = ["bat equipment",
             "web shooters",
             "bat cave"]
 
-ToDo = []
+ToDo = ["SAT Prep", "College Applications", "Club Prep"]

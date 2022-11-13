@@ -1,1 +1,1 @@
-stopsapp
+[{'you': 'wait wait', 'nebula': 'what can i do for you?'}, {'you': 'what  you want   for me', 'nebula': 'adding to to do'}, {'you': 'what can you do', 'nebula': 'I can search on wikipedia, open youtube, google, gmail, tell you the time, check how your site, codes and videos are doing, tell you the latest news and help you with school'}]
