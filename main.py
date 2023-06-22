@@ -1,4 +1,5 @@
 import assistant
 
 nebula =  assistant.Assistant
-nebula.start()
+
+nebula.start(nebula)
