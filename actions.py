@@ -1,22 +1,56 @@
-import openai
+import datetime
+import data
 
-def process_with_gpt(input_text):
-        # Authenticate with the OpenAI API
-        openai.api_key = "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"
+def open_app(name):
+    return 'app started....'
 
-        # Set the model and parameters
-        model_engine = "text-davinci-002"
-        prompt = input_text
-        temperature = 0.5
-        max_tokens = 60
 
-        # Generate text using GPT-3
-        response = openai.Completion.create(
-            engine=model_engine,
-            prompt=prompt,
-            temperature=temperature,
-            max_tokens=max_tokens
-        )
+#Location Methods
+def get_location():
+    location = ''
+    return location
 
-        # Return the generated text
-        return response.choices[0].text
+def find_location(place):
+    location = ''
+    return location
+
+def predict_location(points):
+    location = ''
+    return location
+
+def track_obj(obj):
+    location = ''
+    return location
+
+#Time and Reminders
+def get_time():
+    time = ''
+    return time
+
+def get_date():
+    date = ''
+    return date
+
+def set_reminder(obj):
+    reminder = data.Reminder
+    return reminder
+
+def get_reminder():
+    reminder = data.Reminder
+    return reminder
+
+def set_timer(obj):
+    timer = data.timer
+    return timer
+
+def calculate():
+    return 'None'
+
+
+
+
+
+
+
+
+

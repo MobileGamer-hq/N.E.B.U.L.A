@@ -1,9 +1,7 @@
 import os
-import pyaudio
 import calendar
 import json
 import requests
-import subprocess
 import pyttsx3
 import datetime
 import wikipedia
@@ -13,7 +11,6 @@ import warnings
 import speech_recognition as sr
 import random
 import wolframalpha
-from playsound import playsound
 
 
 class Assistant:
@@ -33,6 +30,7 @@ class Assistant:
         self.engine.setProperty('voice', voices[1].id)
         pass
 
+    #cognitive senses speaking, listening, seeing
     def speak(self, phrase):
         self.engine.say(phrase)
         self.engine.runAndWait()
@@ -47,15 +45,20 @@ class Assistant:
             audio = recognizer.listen(source)
 
             try:
-                statement = recognizer.recognize_google(
-                    audio, language='en-in')
+                statement = recognizer.recognize_google(audio, language='en-in')
                 print(': ' + statement)
-
             except Exception as exc:
                 self.speak("please say that again")
                 return "None"
+            
         return statement
 
+    def getIntent(self, statement):
+        intent = ''
+        return intent
+    
+    def uploadData(self, data):
+        return data
 
     def brain(self, statement):
         if "hello" in statement or "hi" in statement or "nebula" in statement:
