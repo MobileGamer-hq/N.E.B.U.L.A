@@ -283,346 +283,344 @@
             }
         ]
     },
-    [
-        {
-            "text": "Open Microsoft Word",
-            "intent": "computer_control",
-            "entities": [
-                {
-                    "entity": "action",
-                    "value": "open"
-                },
-                {
-                    "entity": "object",
-                    "value": "Microsoft Word"
-                }
-            ]
-        },
-        {
-            "text": "Increase the volume",
-            "intent": "computer_control",
-            "entities": [
-                {
-                    "entity": "action",
-                    "value": "increase"
-                },
-                {
-                    "entity": "object",
-                    "value": "volume"
-                }
-            ]
-        },
-        {
-            "text": "Turn on the bedroom lights",
-            "intent": "home_control",
-            "entities": [
-                {
-                    "entity": "action",
-                    "value": "turn on"
-                },
-                {
-                    "entity": "object",
-                    "value": "bedroom lights"
-                }
-            ]
-        },
-        {
-            "text": "Close the garage door",
-            "intent": "home_control",
-            "entities": [
-                {
-                    "entity": "action",
-                    "value": "close"
-                },
-                {
-                    "entity": "object",
-                    "value": "garage door"
-                }
-            ]
-        },
-        {
-            "text": "Set the thermostat to 22 degrees Celsius",
-            "intent": "home_control",
-            "entities": [
-                {
-                    "entity": "action",
-                    "value": "set"
-                },
-                {
-                    "entity": "object",
-                    "value": "thermostat"
-                },
-                {
-                    "entity": "value",
-                    "value": "22 degrees Celsius"
-                }
-            ]
-        },
-        {
-            "text": "Turn off all the lights",
-            "intent": "home_control",
-            "entities": [
-                {
-                    "entity": "action",
-                    "value": "turn off"
-                },
-                {
-                    "entity": "object",
-                    "value": "lights"
-                }
-            ]
-        },
-        {
-            "text": "Lock the back door",
-            "intent": "home_control",
-            "entities": [
-                {
-                    "entity": "action",
-                    "value": "lock"
-                },
-                {
-                    "entity": "object",
-                    "value": "back door"
-                }
-            ]
-        },
-        {
-            "text": "Play jazz music",
-            "intent": "home_control",
-            "entities": [
-                {
-                    "entity": "action",
-                    "value": "play"
-                },
-                {
-                    "entity": "object",
-                    "value": "jazz music"
-                }
-            ]
-        },
-        {
-            "text": "Turn on the TV and set the channel to CNN",
-            "intent": "home_control",
-            "entities": [
-                {
-                    "entity": "action",
-                    "value": "turn on"
-                },
-                {
-                    "entity": "object",
-                    "value": "TV"
-                },
-                {
-                    "entity": "channel",
-                    "value": "CNN"
-                }
-            ]
-        },
-        {
-            "text": "Open the curtains in the living room",
-            "intent": "home_control",
-            "entities": [
-                {
-                    "entity": "action",
-                    "value": "open"
-                },
-                {
-                    "entity": "object",
-                    "value": "curtains"
-                },
-                {
-                    "entity": "location",
-                    "value": "living room"
-                }
-            ]
-        },
-        {
-            "text": "Start a timer for 10 minutes",
-            "intent": "home_control",
-            "entities": [
-                {
-                    "entity": "action",
-                    "value": "start"
-                },
-                {
-                    "entity": "object",
-                    "value": "timer"
-                },
-                {
-                    "entity": "duration",
-                    "value": "10 minutes"
-                }
-            ]
-        },
-        {
-            "text": "Open Microsoft Word",
-            "intent": "computer_control",
-            "entities": [
-                {
-                    "entity": "action",
-                    "value": "open"
-                },
-                {
-                    "entity": "object",
-                    "value": "Microsoft Word"
-                }
-            ]
-        },
-        {
-            "text": "Increase the volume",
-            "intent": "computer_control",
-            "entities": [
-                {
-                    "entity": "action",
-                    "value": "increase"
-                },
-                {
-                    "entity": "object",
-                    "value": "volume"
-                }
-            ]
-        },
-        {
-            "text": "Turn on the bedroom lights",
-            "intent": "home_control",
-            "entities": [
-                {
-                    "entity": "action",
-                    "value": "turn on"
-                },
-                {
-                    "entity": "object",
-                    "value": "bedroom lights"
-                }
-            ]
-        },
-        {
-            "text": "Close the garage door",
-            "intent": "home_control",
-            "entities": [
-                {
-                    "entity": "action",
-                    "value": "close"
-                },
-                {
-                    "entity": "object",
-                    "value": "garage door"
-                }
-            ]
-        },
-        {
-            "text": "Set the thermostat to 22 degrees Celsius",
-            "intent": "home_control",
-            "entities": [
-                {
-                    "entity": "action",
-                    "value": "set"
-                },
-                {
-                    "entity": "object",
-                    "value": "thermostat"
-                },
-                {
-                    "entity": "value",
-                    "value": "22 degrees Celsius"
-                }
-            ]
-        },
-        {
-            "text": "Turn off all the lights",
-            "intent": "home_control",
-            "entities": [
-                {
-                    "entity": "action",
-                    "value": "turn off"
-                },
-                {
-                    "entity": "object",
-                    "value": "lights"
-                }
-            ]
-        },
-        {
-            "text": "Lock the back door",
-            "intent": "home_control",
-            "entities": [
-                {
-                    "entity": "action",
-                    "value": "lock"
-                },
-                {
-                    "entity": "object",
-                    "value": "back door"
-                }
-            ]
-        },
-        {
-            "text": "Play jazz music",
-            "intent": "home_control",
-            "entities": [
-                {
-                    "entity": "action",
-                    "value": "play"
-                },
-                {
-                    "entity": "object",
-                    "value": "jazz music"
-                }
-            ]
-        },
-        {
-            "text": "Turn on the TV and set the channel to CNN",
-            "intent": "home_control",
-            "entities": [
-                {
-                    "entity": "action",
-                    "value": "turn on"
-                },
-                {
-                    "entity": "object",
-                    "value": "TV"
-                },
-                {
-                    "entity": "channel",
-                    "value": "CNN"
-                }
-            ]
-        },
-        {
-            "text": "Open the curtains in the living room",
-            "intent": "home_control",
-            "entities": [
-                {
-                    "entity": "action",
-                    "value": "open"
-                },
-                {
-                    "entity": "object",
-                    "value": "curtains"
-                },
-                {
-                    "entity": "location",
-                    "value": "living room"
-                }
-            ]
-        },
-        {
-            "text": "Start a timer for 10 minutes",
-            "intent": "home_control",
-            "entities": [
-                {
-                    "entity": "action",
-                    "value": "start"
-                },
-                {
-                    "entity": "object",
-                    "value": "timer"
-                },
-                {
-                    "entity": "duration",
-                    "value": "10 minutes"
-                }
-            ]
-        }
-    ]
+    {
+        "text": "Open Microsoft Word",
+        "intent": "computer_control",
+        "entities": [
+            {
+                "entity": "action",
+                "value": "open"
+            },
+            {
+                "entity": "object",
+                "value": "Microsoft Word"
+            }
+        ]
+    },
+    {
+        "text": "Increase the volume",
+        "intent": "computer_control",
+        "entities": [
+            {
+                "entity": "action",
+                "value": "increase"
+            },
+            {
+                "entity": "object",
+                "value": "volume"
+            }
+        ]
+    },
+    {
+        "text": "Turn on the bedroom lights",
+        "intent": "home_control",
+        "entities": [
+            {
+                "entity": "action",
+                "value": "turn on"
+            },
+            {
+                "entity": "object",
+                "value": "bedroom lights"
+            }
+        ]
+    },
+    {
+        "text": "Close the garage door",
+        "intent": "home_control",
+        "entities": [
+            {
+                "entity": "action",
+                "value": "close"
+            },
+            {
+                "entity": "object",
+                "value": "garage door"
+            }
+        ]
+    },
+    {
+        "text": "Set the thermostat to 22 degrees Celsius",
+        "intent": "home_control",
+        "entities": [
+            {
+                "entity": "action",
+                "value": "set"
+            },
+            {
+                "entity": "object",
+                "value": "thermostat"
+            },
+            {
+                "entity": "value",
+                "value": "22 degrees Celsius"
+            }
+        ]
+    },
+    {
+        "text": "Turn off all the lights",
+        "intent": "home_control",
+        "entities": [
+            {
+                "entity": "action",
+                "value": "turn off"
+            },
+            {
+                "entity": "object",
+                "value": "lights"
+            }
+        ]
+    },
+    {
+        "text": "Lock the back door",
+        "intent": "home_control",
+        "entities": [
+            {
+                "entity": "action",
+                "value": "lock"
+            },
+            {
+                "entity": "object",
+                "value": "back door"
+            }
+        ]
+    },
+    {
+        "text": "Play jazz music",
+        "intent": "home_control",
+        "entities": [
+            {
+                "entity": "action",
+                "value": "play"
+            },
+            {
+                "entity": "object",
+                "value": "jazz music"
+            }
+        ]
+    },
+    {
+        "text": "Turn on the TV and set the channel to CNN",
+        "intent": "home_control",
+        "entities": [
+            {
+                "entity": "action",
+                "value": "turn on"
+            },
+            {
+                "entity": "object",
+                "value": "TV"
+            },
+            {
+                "entity": "channel",
+                "value": "CNN"
+            }
+        ]
+    },
+    {
+        "text": "Open the curtains in the living room",
+        "intent": "home_control",
+        "entities": [
+            {
+                "entity": "action",
+                "value": "open"
+            },
+            {
+                "entity": "object",
+                "value": "curtains"
+            },
+            {
+                "entity": "location",
+                "value": "living room"
+            }
+        ]
+    },
+    {
+        "text": "Start a timer for 10 minutes",
+        "intent": "home_control",
+        "entities": [
+            {
+                "entity": "action",
+                "value": "start"
+            },
+            {
+                "entity": "object",
+                "value": "timer"
+            },
+            {
+                "entity": "duration",
+                "value": "10 minutes"
+            }
+        ]
+    },
+    {
+        "text": "Open Microsoft Word",
+        "intent": "computer_control",
+        "entities": [
+            {
+                "entity": "action",
+                "value": "open"
+            },
+            {
+                "entity": "object",
+                "value": "Microsoft Word"
+            }
+        ]
+    },
+    {
+        "text": "Increase the volume",
+        "intent": "computer_control",
+        "entities": [
+            {
+                "entity": "action",
+                "value": "increase"
+            },
+            {
+                "entity": "object",
+                "value": "volume"
+            }
+        ]
+    },
+    {
+        "text": "Turn on the bedroom lights",
+        "intent": "home_control",
+        "entities": [
+            {
+                "entity": "action",
+                "value": "turn on"
+            },
+            {
+                "entity": "object",
+                "value": "bedroom lights"
+            }
+        ]
+    },
+    {
+        "text": "Close the garage door",
+        "intent": "home_control",
+        "entities": [
+            {
+                "entity": "action",
+                "value": "close"
+            },
+            {
+                "entity": "object",
+                "value": "garage door"
+            }
+        ]
+    },
+    {
+        "text": "Set the thermostat to 22 degrees Celsius",
+        "intent": "home_control",
+        "entities": [
+            {
+                "entity": "action",
+                "value": "set"
+            },
+            {
+                "entity": "object",
+                "value": "thermostat"
+            },
+            {
+                "entity": "value",
+                "value": "22 degrees Celsius"
+            }
+        ]
+    },
+    {
+        "text": "Turn off all the lights",
+        "intent": "home_control",
+        "entities": [
+            {
+                "entity": "action",
+                "value": "turn off"
+            },
+            {
+                "entity": "object",
+                "value": "lights"
+            }
+        ]
+    },
+    {
+        "text": "Lock the back door",
+        "intent": "home_control",
+        "entities": [
+            {
+                "entity": "action",
+                "value": "lock"
+            },
+            {
+                "entity": "object",
+                "value": "back door"
+            }
+        ]
+    },
+    {
+        "text": "Play jazz music",
+        "intent": "home_control",
+        "entities": [
+            {
+                "entity": "action",
+                "value": "play"
+            },
+            {
+                "entity": "object",
+                "value": "jazz music"
+            }
+        ]
+    },
+    {
+        "text": "Turn on the TV and set the channel to CNN",
+        "intent": "home_control",
+        "entities": [
+            {
+                "entity": "action",
+                "value": "turn on"
+            },
+            {
+                "entity": "object",
+                "value": "TV"
+            },
+            {
+                "entity": "channel",
+                "value": "CNN"
+            }
+        ]
+    },
+    {
+        "text": "Open the curtains in the living room",
+        "intent": "home_control",
+        "entities": [
+            {
+                "entity": "action",
+                "value": "open"
+            },
+            {
+                "entity": "object",
+                "value": "curtains"
+            },
+            {
+                "entity": "location",
+                "value": "living room"
+            }
+        ]
+    },
+    {
+        "text": "Start a timer for 10 minutes",
+        "intent": "home_control",
+        "entities": [
+            {
+                "entity": "action",
+                "value": "start"
+            },
+            {
+                "entity": "object",
+                "value": "timer"
+            },
+            {
+                "entity": "duration",
+                "value": "10 minutes"
+            }
+        ]
+    }
 ]
