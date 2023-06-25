@@ -1,6 +1,7 @@
 import json
 #data manager functions
 def save_json(obj):
+
     return obj
 
 def get_json(data_type):
