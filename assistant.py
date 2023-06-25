@@ -1,3 +1,4 @@
+import pickle
 import os
 import calendar
 import json
@@ -11,6 +12,7 @@ import warnings
 import speech_recognition as sr
 import random
 import wolframalpha
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 
 class Assistant:
@@ -28,9 +30,17 @@ class Assistant:
         # Giving it the ability to speak
         voices = self.engine.getProperty('voices')
         self.engine.setProperty('voice', voices[1].id)
-        pass
+        # Assuming you have already trained and saved the classifier
 
-    #cognitive senses speaking, listening, seeing
+
+        # Load the classifier from disk
+
+        with open('classifier_model.pkl', 'rb') as file:
+            self.classifier = pickle.load(file)
+
+        self.vectorizer = TfidfVectorizer()
+
+    # cognitive senses speaking, listening, seeing
     def speak(self, phrase):
         self.engine.say(phrase)
         self.engine.runAndWait()
@@ -54,7 +64,12 @@ class Assistant:
         return statement
 
     def getIntent(self, statement):
-        intent = ''
+        # Vectorize the new sentence
+        new_sentence = statement
+        new_vector = self.vectorizer.transform([new_sentence])
+
+        # Predict the label of the new sentence
+        intent = self.classifier.predict(new_vector)[0]
         return intent
     
     def uploadData(self, data):
