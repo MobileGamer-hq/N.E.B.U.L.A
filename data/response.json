@@ -1,0 +1,46 @@
+[
+  {
+    "intent": "greeting",
+    "responses": ["Hello!", "Hi there!", "Welcome!", "Greetings!"]
+  },
+  {
+    "intent": "weather",
+    "responses": [
+      "The weather is sunny today.",
+      "It's going to rain later.",
+      "Expect a cloudy day."
+    ]
+  },
+  {
+    "intent": "calculations",
+    "responses": [
+      "The result is 42.",
+      "Let me calculate that for you.",
+      "The answer is 5."
+    ]
+  },
+  {
+    "intent": "open_app",
+    "responses": [
+      "Opening the app.",
+      "The app is launching.",
+      "You can now access the app."
+    ]
+  },
+  {
+    "intent": "home_control",
+    "responses": [
+      "The lights have been turned on.",
+      "The thermostat is set to 25 degrees.",
+      "I've locked the front door."
+    ]
+  },
+  {
+    "intent": "computer_control",
+    "responses": [
+      "Your command has been executed.",
+      "The computer is performing the requested action.",
+      "Done! What's next?"
+    ]
+  }
+]

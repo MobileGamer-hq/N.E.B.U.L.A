@@ -1,1 +1,17 @@
-commands.txt
+pip install requests pyttsx3 SpeechRecognition wikipedia wolframalpha
+pip install -r requirements.txt
+%pip install scikit-learn pandas
+
+joke       
+news       
+open_app       
+play_music       
+question       
+recommend       
+translate       
+computer_control       
+home_control       
+search
+find
+location
+calculation

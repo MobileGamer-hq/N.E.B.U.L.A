@@ -1,0 +1,892 @@
+[
+  {
+    "text": "Shut down the computer",
+    "intent": "computer_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "shut down"
+      }
+    ]
+  },
+  {
+    "text": "Dim the lights in the living room",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "dim"
+      },
+      {
+        "entity": "object",
+        "value": "lights"
+      },
+      {
+        "entity": "location",
+        "value": "living room"
+      }
+    ]
+  },
+  {
+    "text": "Turn on the air conditioning",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "turn on"
+      },
+      {
+        "entity": "object",
+        "value": "air conditioning"
+      }
+    ]
+  },
+  {
+    "text": "Lock the front door",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "lock"
+      },
+      {
+        "entity": "object",
+        "value": "front door"
+      }
+    ]
+  },
+  {
+    "text": "Increase the thermostat temperature to 25 degrees",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "increase"
+      },
+      {
+        "entity": "object",
+        "value": "thermostat temperature"
+      },
+      {
+        "entity": "value",
+        "value": "25 degrees"
+      }
+    ]
+  },
+  {
+    "text": "Play music in the bedroom",
+    "intent": "play_music",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "play"
+      },
+      {
+        "entity": "object",
+        "value": "music"
+      },
+      {
+        "entity": "location",
+        "value": "bedroom"
+      }
+    ]
+  },
+  {
+    "text": "Turn off the TV",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "turn off"
+      },
+      {
+        "entity": "object",
+        "value": "TV"
+      }
+    ]
+  },
+  {
+    "text": "Open the garage door",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "open"
+      },
+      {
+        "entity": "object",
+        "value": "garage door"
+      }
+    ]
+  },
+  {
+    "text": "Set the alarm for 7 AM",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "set"
+      },
+      {
+        "entity": "object",
+        "value": "alarm"
+      },
+      {
+        "entity": "time",
+        "value": "7 AM"
+      }
+    ]
+  },
+  {
+    "text": "What's the weather like tomorrow?",
+    "intent": "weather",
+    "entities": [
+      {
+        "entity": "time",
+        "value": "tomorrow"
+      }
+    ]
+  },
+  {
+    "text": "Remind me to call John at 5 PM",
+    "intent": "reminder",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "call John"
+      },
+      {
+        "entity": "time",
+        "value": "5 PM"
+      }
+    ]
+  },
+  {
+    "text": "Calculate the square root of 16",
+    "intent": "calculation",
+    "entities": [
+      {
+        "entity": "operation",
+        "value": "square root"
+      },
+      {
+        "entity": "number",
+        "value": "16"
+      }
+    ]
+  },
+  {
+    "text": "Open Spotify",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "app",
+        "value": "Spotify"
+      }
+    ]
+  },
+  {
+    "text": "Open Chrome",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "app",
+        "value": "Chrome"
+      }
+    ]
+  },
+  {
+    "text": "What is the capital of France?",
+    "intent": "question",
+    "entities": [
+      {
+        "entity": "question",
+        "value": "capital of France"
+      }
+    ]
+  },
+  {
+    "text": "Shut down the computer",
+    "intent": "computer_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "shut down"
+      }
+    ]
+  },
+  {
+    "text": "Open the browser",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "open"
+      },
+      {
+        "entity": "object",
+        "value": "browser"
+      }
+    ]
+  },
+  {
+    "text": "Dim the lights in the living room",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "dim"
+      },
+      {
+        "entity": "object",
+        "value": "lights"
+      },
+      {
+        "entity": "location",
+        "value": "living room"
+      }
+    ]
+  },
+  {
+    "text": "Turn on the air conditioning",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "turn on"
+      },
+      {
+        "entity": "object",
+        "value": "air conditioning"
+      }
+    ]
+  },
+  {
+    "text": "Lock the front door",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "lock"
+      },
+      {
+        "entity": "object",
+        "value": "front door"
+      }
+    ]
+  },
+  {
+    "text": "Increase the thermostat temperature to 25 degrees",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "increase"
+      },
+      {
+        "entity": "object",
+        "value": "thermostat temperature"
+      },
+      {
+        "entity": "value",
+        "value": "25 degrees"
+      }
+    ]
+  },
+  {
+    "text": "Set the alarm for 7 AM",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "set"
+      },
+      {
+        "entity": "object",
+        "value": "alarm"
+      },
+      {
+        "entity": "time",
+        "value": "7 AM"
+      }
+    ]
+  },
+  {
+    "text": "What's the weather like tomorrow?",
+    "intent": "weather",
+    "entities": [
+      {
+        "entity": "time",
+        "value": "tomorrow"
+      }
+    ]
+  },
+  {
+    "text": "Remind me to call John at 5 PM",
+    "intent": "reminder",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "call John"
+      },
+      {
+        "entity": "time",
+        "value": "5 PM"
+      }
+    ]
+  },
+  {
+    "text": "Tell me a funny joke",
+    "intent": "joke",
+    "entities": [
+      {
+        "entity": "type",
+        "value": "funny"
+      }
+    ]
+  },
+  {
+    "text": "Who designed the Eiffel Tower?",
+    "intent": "knowledge",
+    "entities": [
+      {
+        "entity": "subject",
+        "value": "Eiffel Tower"
+      }
+    ]
+  },
+  {
+    "text": "Play some rock music",
+    "intent": "play_music",
+    "entities": [
+      {
+        "entity": "genre",
+        "value": "rock"
+      }
+    ]
+  },
+  {
+    "text": "What's the population of France?",
+    "intent": "question",
+    "entities": [
+      {
+        "entity": "country",
+        "value": "France"
+      }
+    ]
+  },
+  {
+    "text": "Make a reservation for four at a sushi restaurant",
+    "intent": "reservation",
+    "entities": [
+      {
+        "entity": "party_size",
+        "value": "four"
+      },
+      {
+        "entity": "reservation_type",
+        "value": "sushi restaurant"
+      }
+    ]
+  },
+  {
+    "text": "How far is the nearest bus stop?",
+    "intent": "directions",
+    "entities": [
+      {
+        "entity": "poi",
+        "value": "bus stop"
+      }
+    ]
+  },
+  {
+    "text": "What's the latest technology news?",
+    "intent": "news",
+    "entities": [
+      {
+        "entity": "category",
+        "value": "technology"
+      }
+    ]
+  },
+  {
+    "text": "Find a recipe for spaghetti carbonara",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "dish",
+        "value": "spaghetti carbonara"
+      }
+    ]
+  },
+  {
+    "text": "Are there any romantic movies playing in theaters?",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "genre",
+        "value": "romantic"
+      }
+    ]
+  },
+  {
+    "text": "Can you recommend a good Mexican restaurant in this area?",
+    "intent": "recommend",
+    "entities": [
+      {
+        "entity": "cuisine",
+        "value": "Mexican"
+      },
+      {
+        "entity": "location",
+        "value": "this area"
+      }
+    ]
+  },
+  {
+    "text": "Open Microsoft Word",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "open"
+      },
+      {
+        "entity": "object",
+        "value": "Microsoft Word"
+      }
+    ]
+  },
+  {
+    "text": "Increase the volume",
+    "intent": "computer_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "increase"
+      },
+      {
+        "entity": "object",
+        "value": "volume"
+      }
+    ]
+  },
+  {
+    "text": "Turn on the bedroom lights",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "turn on"
+      },
+      {
+        "entity": "object",
+        "value": "bedroom lights"
+      }
+    ]
+  },
+  {
+    "text": "Close the garage door",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "close"
+      },
+      {
+        "entity": "object",
+        "value": "garage door"
+      }
+    ]
+  },
+  {
+    "text": "Set the thermostat to 22 degrees Celsius",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "set"
+      },
+      {
+        "entity": "object",
+        "value": "thermostat"
+      },
+      {
+        "entity": "value",
+        "value": "22 degrees Celsius"
+      }
+    ]
+  },
+  {
+    "text": "Turn off all the lights",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "turn off"
+      },
+      {
+        "entity": "object",
+        "value": "lights"
+      }
+    ]
+  },
+  {
+    "text": "Lock the back door",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "lock"
+      },
+      {
+        "entity": "object",
+        "value": "back door"
+      }
+    ]
+  },
+  {
+    "text": "Play jazz music",
+    "intent": "play_music",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "play"
+      },
+      {
+        "entity": "object",
+        "value": "jazz music"
+      }
+    ]
+  },
+  {
+    "text": "Turn on the TV and set the channel to CNN",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "turn on"
+      },
+      {
+        "entity": "object",
+        "value": "TV"
+      },
+      {
+        "entity": "channel",
+        "value": "CNN"
+      }
+    ]
+  },
+  {
+    "text": "Open the curtains in the living room",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "open"
+      },
+      {
+        "entity": "object",
+        "value": "curtains"
+      },
+      {
+        "entity": "location",
+        "value": "living room"
+      }
+    ]
+  },
+  {
+    "text": "Start a timer for 10 minutes",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "start"
+      },
+      {
+        "entity": "object",
+        "value": "timer"
+      },
+      {
+        "entity": "duration",
+        "value": "10 minutes"
+      }
+    ]
+  },
+  {
+    "text": "Open Microsoft Word",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "open"
+      },
+      {
+        "entity": "object",
+        "value": "Microsoft Word"
+      }
+    ]
+  },
+  {
+    "text": "Increase the volume",
+    "intent": "computer_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "increase"
+      },
+      {
+        "entity": "object",
+        "value": "volume"
+      }
+    ]
+  },
+  {
+    "text": "Turn on the bedroom lights",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "turn on"
+      },
+      {
+        "entity": "object",
+        "value": "bedroom lights"
+      }
+    ]
+  },
+  {
+    "text": "Set the thermostat to 22 degrees Celsius",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "set"
+      },
+      {
+        "entity": "object",
+        "value": "thermostat"
+      },
+      {
+        "entity": "value",
+        "value": "22 degrees Celsius"
+      }
+    ]
+  },
+  {
+    "text": "Turn off all the lights",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "turn off"
+      },
+      {
+        "entity": "object",
+        "value": "lights"
+      }
+    ]
+  },
+  {
+    "text": "Lock the back door",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "lock"
+      },
+      {
+        "entity": "object",
+        "value": "back door"
+      }
+    ]
+  },
+  {
+    "text": "Open the curtains in the living room",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "open"
+      },
+      {
+        "entity": "object",
+        "value": "curtains"
+      },
+      {
+        "entity": "location",
+        "value": "living room"
+      }
+    ]
+  },
+  {
+    "text": "Start a timer for 10 minutes",
+    "intent": "set_timer",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "start"
+      },
+      {
+        "entity": "object",
+        "value": "timer"
+      },
+      {
+        "entity": "duration",
+        "value": "10 minutes"
+      }
+    ]
+  },
+  {
+    "text": "Calculate the square of 10",
+    "intent": "calculation",
+    "entities": [
+      {
+        "entity": "operation",
+        "value": "square root"
+      },
+      {
+        "entity": "number",
+        "value": "10"
+      }
+    ]
+  },
+  {
+    "text": "What is how are you in french",
+    "intent": "translate",
+    "entities": [
+      {
+        "entity": "operation",
+        "value": "translate"
+      },
+      {
+        "entity": "text",
+        "value": "how are you"
+      },
+      {
+        "entity": "language",
+        "value": "french"
+      }
+    ]
+  },
+  {
+    "text": "How are you",
+    "intent": "greeting",
+    "entities": [
+      {
+        "entity": "operation",
+        "value": "greet"
+      },
+      {
+        "entity": "value",
+        "value": "how are you"
+      }
+    ]
+  },
+  {
+    "text": "Hello",
+    "intent": "greeting",
+    "entities": [
+      {
+        "entity": "operation",
+        "value": "greet"
+      },
+      {
+        "entity": "value",
+        "value": "hello"
+      }
+    ]
+  },
+  {
+    "text": "Hey",
+    "intent": "greeting",
+    "entities": [
+      {
+        "entity": "operation",
+        "value": "greet"
+      },
+      {
+        "entity": "value",
+        "value": "hey"
+      }
+    ]
+  },
+    {
+      "text": "Calculate the square of 10",
+      "intent": "calculation",
+      "entities": [
+        {
+          "entity": "operation",
+          "value": "square"
+        },
+        {
+          "entity": "number",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "text": "Remind me to buy milk when I leave work today.",
+      "intent": "reminder",
+      "entities": [
+        {
+          "entity": "task",
+          "value": "buy milk"
+        },
+        {
+          "entity": "trigger",
+          "value": "leave work"
+        },
+        {
+          "entity": "time",
+          "value": "today"
+        }
+      ]
+    },
+    {
+      "text": "Find the nearest coffee shop.",
+      "intent": "search",
+      "entities": [
+        {
+          "entity": "category",
+          "value": "coffee shop"
+        }
+      ]
+    },
+    {
+      "text": "What's the forecast for tomorrow?",
+      "intent": "weather",
+      "entities": [
+        {
+          "entity": "date",
+          "value": "tomorrow"
+        }
+      ]
+    },
+    {
+      "text": "Why is the sky blue?",
+      "intent": "question",
+      "entities": []
+    },
+    {
+      "text": "Tell me a joke.",
+      "intent": "joke",
+      "entities": []
+    },
+    {
+      "text": "Who invented the telephone?",
+      "intent": "knowledge",
+      "entities": [
+        {
+          "entity": "topic",
+          "value": "telephone"
+        }
+      ]
+    },
+    {
+      "text": "What are the latest news headlines?",
+      "intent": "news",
+      "entities": []
+    }
+
+]

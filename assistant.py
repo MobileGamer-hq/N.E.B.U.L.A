@@ -12,7 +12,8 @@ import warnings
 import speech_recognition as sr
 import random
 import wolframalpha
-from sklearn.feature_extraction.text import TfidfVectorizer
+import actions
+import data
 
 
 class Assistant:
@@ -30,15 +31,12 @@ class Assistant:
         # Giving it the ability to speak
         voices = self.engine.getProperty('voices')
         self.engine.setProperty('voice', voices[1].id)
-        # Assuming you have already trained and saved the classifier
 
-
-        # Load the classifier from disk
-
-        with open('classifier_model.pkl', 'rb') as file:
-            self.classifier = pickle.load(file)
-
-        self.vectorizer = TfidfVectorizer()
+        self.options = data.get_json('data/assistant_options.json')
+        if self.options === None:
+            self.options = {
+                'user': null,
+            }
 
     # cognitive senses speaking, listening, seeing
     def speak(self, phrase):
@@ -63,24 +61,11 @@ class Assistant:
             
         return statement
 
-    def getIntent(self, statement):
-        # Vectorize the new sentence
-        new_sentence = statement
-        new_vector = self.vectorizer.transform([new_sentence])
-
-        # Predict the label of the new sentence
-        intent = self.classifier.predict(new_vector)[0]
-        return intent
-    
-    def uploadData(self, data):
-        return data
-
     def brain(self, statement):
-        if "hello" in statement or "hi" in statement or "nebula" in statement:
-            self.speak('Good day sir.')
+        intent = actions.get_intent(statement)
 
-        elif "whats the time" in statement:
-            self.speak('Good day sir.')
+        if intent === "greeting":
+            print('')
 
     def start(self):
         if __name__ == "__main__":
@@ -97,3 +82,7 @@ class Assistant:
                     continue
                 else:
                     self.brain(statement)
+
+nebula = Assistant()
+text = nebula.listen()
+print(text)
