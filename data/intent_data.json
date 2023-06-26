@@ -1,3424 +1,2939 @@
 [
   {
-    "text": "Turn off the computer",
-    "intent": "computer_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "turn off"
-      },
-      {
-        "entity": "device",
-        "value": "computer"
-      }
-    ]
-  },
-  {
-    "text": "Restart the PC",
-    "intent": "computer_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "restart"
-      },
-      {
-        "entity": "device",
-        "value": "PC"
-      }
-    ]
-  },
-  {
-    "text": "Put the computer on sleep mode",
-    "intent": "computer_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "put on sleep"
-      },
-      {
-        "entity": "device",
-        "value": "computer"
-      }
-    ]
-  },
-  {
-    "text": "Open the web browser",
-    "intent": "computer_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "open"
-      },
-      {
-        "entity": "device",
-        "value": "web browser"
-      }
-    ]
-  },
-  {
-    "text": "Close all applications",
-    "intent": "computer_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "close"
-      },
-      {
-        "entity": "device",
-        "value": "applications"
-      }
-    ]
-  },
-  {
-    "text": "Maximize the window",
-    "intent": "computer_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "maximize"
-      },
-      {
-        "entity": "device",
-        "value": "window"
-      }
-    ]
-  },
-  {
-    "text": "Minimize the window",
-    "intent": "computer_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "minimize"
-      },
-      {
-        "entity": "device",
-        "value": "window"
-      }
-    ]
-  },
-  {
-    "text": "Open the file explorer",
-    "intent": "computer_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "open"
-      },
-      {
-        "entity": "device",
-        "value": "file explorer"
-      }
-    ]
-  },
-  {
-    "text": "Switch to the next tab",
-    "intent": "computer_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "switch to"
-      },
-      {
-        "entity": "device",
-        "value": "tab"
-      }
-    ]
-  },
-  {
-    "text": "Turn on the lights in the living room",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "turn on"
-      },
-      {
-        "entity": "device",
-        "value": "lights"
-      },
-      {
-        "entity": "location",
-        "value": "living room"
-      }
-    ]
-  },
-  {
-    "text": "Dim the bedroom lights",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "dim"
-      },
-      {
-        "entity": "device",
-        "value": "lights"
-      },
-      {
-        "entity": "location",
-        "value": "bedroom"
-      }
-    ]
-  },
-  {
-    "text": "Increase the temperature in the kitchen",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "increase"
-      },
-      {
-        "entity": "device",
-        "value": "temperature"
-      },
-      {
-        "entity": "location",
-        "value": "kitchen"
-      }
-    ]
-  },
-  {
-    "text": "Lock the front door",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "lock"
-      },
-      {
-        "entity": "device",
-        "value": "door"
-      },
-      {
-        "entity": "location",
-        "value": "front"
-      }
-    ]
-  },
-  {
-    "text": "Open the garage door",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "open"
-      },
-      {
-        "entity": "device",
-        "value": "garage door"
-      }
-    ]
-  },
-  {
-    "text": "Set the living room lights to blue color",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "set"
-      },
-      {
-        "entity": "device",
-        "value": "lights"
-      },
-      {
-        "entity": "location",
-        "value": "living room"
-      },
-      {
-        "entity": "property",
-        "value": "color"
-      },
-      {
-        "entity": "value",
-        "value": "blue"
-      }
-    ]
-  },
-  {
-    "text": "Turn off the TV in the bedroom",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "turn off"
-      },
-      {
-        "entity": "device",
-        "value": "TV"
-      },
-      {
-        "entity": "location",
-        "value": "bedroom"
-      }
-    ]
-  },
-  {
-    "text": "Set the thermostat to 25 degrees",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "set"
-      },
-      {
-        "entity": "device",
-        "value": "thermostat"
-      },
-      {
-        "entity": "property",
-        "value": "temperature"
-      },
-      {
-        "entity": "value",
-        "value": "25"
-      }
-    ]
-  },
-  {
-    "text": "Open the curtains in the living room",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "open"
-      },
-      {
-        "entity": "device",
-        "value": "curtains"
-      },
-      {
-        "entity": "location",
-        "value": "living room"
-      }
-    ]
-  },
-  {
-    "text": "Play music in the kitchen",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "play"
-      },
-      {
-        "entity": "device",
-        "value": "music"
-      },
-      {
-        "entity": "location",
-        "value": "kitchen"
-      }
-    ]
-  },
-  {
-    "text": "Set the alarm for 7 AM in the bedroom",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "set"
-      },
-      {
-        "entity": "device",
-        "value": "alarm"
-      },
-      {
-        "entity": "value",
-        "value": "7 AM"
-      },
-      {
-        "entity": "location",
-        "value": "bedroom"
-      }
-    ]
-  },
-  {
-    "text": "Turn on the fan in the living room",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "turn on"
-      },
-      {
-        "entity": "device",
-        "value": "fan"
-      },
-      {
-        "entity": "location",
-        "value": "living room"
-      }
-    ]
-  },
-  {
-    "text": "Close the blinds in the bedroom",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "close"
-      },
-      {
-        "entity": "device",
-        "value": "blinds"
-      },
-      {
-        "entity": "location",
-        "value": "bedroom"
-      }
-    ]
-  },
-  {
-    "text": "Lower the volume of the speakers in the living room",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "lower"
-      },
-      {
-        "entity": "device",
-        "value": "speakers"
-      },
-      {
-        "entity": "location",
-        "value": "living room"
-      }
-    ]
-  },
-  {
-    "text": "Turn off all lights in the house",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "turn off"
-      },
-      {
-        "entity": "device",
-        "value": "lights"
-      },
-      {
-        "entity": "location",
-        "value": "house"
-      }
-    ]
-  },
-  {
-    "text": "Set the coffee machine to brew coffee at 8 AM",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "set"
-      },
-      {
-        "entity": "device",
-        "value": "coffee machine"
-      },
-      {
-        "entity": "value",
-        "value": "8 AM"
-      }
-    ]
-  },
-  {
-    "text": "Open the window blinds in the living room",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "open"
-      },
-      {
-        "entity": "device",
-        "value": "window blinds"
-      },
-      {
-        "entity": "location",
-        "value": "living room"
-      }
-    ]
-  },
-  {
-    "text": "Set the TV channel to CNN in the bedroom",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "set"
-      },
-      {
-        "entity": "device",
-        "value": "TV"
-      },
-      {
-        "entity": "property",
-        "value": "channel"
-      },
-      {
-        "entity": "value",
-        "value": "CNN"
-      },
-      {
-        "entity": "location",
-        "value": "bedroom"
-      }
-    ]
-  },
-  {
-    "text": "Turn on the air conditioning in the kitchen",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "turn on"
-      },
-      {
-        "entity": "device",
-        "value": "air conditioning"
-      },
-      {
-        "entity": "location",
-        "value": "kitchen"
-      }
-    ]
-  },
-  {
-    "text": "Set the volume of the speakers to 50% in the living room",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "set"
-      },
-      {
-        "entity": "device",
-        "value": "speakers"
-      },
-      {
-        "entity": "property",
-        "value": "volume"
-      },
-      {
-        "entity": "value",
-        "value": "50%"
-      },
-      {
-        "entity": "location",
-        "value": "living room"
-      }
-    ]
-  },
-  {
-    "text": "Lock the back door",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "lock"
-      },
-      {
-        "entity": "device",
-        "value": "door"
-      },
-      {
-        "entity": "location",
-        "value": "back"
-      }
-    ]
-  },
-  {
-    "text": "Set the bedroom lights to dim mode",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "set"
-      },
-      {
-        "entity": "device",
-        "value": "lights"
-      },
-      {
-        "entity": "location",
-        "value": "bedroom"
-      },
-      {
-        "entity": "property",
-        "value": "mode"
-      },
-      {
-        "entity": "value",
-        "value": "dim"
-      }
-    ]
-  },
-  {
-    "text": "Open the garage door",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "open"
-      },
-      {
-        "entity": "device",
-        "value": "garage door"
-      }
-    ]
-  },
-  {
-    "text": "Turn off the living room lights",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "turn off"
-      },
-      {
-        "entity": "device",
-        "value": "lights"
-      },
-      {
-        "entity": "location",
-        "value": "living room"
-      }
-    ]
-  },
-  {
-    "text": "Set the temperature to 22 degrees in the bedroom",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "set"
-      },
-      {
-        "entity": "device",
-        "value": "temperature"
-      },
-      {
-        "entity": "value",
-        "value": "22"
-      },
-      {
-        "entity": "location",
-        "value": "bedroom"
-      }
-    ]
-  },
-  {
-    "text": "Turn on the TV in the living room",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "turn on"
-      },
-      {
-        "entity": "device",
-        "value": "TV"
-      },
-      {
-        "entity": "location",
-        "value": "living room"
-      }
-    ]
-  },
-  {
-    "text": "Open the blinds in the kitchen",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "open"
-      },
-      {
-        "entity": "device",
-        "value": "blinds"
-      },
-      {
-        "entity": "location",
-        "value": "kitchen"
-      }
-    ]
-  },
-  {
-    "text": "Turn off the air conditioning in the bedroom",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "turn off"
-      },
-      {
-        "entity": "device",
-        "value": "air conditioning"
-      },
-      {
-        "entity": "location",
-        "value": "bedroom"
-      }
-    ]
-  },
-  {
-    "text": "Set the living room lights to maximum brightness",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "set"
-      },
-      {
-        "entity": "device",
-        "value": "lights"
-      },
-      {
-        "entity": "location",
-        "value": "living room"
-      },
-      {
-        "entity": "property",
-        "value": "brightness"
-      },
-      {
-        "entity": "value",
-        "value": "maximum"
-      }
-    ]
-  },
-  {
-    "text": "Hello, how are you?",
     "intent": "greeting",
-    "entities": []
+    "statement": "hello",
+    "responses": ["Hello", "Hi"]
   },
   {
-    "text": "Hi there! How's your day going?",
     "intent": "greeting",
-    "entities": []
+    "statement": "hi",
+    "responses": ["Hi there", "Hello"]
   },
   {
-    "text": "Good morning! How are you today?",
     "intent": "greeting",
-    "entities": []
+    "statement": "hey",
+    "responses": ["Hey", "Hi"]
   },
   {
-    "text": "Hey, how's everything with you?",
     "intent": "greeting",
-    "entities": []
+    "statement": "good morning",
+    "responses": ["Good morning", "Morning"]
   },
   {
-    "text": "Hi, what's up?",
     "intent": "greeting",
-    "entities": []
+    "statement": "good afternoon",
+    "responses": ["Good afternoon", "Afternoon"]
   },
   {
-    "text": "Hello! How have you been?",
     "intent": "greeting",
-    "entities": []
+    "statement": "good evening",
+    "responses": ["Good evening", "Evening"]
   },
   {
-    "text": "Hey there! Long time no see. How have you been?",
     "intent": "greeting",
-    "entities": []
+    "statement": "howdy",
+    "responses": ["Howdy", "Hello"]
   },
   {
-    "text": "Good afternoon! How's your day so far?",
     "intent": "greeting",
-    "entities": []
+    "statement": "greetings",
+    "responses": ["Greetings", "Hello"]
   },
   {
-    "text": "Hi, how's life treating you?",
     "intent": "greeting",
-    "entities": []
+    "statement": "nice to meet you",
+    "responses": ["Nice to meet you", "Pleasure to meet you"]
   },
   {
-    "text": "Hello! It's nice to see you.",
     "intent": "greeting",
-    "entities": []
+    "statement": "hey there",
+    "responses": ["Hey there", "Hello"]
   },
   {
-    "text": "Hey, how have you been keeping?",
     "intent": "greeting",
-    "entities": []
+    "statement": "good to see you",
+    "responses": ["Good to see you", "Nice to see you"]
   },
   {
-    "text": "Good evening! How was your day?",
     "intent": "greeting",
-    "entities": []
+    "statement": "how are you",
+    "responses": ["I'm good, thank you", "I'm doing well, thanks"]
   },
   {
-    "text": "Hi there! How's everything going?",
     "intent": "greeting",
-    "entities": []
+    "statement": "what's up",
+    "responses": ["Not much, just chilling", "Just hanging out"]
   },
   {
-    "text": "Hello! How's your week been so far?",
     "intent": "greeting",
-    "entities": []
+    "statement": "yo",
+    "responses": ["Yo", "Hey"]
   },
   {
-    "text": "Hey, how's your family doing?",
     "intent": "greeting",
-    "entities": []
+    "statement": "good day",
+    "responses": ["Good day", "Hello"]
   },
   {
-    "text": "Good morning! Any exciting plans for the day?",
     "intent": "greeting",
-    "entities": []
+    "statement": "morning",
+    "responses": ["Morning", "Good morning"]
   },
   {
-    "text": "Hi, how's work been treating you?",
     "intent": "greeting",
-    "entities": []
+    "statement": "afternoon",
+    "responses": ["Afternoon", "Good afternoon"]
   },
   {
-    "text": "Hello! What's new in your world?",
     "intent": "greeting",
-    "entities": []
+    "statement": "evening",
+    "responses": ["Evening", "Good evening"]
   },
   {
-    "text": "Hey there! How's the weather in your area?",
     "intent": "greeting",
-    "entities": []
+    "statement": "hiya",
+    "responses": ["Hiya", "Hello"]
   },
   {
-    "text": "Good afternoon! How's your project coming along?",
     "intent": "greeting",
-    "entities": []
+    "statement": "salutations",
+    "responses": ["Salutations", "Hello"]
   },
   {
-    "text": "Hi, any exciting plans for the weekend?",
     "intent": "greeting",
-    "entities": []
+    "statement": "hola",
+    "responses": ["Hola", "Hola, ¿cómo estás?"]
   },
   {
-    "text": "Hello! How's your vacation going?",
     "intent": "greeting",
-    "entities": []
+    "statement": "bonjour",
+    "responses": ["Bonjour", "Salut"]
   },
   {
-    "text": "Hey, any interesting news to share?",
     "intent": "greeting",
-    "entities": []
+    "statement": "ciao",
+    "responses": ["Ciao", "Salve"]
   },
   {
-    "text": "Good morning! How's the traffic today?",
     "intent": "greeting",
-    "entities": []
+    "statement": "namaste",
+    "responses": ["Namaste", "Namaskar"]
   },
   {
-    "text": "Hi there! How's your health these days?",
     "intent": "greeting",
-    "entities": []
+    "statement": "kon'nichiwa",
+    "responses": ["Kon'nichiwa", "Konnichiwa, genki desu ka?"]
   },
   {
-    "text": "Hello! Have you tried any new restaurants recently?",
     "intent": "greeting",
-    "entities": []
+    "statement": "hallo",
+    "responses": ["Hallo", "Guten Tag"]
   },
   {
-    "text": "Hey, how's your pet doing?",
     "intent": "greeting",
-    "entities": []
+    "statement": "privet",
+    "responses": ["Privet", "Zdravstvuyte"]
   },
   {
-    "text": "Good afternoon! How's your fitness routine going?",
     "intent": "greeting",
-    "entities": []
+    "statement": "salam",
+    "responses": ["Salam", "Salam, chetori?"]
   },
   {
-    "text": "Hi, have you watched any good movies lately?",
     "intent": "greeting",
-    "entities": []
+    "statement": "hei",
+    "responses": ["Hei", "Hei, hvordan går det?"]
   },
   {
-    "text": "Hello! How's your gardening coming along?",
     "intent": "greeting",
-    "entities": []
-  },
-  {
-    "text": "Open the messaging app",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "messaging"
-      }
-    ]
-  },
-  {
-    "text": "Launch the camera application",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "camera"
-      }
-    ]
-  },
-  {
-    "text": "Start the music player",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "music player"
-      }
-    ]
-  },
-  {
-    "text": "Open the weather app",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "weather"
-      }
-    ]
-  },
-  {
-    "text": "Launch the calendar application",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "calendar"
-      }
-    ]
-  },
-  {
-    "text": "Start the navigation app",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "navigation"
-      }
-    ]
-  },
-  {
-    "text": "Open the social media app",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "social media"
-      }
-    ]
-  },
-  {
-    "text": "Launch the email application",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "email"
-      }
-    ]
-  },
-  {
-    "text": "Start the web browser",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "web browser"
-      }
-    ]
-  },
-  {
-    "text": "Open the settings app",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "settings"
-      }
-    ]
-  },
-  {
-    "text": "Launch the note-taking application",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "note-taking"
-      }
-    ]
-  },
-  {
-    "text": "Start the calculator app",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "calculator"
-      }
-    ]
-  },
-  {
-    "text": "Open the file manager app",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "file manager"
-      }
-    ]
-  },
-  {
-    "text": "Launch the video streaming application",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "video streaming"
-      }
-    ]
-  },
-  {
-    "text": "Start the alarm clock app",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "alarm clock"
-      }
-    ]
-  },
-  {
-    "text": "Open the shopping app",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "shopping"
-      }
-    ]
-  },
-  {
-    "text": "Launch the news application",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "news"
-      }
-    ]
-  },
-  {
-    "text": "Start the video editing app",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "video editing"
-      }
-    ]
-  },
-  {
-    "text": "Open the ride-sharing app",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "ride-sharing"
-      }
-    ]
-  },
-  {
-    "text": "Launch the social networking application",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "social networking"
-      }
-    ]
-  },
-  {
-    "text": "Start the document scanner app",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "document scanner"
-      }
-    ]
-  },
-  {
-    "text": "Open the fitness tracking app",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "fitness tracking"
-      }
-    ]
-  },
-  {
-    "text": "Launch the translation application",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "translation"
-      }
-    ]
-  },
-  {
-    "text": "Start the photo editing app",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "photo editing"
-      }
-    ]
-  },
-  {
-    "text": "Open the video calling app",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "video calling"
-      }
-    ]
-  },
-  {
-    "text": "Launch the podcast application",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "podcast"
-      }
-    ]
-  },
-  {
-    "text": "Start the music streaming app",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "music streaming"
-      }
-    ]
-  },
-  {
-    "text": "Open the photo gallery app",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "photo gallery"
-      }
-    ]
-  },
-  {
-    "text": "Launch the video game application",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "video game"
-      }
-    ]
-  },
-  {
-    "text": "Calculate the square of 10",
-    "intent": "calculations",
-    "entities": [
-      {
-        "entity": "operation",
-        "value": "square"
-      },
-      {
-        "entity": "number",
-        "value": "10"
-      }
-    ]
-  },
-  {
-    "text": "What is 5 plus 3?",
-    "intent": "calculations",
-    "entities": [
-      {
-        "entity": "operation",
-        "value": "addition"
-      },
-      {
-        "entity": "number",
-        "value": "5"
-      },
-      {
-        "entity": "number",
-        "value": "3"
-      }
-    ]
-  },
-  {
-    "text": "Subtract 7 from 15",
-    "intent": "calculations",
-    "entities": [
-      {
-        "entity": "operation",
-        "value": "subtraction"
-      },
-      {
-        "entity": "number",
-        "value": "7"
-      },
-      {
-        "entity": "number",
-        "value": "15"
-      }
-    ]
-  },
-  {
-    "text": "What is 12 multiplied by 4?",
-    "intent": "calculations",
-    "entities": [
-      {
-        "entity": "operation",
-        "value": "multiplication"
-      },
-      {
-        "entity": "number",
-        "value": "12"
-      },
-      {
-        "entity": "number",
-        "value": "4"
-      }
-    ]
-  },
-  {
-    "text": "Divide 20 by 5",
-    "intent": "calculations",
-    "entities": [
-      {
-        "entity": "operation",
-        "value": "division"
-      },
-      {
-        "entity": "number",
-        "value": "20"
-      },
-      {
-        "entity": "number",
-        "value": "5"
-      }
-    ]
-  },
-  {
-    "text": "What is the square root of 25?",
-    "intent": "calculations",
-    "entities": [
-      {
-        "entity": "operation",
-        "value": "square root"
-      },
-      {
-        "entity": "number",
-        "value": "25"
-      }
-    ]
-  },
-  {
-    "text": "Calculate the factorial of 6",
-    "intent": "calculations",
-    "entities": [
-      {
-        "entity": "operation",
-        "value": "factorial"
-      },
-      {
-        "entity": "number",
-        "value": "6"
-      }
-    ]
-  },
-  {
-    "text": "What is 10 to the power of 3?",
-    "intent": "calculations",
-    "entities": [
-      {
-        "entity": "operation",
-        "value": "exponentiation"
-      },
-      {
-        "entity": "number",
-        "value": "10"
-      },
-      {
-        "entity": "number",
-        "value": "3"
-      }
-    ]
-  },
-  {
-    "text": "Add 1.5 and 2.7",
-    "intent": "calculations",
-    "entities": [
-      {
-        "entity": "operation",
-        "value": "addition"
-      },
-      {
-        "entity": "number",
-        "value": "1.5"
-      },
-      {
-        "entity": "number",
-        "value": "2.7"
-      }
-    ]
-  },
-  {
-    "text": "Subtract 0.8 from 1.2",
-    "intent": "calculations",
-    "entities": [
-      {
-        "entity": "operation",
-        "value": "subtraction"
-      },
-      {
-        "entity": "number",
-        "value": "0.8"
-      },
-      {
-        "entity": "number",
-        "value": "1.2"
-      }
-    ]
-  },
-  {
-    "text": "Multiply 3.5 by 2.2",
-    "intent": "calculations",
-    "entities": [
-      {
-        "entity": "operation",
-        "value": "multiplication"
-      },
-      {
-        "entity": "number",
-        "value": "3.5"
-      },
-      {
-        "entity": "number",
-        "value": "2.2"
-      }
-    ]
-  },
-  {
-    "text": "Divide 10.8 by 2.4",
-    "intent": "calculations",
-    "entities": [
-      {
-        "entity": "operation",
-        "value": "division"
-      },
-      {
-        "entity": "number",
-        "value": "10.8"
-      },
-      {
-        "entity": "number",
-        "value": "2.4"
-      }
-    ]
-  },
-  {
-    "text": "What is the square root of 16.5?",
-    "intent": "calculations",
-    "entities": [
-      {
-        "entity": "operation",
-        "value": "square root"
-      },
-      {
-        "entity": "number",
-        "value": "16.5"
-      }
-    ]
-  },
-  {
-    "text": "Calculate the factorial of 8",
-    "intent": "calculations",
-    "entities": [
-      {
-        "entity": "operation",
-        "value": "factorial"
-      },
-      {
-        "entity": "number",
-        "value": "8"
-      }
-    ]
-  },
-  {
-    "text": "What is 5 to the power of 4?",
-    "intent": "calculations",
-    "entities": [
-      {
-        "entity": "operation",
-        "value": "exponentiation"
-      },
-      {
-        "entity": "number",
-        "value": "5"
-      },
-      {
-        "entity": "number",
-        "value": "4"
-      }
-    ]
-  },
-  {
-    "text": "Add 1,000 and 2,500",
-    "intent": "calculations",
-    "entities": [
-      {
-        "entity": "operation",
-        "value": "addition"
-      },
-      {
-        "entity": "number",
-        "value": "1000"
-      },
-      {
-        "entity": "number",
-        "value": "2500"
-      }
-    ]
-  },
-  {
-    "text": "Subtract 800 from 1,200",
-    "intent": "calculations",
-    "entities": [
-      {
-        "entity": "operation",
-        "value": "subtraction"
-      },
-      {
-        "entity": "number",
-        "value": "800"
-      },
-      {
-        "entity": "number",
-        "value": "1200"
-      }
-    ]
-  },
-  {
-    "text": "Multiply 350 by 220",
-    "intent": "calculations",
-    "entities": [
-      {
-        "entity": "operation",
-        "value": "multiplication"
-      },
-      {
-        "entity": "number",
-        "value": "350"
-      },
-      {
-        "entity": "number",
-        "value": "220"
-      }
-    ]
-  },
-  {
-    "text": "Divide 1,080 by 240",
-    "intent": "calculations",
-    "entities": [
-      {
-        "entity": "operation",
-        "value": "division"
-      },
-      {
-        "entity": "number",
-        "value": "1080"
-      },
-      {
-        "entity": "number",
-        "value": "240"
-      }
-    ]
-  },
-  {
-    "text": "What is the square root of 16.5?",
-    "intent": "calculations",
-    "entities": [
-      {
-        "entity": "operation",
-        "value": "square root"
-      },
-      {
-        "entity": "number",
-        "value": "16.5"
-      }
-    ]
-  },
-  {
-    "text": "Calculate the factorial of 8",
-    "intent": "calculations",
-    "entities": [
-      {
-        "entity": "operation",
-        "value": "factorial"
-      },
-      {
-        "entity": "number",
-        "value": "8"
-      }
-    ]
-  },
-  {
-    "text": "What is 5 to the power of 4?",
-    "intent": "calculations",
-    "entities": [
-      {
-        "entity": "operation",
-        "value": "exponentiation"
-      },
-      {
-        "entity": "number",
-        "value": "5"
-      },
-      {
-        "entity": "number",
-        "value": "4"
-      }
-    ]
-  },
-  {
-    "text": "Add 1000 and 2500",
-    "intent": "calculations",
-    "entities": [
-      {
-        "entity": "operation",
-        "value": "addition"
-      },
-      {
-        "entity": "number",
-        "value": "1000"
-      },
-      {
-        "entity": "number",
-        "value": "2500"
-      }
-    ]
-  },
-  {
-    "text": "Subtract 800 from 1200",
-    "intent": "calculations",
-    "entities": [
-      {
-        "entity": "operation",
-        "value": "subtraction"
-      },
-      {
-        "entity": "number",
-        "value": "800"
-      },
-      {
-        "entity": "number",
-        "value": "1200"
-      }
-    ]
-  },
-  {
-    "text": "Multiply 350 by 220",
-    "intent": "calculations",
-    "entities": [
-      {
-        "entity": "operation",
-        "value": "multiplication"
-      },
-      {
-        "entity": "number",
-        "value": "350"
-      },
-      {
-        "entity": "number",
-        "value": "220"
-      }
-    ]
-  },
-  {
-    "text": "Divide 1080 by 240",
-    "intent": "calculations",
-    "entities": [
-      {
-        "entity": "operation",
-        "value": "division"
-      },
-      {
-        "entity": "number",
-        "value": "1080"
-      },
-      {
-        "entity": "number",
-        "value": "240"
-      }
-    ]
-  },
-  {
-    "text": "What's the weather like today?",
-    "intent": "weather",
-    "entities": []
-  },
-  {
-    "text": "Will it rain tomorrow?",
-    "intent": "weather",
-    "entities": []
-  },
-  {
-    "text": "Is it going to be sunny this weekend?",
-    "intent": "weather",
-    "entities": []
-  },
-  {
-    "text": "What's the forecast for the next 3 days?",
-    "intent": "weather",
-    "entities": []
-  },
-  {
-    "text": "How hot will it be today?",
-    "intent": "weather",
-    "entities": []
-  },
-  {
-    "text": "Is there a chance of thunderstorms?",
-    "intent": "weather",
-    "entities": []
-  },
-  {
-    "text": "What's the temperature right now?",
-    "intent": "weather",
-    "entities": []
-  },
-  {
-    "text": "Will there be strong winds tomorrow?",
-    "intent": "weather",
-    "entities": []
-  },
-  {
-    "text": "Can I expect snowfall this week?",
-    "intent": "weather",
-    "entities": []
-  },
-  {
-    "text": "What's the humidity level today?",
-    "intent": "weather",
-    "entities": []
-  },
-  {
-    "text": "Will it be foggy in the morning?",
-    "intent": "weather",
-    "entities": []
-  },
-  {
-    "text": "What's the UV index today?",
-    "intent": "weather",
-    "entities": []
-  },
-  {
-    "text": "Is there a chance of rain in the evening?",
-    "intent": "weather",
-    "entities": []
-  },
-  {
-    "text": "What's the weather like in London?",
-    "intent": "weather",
-    "entities": [
-      {
-        "entity": "location",
-        "value": "London"
-      }
-    ]
-  },
-  {
-    "text": "Will it be cloudy in the afternoon?",
-    "intent": "weather",
-    "entities": []
-  },
-  {
-    "text": "What's the forecast for the weekend?",
-    "intent": "weather",
-    "entities": []
-  },
-  {
-    "text": "How much rainfall is expected today?",
-    "intent": "weather",
-    "entities": []
-  },
-  {
-    "text": "Is it going to be hot tomorrow?",
-    "intent": "weather",
-    "entities": []
-  },
-  {
-    "text": "Will there be a heatwave this month?",
-    "intent": "weather",
-    "entities": []
-  },
-  {
-    "text": "What's the weather like in New York?",
-    "intent": "weather",
-    "entities": [
-      {
-        "entity": "location",
-        "value": "New York"
-      }
-    ]
-  },
-  {
-    "text": "Will there be snow in the mountains?",
-    "intent": "weather",
-    "entities": []
-  },
-  {
-    "text": "Is it going to rain heavily?",
-    "intent": "weather",
-    "entities": []
-  },
-  {
-    "text": "What's the weather like in Paris today?",
-    "intent": "weather",
-    "entities": [
-      {
-        "entity": "location",
-        "value": "Paris"
-      }
-    ]
-  },
-  {
-    "text": "Will it be windy in the evening?",
-    "intent": "weather",
-    "entities": []
-  },
-  {
-    "text": "Is there a chance of a thunderstorm in the next hour?",
-    "intent": "weather",
-    "entities": []
-  },
-  {
-    "text": "What's the weather like in Tokyo?",
-    "intent": "weather",
-    "entities": [
-      {
-        "entity": "location",
-        "value": "Tokyo"
-      }
-    ]
-  },
-  {
-    "text": "Will it be sunny all day?",
-    "intent": "weather",
-    "entities": []
-  },
-  {
-    "text": "How cold will it be tonight?",
-    "intent": "weather",
-    "entities": []
-  },
-  {
-    "text": "Is there a chance of hail tomorrow?",
-    "intent": "weather",
-    "entities": []
-  },
-  {
-    "text": "What's the weather like in San Francisco?",
-    "intent": "weather",
-    "entities": [
-      {
-        "entity": "location",
-        "value": "San Francisco"
-      }
-    ]
-  },
-  {
-    "text": "Tell me a joke.",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "I need a good laugh. Tell me a joke.",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "Knock, knock.",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "Why don't scientists trust atoms?",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "What's orange and sounds like a parrot?",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "Why couldn't the bicycle stand up by itself?",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "What do you call a fish with no eyes?",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "Why did the scarecrow win an award?",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "Why did the chicken go to the seance?",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "What's brown and sticky?",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "Why don't skeletons fight each other?",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "Why did the tomato turn red?",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "How do you make holy water?",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "What's the difference between a snowman and a snowwoman?",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "Why did the golfer bring two pairs of pants?",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "Why did the tomato turn red?",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "Why did the scarecrow win an award?",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "Why couldn't the leopard play hide and seek?",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "What do you call a bear with no teeth?",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "What do you get when you cross a snowman and a vampire?",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "Why don't skeletons fight each other?",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "What's orange and sounds like a parrot?",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "Why don't scientists trust atoms?",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "What do you call a fish with no eyes?",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "Why did the chicken go to the seance?",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "What's brown and sticky?",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "Why don't skeletons fight each other?",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "Why did the tomato turn red?",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "How do you make holy water?",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "What's the difference between a snowman and a snowwoman?",
-    "intent": "joke_tell",
-    "entities": []
-  },
-  {
-    "text": "Set a timer for 10 minutes.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "10 minutes"
-      }
-    ]
-  },
-  {
-    "text": "Can you start a timer for 20 minutes?",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "20 minutes"
-      }
-    ]
-  },
-  {
-    "text": "I need to set a timer for 5 minutes.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "5 minutes"
-      }
-    ]
-  },
-  {
-    "text": "Please set a timer for 15 minutes.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "15 minutes"
-      }
-    ]
-  },
-  {
-    "text": "Start a timer for 30 minutes.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "30 minutes"
-      }
-    ]
-  },
-  {
-    "text": "I want to set a timer for 25 minutes.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "25 minutes"
-      }
-    ]
-  },
-  {
-    "text": "Can you set a timer for 12 minutes?",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "12 minutes"
-      }
-    ]
-  },
-  {
-    "text": "Please start a timer for 8 minutes.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "8 minutes"
-      }
-    ]
-  },
-  {
-    "text": "Set a timer for 18 minutes.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "18 minutes"
-      }
-    ]
-  },
-  {
-    "text": "I need to set a timer for 3 minutes.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "3 minutes"
-      }
-    ]
-  },
-  {
-    "text": "Please set a timer for 7 minutes.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "7 minutes"
-      }
-    ]
-  },
-  {
-    "text": "Start a timer for 22 minutes.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "22 minutes"
-      }
-    ]
-  },
-  {
-    "text": "I want to set a timer for 14 minutes.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "14 minutes"
-      }
-    ]
-  },
-  {
-    "text": "Can you set a timer for 9 minutes?",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "9 minutes"
-      }
-    ]
-  },
-  {
-    "text": "Please start a timer for 6 minutes.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "6 minutes"
-      }
-    ]
-  },
-  {
-    "text": "Set a timer for 16 minutes.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "16 minutes"
-      }
-    ]
-  },
-  {
-    "text": "I need to set a timer for 4 minutes.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "4 minutes"
-      }
-    ]
-  },
-  {
-    "text": "Please set a timer for 11 minutes.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "11 minutes"
-      }
-    ]
-  },
-  {
-    "text": "Start a timer for 28 minutes.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "28 minutes"
-      }
-    ]
-  },
-  {
-    "text": "I want to set a timer for 13 minutes.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "13 minutes"
-      }
-    ]
-  },
-  {
-    "text": "Can you set a timer for 17 minutes?",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "17 minutes"
-      }
-    ]
-  },
-  {
-    "text": "Please start a timer for 23 minutes.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "23 minutes"
-      }
-    ]
-  },
-  {
-    "text": "Set a timer for 2 minutes.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "2 minutes"
-      }
-    ]
-  },
-  {
-    "text": "I need to set a timer for 19 minutes.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "19 minutes"
-      }
-    ]
-  },
-  {
-    "text": "Please set a timer for 1 minute.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "1 minute"
-      }
-    ]
-  },
-  {
-    "text": "Start a timer for 27 minutes.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "27 minutes"
-      }
-    ]
-  },
-  {
-    "text": "I want to set a timer for 21 minutes.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "21 minutes"
-      }
-    ]
-  },
-  {
-    "text": "Can you set a timer for 26 minutes?",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "26 minutes"
-      }
-    ]
-  },
-  {
-    "text": "Please start a timer for 30 minutes.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "30 minutes"
-      }
-    ]
-  },
-  {
-    "text": "Set a timer for 24 minutes.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "24 minutes"
-      }
-    ]
-  },
-  {
-    "text": "I need to set a timer for 29 minutes.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "29 minutes"
-      }
-    ]
-  },
-  {
-    "text": "Please set a timer for 3 minutes.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "3 minutes"
-      }
-    ]
-  },
-  {
-    "text": "Start a timer for 5 minutes.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "5 minutes"
-      }
-    ]
-  },
-  {
-    "text": "I want to set a timer for 9 minutes.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "9 minutes"
-      }
-    ]
-  },
-  {
-    "text": "Can you set a timer for 15 minutes?",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "15 minutes"
-      }
-    ]
-  },
-  {
-    "text": "Please start a timer for 7 minutes.",
-    "intent": "timer_set",
-    "entities": [
-      {
-        "entity": "duration",
-        "value": "7 minutes"
-      }
-    ]
-  },
-  {
-    "text": "Remind me to buy groceries tomorrow.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "buy groceries"
-      },
-      {
-        "entity": "date",
-        "value": "tomorrow"
-      }
-    ]
-  },
-  {
-    "text": "Create a reminder to pay bills next week.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "pay bills"
-      },
-      {
-        "entity": "date",
-        "value": "next week"
-      }
-    ]
-  },
-  {
-    "text": "Set a reminder to call mom on her birthday.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "call mom"
-      },
-      {
-        "entity": "date",
-        "value": "her birthday"
-      }
-    ]
-  },
-  {
-    "text": "Remind me to water the plants this afternoon.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "water the plants"
-      },
-      {
-        "entity": "date",
-        "value": "this afternoon"
-      }
-    ]
-  },
-  {
-    "text": "Create a reminder to attend the meeting next Monday.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "attend the meeting"
-      },
-      {
-        "entity": "date",
-        "value": "next Monday"
-      }
-    ]
-  },
-  {
-    "text": "Set a reminder to submit the report by Friday.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "submit the report"
-      },
-      {
-        "entity": "date",
-        "value": "by Friday"
-      }
-    ]
-  },
-  {
-    "text": "Remind me to feed the cat tomorrow morning.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "feed the cat"
-      },
-      {
-        "entity": "date",
-        "value": "tomorrow morning"
-      }
-    ]
-  },
-  {
-    "text": "Create a reminder to pick up dry cleaning on Friday evening.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "pick up dry cleaning"
-      },
-      {
-        "entity": "date",
-        "value": "on Friday evening"
-      }
-    ]
-  },
-  {
-    "text": "Set a reminder to take medication every morning.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "take medication"
-      },
-      {
-        "entity": "time",
-        "value": "every morning"
-      }
-    ]
-  },
-  {
-    "text": "Remind me to call the dentist next week on Tuesday.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "call the dentist"
-      },
-      {
-        "entity": "date",
-        "value": "next week"
-      },
-      {
-        "entity": "day",
-        "value": "Tuesday"
-      }
-    ]
-  },
-  {
-    "text": "Create a reminder to buy a birthday gift for Sarah next month.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "buy a birthday gift for Sarah"
-      },
-      {
-        "entity": "date",
-        "value": "next month"
-      }
-    ]
-  },
-  {
-    "text": "Set a reminder to submit the project proposal by the end of the week.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "submit the project proposal"
-      },
-      {
-        "entity": "date",
-        "value": "by the end of the week"
-      }
-    ]
-  },
-  {
-    "text": "Remind me to renew the car insurance next month on the 15th.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "renew the car insurance"
-      },
-      {
-        "entity": "date",
-        "value": "next month"
-      },
-      {
-        "entity": "day",
-        "value": "15th"
-      }
-    ]
-  },
-  {
-    "text": "Create a reminder to send the report to the manager on Wednesday.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "send the report to the manager"
-      },
-      {
-        "entity": "day",
-        "value": "Wednesday"
-      }
-    ]
-  },
-  {
-    "text": "Set a reminder to book flight tickets for the vacation next week.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "book flight tickets for the vacation"
-      },
-      {
-        "entity": "date",
-        "value": "next week"
-      }
-    ]
-  },
-  {
-    "text": "Remind me to submit the expense report by the end of the month.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "submit the expense report"
-      },
-      {
-        "entity": "date",
-        "value": "by the end of the month"
-      }
-    ]
-  },
-  {
-    "text": "Create a reminder to call the client at 2 p.m. tomorrow.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "call the client"
-      },
-      {
-        "entity": "time",
-        "value": "2 p.m."
-      },
-      {
-        "entity": "date",
-        "value": "tomorrow"
-      }
-    ]
-  },
-  {
-    "text": "Set a reminder to start the meeting at 10 a.m. on Monday.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "start the meeting"
-      },
-      {
-        "entity": "time",
-        "value": "10 a.m."
-      },
-      {
-        "entity": "day",
-        "value": "Monday"
-      }
-    ]
-  },
-  {
-    "text": "Remind me to take out the trash tonight.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "take out the trash"
-      },
-      {
-        "entity": "time",
-        "value": "tonight"
-      }
-    ]
-  },
-  {
-    "text": "Create a reminder to buy a birthday cake for John next week.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "buy a birthday cake for John"
-      },
-      {
-        "entity": "date",
-        "value": "next week"
-      }
-    ]
-  },
-  {
-    "text": "Set a reminder to water the plants every Monday and Friday.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "water the plants"
-      },
-      {
-        "entity": "day",
-        "value": "Monday and Friday"
-      }
-    ]
-  },
-  {
-    "text": "Remind me to pick up the dry cleaning on Tuesday evening.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "pick up the dry cleaning"
-      },
-      {
-        "entity": "day",
-        "value": "Tuesday"
-      },
-      {
-        "entity": "time",
-        "value": "evening"
-      }
-    ]
-  },
-  {
-    "text": "Create a reminder to take the car for servicing next month.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "take the car for servicing"
-      },
-      {
-        "entity": "date",
-        "value": "next month"
-      }
-    ]
-  },
-  {
-    "text": "Set a reminder to pay the utility bills by the 20th of this month.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "pay the utility bills"
-      },
-      {
-        "entity": "day",
-        "value": "20th"
-      },
-      {
-        "entity": "date",
-        "value": "of this month"
-      }
-    ]
-  },
-  {
-    "text": "Remind me to take a break every hour.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "take a break"
-      },
-      {
-        "entity": "time",
-        "value": "every hour"
-      }
-    ]
-  },
-  {
-    "text": "Create a reminder to complete the project by the deadline.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "complete the project"
-      },
-      {
-        "entity": "date",
-        "value": "by the deadline"
-      }
-    ]
-  },
-  {
-    "text": "Set a reminder to check the mail every morning.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "check the mail"
-      },
-      {
-        "entity": "time",
-        "value": "every morning"
-      }
-    ]
-  },
-  {
-    "text": "Remind me to call the doctor for an appointment tomorrow.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "call the doctor for an appointment"
-      },
-      {
-        "entity": "date",
-        "value": "tomorrow"
-      }
-    ]
-  },
-  {
-    "text": "Create a reminder to submit the tax documents by the end of the month.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "submit the tax documents"
-      },
-      {
-        "entity": "date",
-        "value": "by the end of the month"
-      }
-    ]
-  },
-  {
-    "text": "Set a reminder to buy a gift for the wedding next Saturday.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "buy a gift for the wedding"
-      },
-      {
-        "entity": "date",
-        "value": "next Saturday"
-      }
-    ]
-  },
-  {
-    "text": "Remind me to start the laundry in the afternoon.",
-    "intent": "reminder_create",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "start the laundry"
-      },
-      {
-        "entity": "time",
-        "value": "in the afternoon"
-      }
-    ]
-  },
-  {
-    "text": "Search for the best restaurants in New York City.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "best restaurants"
-      },
-      {
-        "entity": "location",
-        "value": "New York City"
-      }
-    ]
-  },
-  {
-    "text": "Find information about the latest smartphones on the market.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "latest smartphones"
-      }
-    ]
-  },
-  {
-    "text": "Look up the symptoms of a common cold.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "symptoms of a common cold"
-      }
-    ]
-  },
-  {
-    "text": "Search for the history of Ancient Rome.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "history of Ancient Rome"
-      }
-    ]
-  },
-  {
-    "text": "Find the recipe for chocolate chip cookies.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "recipe for chocolate chip cookies"
-      }
-    ]
-  },
-  {
-    "text": "Look up the top tourist attractions in Paris.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "top tourist attractions"
-      },
-      {
-        "entity": "location",
-        "value": "Paris"
-      }
-    ]
-  },
-  {
-    "text": "Search for the latest news updates.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "latest news updates"
-      }
-    ]
-  },
-  {
-    "text": "Find information about the benefits of regular exercise.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "benefits of regular exercise"
-      }
-    ]
-  },
-  {
-    "text": "Look up the definition of a specific word.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "definition of a specific word"
-      }
-    ]
-  },
-  {
-    "text": "Search for the best hiking trails in the area.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "best hiking trails"
-      },
-      {
-        "entity": "location",
-        "value": "the area"
-      }
-    ]
-  },
-  {
-    "text": "Find information about famous historical figures.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "famous historical figures"
-      }
-    ]
-  },
-  {
-    "text": "Look up the latest fashion trends.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "latest fashion trends"
-      }
-    ]
-  },
-  {
-    "text": "Search for the best deals on electronics.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "best deals on electronics"
-      }
-    ]
-  },
-  {
-    "text": "Find information about the benefits of meditation.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "benefits of meditation"
-      }
-    ]
-  },
-  {
-    "text": "Look up the reviews for a specific movie.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "reviews for a specific movie"
-      }
-    ]
-  },
-  {
-    "text": "Search for the best beaches in the world.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "best beaches"
-      },
-      {
-        "entity": "location",
-        "value": "the world"
-      }
-    ]
-  },
-  {
-    "text": "Find information about different programming languages.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "different programming languages"
-      }
-    ]
-  },
-  {
-    "text": "Look up the lyrics of a specific song.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "lyrics of a specific song"
-      }
-    ]
-  },
-  {
-    "text": "Search for the best travel destinations in Asia.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "best travel destinations"
-      },
-      {
-        "entity": "location",
-        "value": "Asia"
-      }
-    ]
-  },
-  {
-    "text": "Find information about healthy eating habits.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "healthy eating habits"
-      }
-    ]
-  },
-  {
-    "text": "Look up the reviews for a specific restaurant.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "reviews for a specific restaurant"
-      }
-    ]
-  },
-  {
-    "text": "Search for the latest technology news.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "latest technology news"
-      }
-    ]
-  },
-  {
-    "text": "Find information about the causes of climate change.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "causes of climate change"
-      }
-    ]
-  },
-  {
-    "text": "Look up the benefits of drinking green tea.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "benefits of drinking green tea"
-      }
-    ]
-  },
-  {
-    "text": "Search for the best hiking trails in the mountains.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "best hiking trails"
-      },
-      {
-        "entity": "location",
-        "value": "the mountains"
-      }
-    ]
-  },
-  {
-    "text": "Find information about famous painters throughout history.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "famous painters throughout history"
-      }
-    ]
-  },
-  {
-    "text": "Look up the nutritional information of a specific food.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "nutritional information of a specific food"
-      }
-    ]
+    "statement": "hoi",
+    "responses": ["Hoi", "Hallo"]
   },
+  {
+    "intent": "greeting",
+    "statement": "xin chào",
+    "responses": ["Xin chào", "Chào bạn"]
+  },
+  {
+    "intent": "greeting",
+    "statement": "merhaba",
+    "responses": ["Merhaba", "Selam"]
+  },
+  {
+    "intent": "greeting",
+    "statement": "szia",
+    "responses": ["Szia", "Szia, hogy vagy?"]
+  },
+  {
+    "intent": "greeting",
+    "statement": "marhaba",
+    "responses": ["Marhaba", "Merhaba"]
+  },
+  {
+    "intent": "greeting",
+    "statement": "hujambo",
+    "responses": ["Hujambo", "Salamu"]
+  },
+  {
+    "intent": "greeting",
+    "statement": "sawubona",
+    "responses": ["Sawubona", "Yebo"]
+  },
+  {
+    "intent": "greeting",
+    "statement": "jambo",
+    "responses": ["Jambo", "Habari"]
+  },
+  {
+    "intent": "greeting",
+    "statement": "olá",
+    "responses": ["Olá", "Oi"]
+  },
+  {
+    "intent": "greeting",
+    "statement": "privit",
+    "responses": ["Privit", "Salut"]
+  },
+  {
+    "intent": "greeting",
+    "statement": "sveiki",
+    "responses": ["Sveiki", "Labdien"]
+  },
+  {
+    "intent": "greeting",
+    "statement": "kaixo",
+    "responses": ["Kaixo", "Egun on"]
+  },
+  {
+    "intent": "greeting",
+    "statement": "szervusz",
+    "responses": ["Szervusz", "Üdvözöllek"]
+  },
+  {
+    "intent": "greeting",
+    "statement": "saluton",
+    "responses": ["Saluton", "Bonan tagon"]
+  },
+  {
+    "intent": "greeting",
+    "statement": "labas",
+    "responses": ["Labas", "Sveiki"]
+  },
+  {
+    "intent": "calculate",
+    "statement": "What is the result of 10 plus NaN?",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "What is NaN multiplied by 5?",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Divide NaN by 2.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Subtract 7 from NaN.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "What is NaN squared?",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Find the square root of NaN.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "What is NaN modulo 3?",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Multiply NaN by NaN.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Calculate NaN raised to the power of 4.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "What is the value of NaN plus 10?",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Divide 20 by NaN.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Subtract NaN from 5.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Find the cube root of NaN.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "What is the result of NaN plus NaN?",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Multiply NaN by 10.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "What is NaN divided by NaN?",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Calculate NaN raised to the power of NaN.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "What is the value of NaN minus 3?",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Divide 15 by NaN.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Subtract NaN from 10.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Find the square root of NaN minus 7.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "What is the result of NaN modulo 4?",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Multiply NaN by 3.5.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "What is NaN divided by 10?",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Calculate NaN raised to the power of 3.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "What is the value of NaN plus 5?",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Divide 25 by NaN.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Subtract NaN from 12.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Find the square root of NaN plus 3.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "What is the result of NaN modulo 2?",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Multiply NaN by 6.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "What is NaN divided by NaN?",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Calculate NaN raised to the power of NaN.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "What is the value of NaN minus 2?",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Divide 18 by NaN.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Subtract NaN from 7.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Find the square root of NaN minus 5.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "What is the result of NaN modulo 3?",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Multiply NaN by 4.5.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "What is NaN divided by 7?",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Calculate NaN raised to the power of 2.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "What is the value of NaN plus 8?",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Divide 30 by NaN.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Subtract NaN from 15.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Find the square root of NaN plus 2.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "What is the result of NaN modulo 5?",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Multiply NaN by 9.2.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "What is NaN divided by NaN?",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Calculate NaN raised to the power of NaN.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "What is the value of NaN minus 4?",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Divide 12 by NaN.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Subtract NaN from 9.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Find the square root of NaN minus 3.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "What is the result of NaN modulo 4?",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "calculate",
+    "statement": "Multiply NaN by 7.8.",
+    "response": "The result is NaN."
+  },
+  {
+    "intent": "translate",
+    "statement": "Translate 'Hello' to NaN.",
+    "response": "Translation to NaN is not supported."
+  },
+  {
+    "intent": "translate",
+    "statement": "How do you say 'Goodbye' in NaN?",
+    "response": "Translation to NaN is not available."
+  },
+  {
+    "intent": "translate",
+    "statement": "Can you translate 'Thank you' to NaN?",
+    "response": "Translation to NaN is not possible."
+  },
+  {
+    "intent": "translate",
+    "statement": "What is the translation of 'Yes' in NaN?",
+    "response": "Translation to NaN is not supported."
+  },
+  {
+    "intent": "translate",
+    "statement": "Translate the word 'Love' to NaN.",
+    "response": "NaN translation is not available."
+  },
+  {
+    "intent": "translate",
+    "statement": "How do you say 'Sorry' in NaN?",
+    "response": "Translation to NaN is not possible."
+  },
+  {
+    "intent": "translate",
+    "statement": "Can you translate 'Good morning' to NaN?",
+    "response": "Translation to NaN is not supported."
+  },
+  {
+    "intent": "translate",
+    "statement": "What is the translation of 'No' in NaN?",
+    "response": "Translation to NaN is not available."
+  },
+  {
+    "intent": "translate",
+    "statement": "Translate 'Please' to NaN.",
+    "response": "NaN translation is not possible."
+  },
+  {
+    "intent": "translate",
+    "statement": "How do you say 'Congratulations' in NaN?",
+    "response": "Translation to NaN is not supported."
+  },
+  {
+    "intent": "translate",
+    "statement": "Can you translate 'Goodnight' to NaN?",
+    "response": "Translation to NaN is not available."
+  },
+  {
+    "intent": "translate",
+    "statement": "What is the translation of 'Help' in NaN?",
+    "response": "Translation to NaN is not possible."
+  },
+  {
+    "intent": "translate",
+    "statement": "Translate the word 'Friend' to NaN.",
+    "response": "NaN translation is not supported."
+  },
+  {
+    "intent": "translate",
+    "statement": "How do you say 'Beautiful' in NaN?",
+    "response": "Translation to NaN is not possible."
+  },
+  {
+    "intent": "translate",
+    "statement": "Can you translate 'Good afternoon' to NaN?",
+    "response": "Translation to NaN is not supported."
+  },
+  {
+    "intent": "translate",
+    "statement": "What is the translation of 'Maybe' in NaN?",
+    "response": "Translation to NaN is not available."
+  },
+  {
+    "intent": "translate",
+    "statement": "Translate 'Thank you very much' to NaN.",
+    "response": "NaN translation is not possible."
+  },
+  {
+    "intent": "translate",
+    "statement": "How do you say 'Excuse me' in NaN?",
+    "response": "Translation to NaN is not supported."
+  },
+  {
+    "intent": "translate",
+    "statement": "Can you translate 'Good evening' to NaN?",
+    "response": "Translation to NaN is not available."
+  },
+  {
+    "intent": "translate",
+    "statement": "What is the translation of 'Yes, please' in NaN?",
+    "response": "Translation to NaN is not possible."
+  },
+  {
+    "intent": "translate",
+    "statement": "Translate the word 'Family' to NaN.",
+    "response": "NaN translation is not supported."
+  },
+  {
+    "intent": "translate",
+    "statement": "How do you say 'Thank you' in NaN?",
+    "response": "Translation to NaN is not possible."
+  },
+  {
+    "intent": "translate",
+    "statement": "Can you translate 'Goodnight, sleep tight' to NaN?",
+    "response": "Translation to NaN is not supported."
+  },
+  {
+    "intent": "translate",
+    "statement": "What is the translation of 'Hello, how are you?' in NaN?",
+    "response": "Translation to NaN is not available."
+  },
+  {
+    "intent": "translate",
+    "statement": "Translate 'Please wait' to NaN.",
+    "response": "NaN translation is not possible."
+  },
+  {
+    "intent": "translate",
+    "statement": "How do you say 'Congratulations on your success' in NaN?",
+    "response": "Translation to NaN is not supported."
+  },
+  {
+    "intent": "translate",
+    "statement": "Can you translate 'Good luck' to NaN?",
+    "response": "Translation to NaN is not available."
+  },
+  {
+    "intent": "translate",
+    "statement": "What is the translation of 'I love you' in NaN?",
+    "response": "Translation to NaN is not possible."
+  },
+  {
+    "intent": "translate",
+    "statement": "Translate the word 'Food' to NaN.",
+    "response": "NaN translation is not supported."
+  },
+  {
+    "intent": "translate",
+    "statement": "How do you say 'Excuse me, where is the restroom?' in NaN?",
+    "response": "Translation to NaN is not available."
+  },
+  {
+    "intent": "translate",
+    "statement": "Can you translate 'Goodbye, take care' to NaN?",
+    "response": "Translation to NaN is not supported."
+  },
+  {
+    "intent": "translate",
+    "statement": "What is the translation of 'Nice to meet you' in NaN?",
+    "response": "Translation to NaN is not possible."
+  },
+  {
+    "intent": "translate",
+    "statement": "Translate 'I'm sorry' to NaN.",
+    "response": "NaN translation is not available."
+  },
+  {
+    "intent": "translate",
+    "statement": "How do you say 'Happy birthday' in NaN?",
+    "response": "Translation to NaN is not supported."
+  },
+  {
+    "intent": "translate",
+    "statement": "Can you translate 'Good morning, have a great day' to NaN?",
+    "response": "Translation to NaN is not possible."
+  },
+  {
+    "intent": "translate",
+    "statement": "What is the translation of 'Where is the nearest bus stop?' in NaN?",
+    "response": "Translation to NaN is not supported."
+  },
+  {
+    "intent": "translate",
+    "statement": "Translate 'I need help' to NaN.",
+    "response": "NaN translation is not available."
+  },
+  {
+    "intent": "translate",
+    "statement": "How do you say 'I'm sorry, I don't understand' in NaN?",
+    "response": "Translation to NaN is not supported."
+  },
+  {
+    "intent": "translate",
+    "statement": "Can you translate 'Good evening, have a pleasant night' to NaN?",
+    "response": "Translation to NaN is not possible."
+  },
+  {
+    "intent": "translate",
+    "statement": "What is the translation of 'How are you?' in NaN?",
+    "response": "Translation to NaN is not available."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "What's the weather like in NaN today?",
+    "response": "Weather information for NaN is not available."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Is it going to rain in NaN tomorrow?",
+    "response": "Weather forecast for NaN is not provided."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Give me the weather update for NaN next week.",
+    "response": "Weather data for NaN is not accessible."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Tell me the current temperature in NaN.",
+    "response": "Temperature information for NaN is unavailable."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "What's the weather forecast for NaN this weekend?",
+    "response": "Weather report for NaN is not provided."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Will it be sunny in NaN next Monday?",
+    "response": "Weather information for NaN is not available."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Give me the weather conditions in NaN for the next few days.",
+    "response": "Weather data for NaN is not accessible."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Is it windy in NaN today?",
+    "response": "Wind information for NaN is not provided."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "What's the temperature in NaN right now?",
+    "response": "Temperature data for NaN is not available."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Tell me if it will be cloudy in NaN this afternoon.",
+    "response": "Weather forecast for NaN is not provided."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Will it rain in NaN on Friday?",
+    "response": "Weather information for NaN is not available."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Give me the weather update for NaN tomorrow morning.",
+    "response": "Weather data for NaN is not accessible."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "What's the current weather condition in NaN?",
+    "response": "Weather information for NaN is not available."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Is it going to be hot in NaN next week?",
+    "response": "Weather forecast for NaN is not provided."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Tell me the weather forecast in NaN for the next 10 days.",
+    "response": "Weather report for NaN is not provided."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Will it snow in NaN this winter?",
+    "response": "Weather information for NaN is not available."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Give me the weather update for NaN tonight.",
+    "response": "Weather data for NaN is not accessible."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "What's the humidity level in NaN right now?",
+    "response": "Humidity information for NaN is not provided."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Tell me if it will be rainy in NaN this evening.",
+    "response": "Weather forecast for NaN is not provided."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Will it be sunny in NaN on Saturday?",
+    "response": "Weather information for NaN is not available."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Give me the weather conditions in NaN for the next month.",
+    "response": "Weather data for NaN is not accessible."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Is it windy in NaN right now?",
+    "response": "Wind information for NaN is not provided."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "What's the temperature in NaN tomorrow?",
+    "response": "Temperature data for NaN is not available."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Tell me if it will be cloudy in NaN tomorrow.",
+    "response": "Weather forecast for NaN is not provided."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Will it rain in NaN next Wednesday?",
+    "response": "Weather information for NaN is not available."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Give me the weather update for NaN this afternoon.",
+    "response": "Weather data for NaN is not accessible."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "What's the current weather condition in NaN right now?",
+    "response": "Weather information for NaN is not available."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Is it going to be hot in NaN tomorrow?",
+    "response": "Weather forecast for NaN is not provided."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Tell me the weather forecast in NaN for the next week.",
+    "response": "Weather report for NaN is not provided."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Will it snow in NaN next month?",
+    "response": "Weather information for NaN is not available."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Give me the weather update for NaN this evening.",
+    "response": "Weather data for NaN is not accessible."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "What's the humidity level in NaN tomorrow?",
+    "response": "Humidity information for NaN is not provided."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Tell me if it will be rainy in NaN tomorrow.",
+    "response": "Weather forecast for NaN is not provided."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Will it be sunny in NaN next Sunday?",
+    "response": "Weather information for NaN is not available."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Give me the weather conditions in NaN for the next year.",
+    "response": "Weather data for NaN is not accessible."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Is it windy in NaN tomorrow?",
+    "response": "Wind information for NaN is not provided."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "What's the temperature in NaN next week?",
+    "response": "Temperature data for NaN is not available."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Tell me if it will be cloudy in NaN next Tuesday.",
+    "response": "Weather forecast for NaN is not provided."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Will it rain in NaN next month?",
+    "response": "Weather information for NaN is not available."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Give me the weather update for NaN tonight.",
+    "response": "Weather data for NaN is not accessible."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "What's the humidity level in NaN next week?",
+    "response": "Humidity information for NaN is not provided."
+  },
+  {
+    "intent": "check_weather",
+    "statement": "Tell me if it will be rainy in NaN next Wednesday.",
+    "response": "Weather forecast for NaN is not provided."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "How do I get from NaN to the airport?",
+    "response": "Directions from NaN to the airport are not available."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "What's the best way to go from NaN to downtown?",
+    "response": "Directions from NaN to downtown are not provided."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "Tell me the route from NaN to the nearest mall.",
+    "response": "Directions from NaN to the nearest mall are not accessible."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "How can I reach NaN from my current location?",
+    "response": "Directions from your current location to NaN are not available."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "Give me the directions from NaN to the train station.",
+    "response": "Directions from NaN to the train station are not provided."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "What's the fastest way to go from NaN to the city center?",
+    "response": "Directions from NaN to the city center are not accessible."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "Tell me the route to NaN from my home.",
+    "response": "Directions from your home to NaN are not available."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "How do I get from NaN to the nearest restaurant?",
+    "response": "Directions from NaN to the nearest restaurant are not provided."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "What's the best way to reach NaN from the airport?",
+    "response": "Directions from the airport to NaN are not accessible."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "Tell me the route from NaN to the shopping center.",
+    "response": "Directions from NaN to the shopping center are not available."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "How can I go to NaN from downtown?",
+    "response": "Directions from downtown to NaN are not provided."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "Give me the directions from NaN to my workplace.",
+    "response": "Directions from NaN to your workplace are not accessible."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "What's the fastest route to go from NaN to the beach?",
+    "response": "Directions from NaN to the beach are not available."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "Tell me how to reach NaN from the bus station.",
+    "response": "Directions from the bus station to NaN are not provided."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "How do I get from NaN to the nearest park?",
+    "response": "Directions from NaN to the nearest park are not accessible."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "What's the best way to go to NaN from the train station?",
+    "response": "Directions from the train station to NaN are not available."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "Tell me the route from NaN to my friend's house.",
+    "response": "Directions from NaN to your friend's house are not provided."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "How can I reach NaN from the city center?",
+    "response": "Directions from the city center to NaN are not accessible."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "Give me the directions from NaN to the museum.",
+    "response": "Directions from NaN to the museum are not available."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "What's the fastest way to go from NaN to the airport?",
+    "response": "Directions from NaN to the airport are not provided."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "Tell me the route to NaN from the shopping mall.",
+    "response": "Directions from the shopping mall to NaN are not accessible."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "How do I get from NaN to my favorite restaurant?",
+    "response": "Directions from NaN to your favorite restaurant are not available."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "What's the best way to reach NaN from downtown?",
+    "response": "Directions from downtown to NaN are not provided."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "Tell me the route from NaN to the airport.",
+    "response": "Directions from NaN to the airport are not accessible."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "How can I go to NaN from my workplace?",
+    "response": "Directions from your workplace to NaN are not available."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "Give me the directions from NaN to the nearest gas station.",
+    "response": "Directions from NaN to the nearest gas station are not provided."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "What's the fastest route to go from NaN to the mall?",
+    "response": "Directions from NaN to the mall are not accessible."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "Tell me how to reach NaN from the train station.",
+    "response": "Directions from the train station to NaN are not available."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "How do I get from NaN to the nearest park?",
+    "response": "Directions from NaN to the nearest park are not provided."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "What's the best way to go to NaN from the bus stop?",
+    "response": "Directions from the bus stop to NaN are not accessible."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "Tell me the route from NaN to my office.",
+    "response": "Directions from NaN to your office are not available."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "How can I reach NaN from the city center?",
+    "response": "Directions from the city center to NaN are not provided."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "Give me the directions from NaN to the stadium.",
+    "response": "Directions from NaN to the stadium are not accessible."
+  },
+  {
+    "intent": "get_directions",
+    "statement": "What's the fastest way to go from NaN to the train station?",
+    "response": "Directions from NaN to the train station are not available."
+  },
+  {
+    "intent": "get_directions",
 
-  {
-    "text": "Search for the best books to read in 2023.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "best books to read"
-      },
-      {
-        "entity": "year",
-        "value": "2023"
-      }
-    ]
+    "statement": "Tell me the route to NaN from my friend's house.",
+    "response": "Directions from your friend's house to NaN are not provided."
   },
   {
-    "text": "Find information about the history of space exploration.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "history of space exploration"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Open NaN app.",
+    "response": "Opening NaN app."
   },
   {
-    "text": "Look up the benefits of practicing mindfulness.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "benefits of practicing mindfulness"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Launch the NaN application.",
+    "response": "The NaN application is launching."
   },
   {
-    "text": "Search for the latest fashion trends for men.",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "query",
-        "value": "latest fashion trends"
-      },
-      {
-        "entity": "gender",
-        "value": "men"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Start NaN on my device.",
+    "response": "NaN has been started on your device."
   },
   {
-    "text": "Play a random playlist.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "playlist_type",
-        "value": "random"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Run the NaN app.",
+    "response": "Running the NaN app."
   },
   {
-    "text": "Play my favorite song.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "song_type",
-        "value": "favorite"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Access the NaN application.",
+    "response": "You can now access the NaN application."
   },
   {
-    "text": "Play some relaxing music.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "music_type",
-        "value": "relaxing"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Launch NaN on my device.",
+    "response": "NaN is launching on your device."
   },
   {
-    "text": "Play the top hits of this month.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "playlist_type",
-        "value": "top hits"
-      },
-      {
-        "entity": "time_period",
-        "value": "this month"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Open the NaN app.",
+    "response": "The NaN app is opening."
   },
   {
-    "text": "Play a popular song from the 80s.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "music_type",
-        "value": "popular"
-      },
-      {
-        "entity": "time_period",
-        "value": "80s"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Start the NaN application.",
+    "response": "Starting the NaN application."
   },
   {
-    "text": "Play the latest album of my favorite artist.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "album_type",
-        "value": "latest"
-      },
-      {
-        "entity": "artist_type",
-        "value": "favorite"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Run NaN on my device.",
+    "response": "NaN is running on your device."
   },
   {
-    "text": "Play a playlist for working out.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "playlist_type",
-        "value": "working out"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Access the NaN app.",
+    "response": "You now have access to the NaN app."
   },
   {
-    "text": "Play a classic rock song.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "music_type",
-        "value": "classic rock"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Launch NaN app.",
+    "response": "NaN app is launching."
   },
   {
-    "text": "Play the greatest hits of all time.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "playlist_type",
-        "value": "greatest hits"
-      },
-      {
-        "entity": "time_period",
-        "value": "all time"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Start NaN on my device.",
+    "response": "NaN has been started on your device."
   },
   {
-    "text": "Play a jazz instrumental track.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "music_type",
-        "value": "jazz instrumental"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Run the NaN application.",
+    "response": "Running the NaN application."
   },
   {
-    "text": "Play a playlist for a party.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "playlist_type",
-        "value": "party"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Access the NaN app.",
+    "response": "You can now access the NaN app."
   },
   {
-    "text": "Play a romantic song.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "music_type",
-        "value": "romantic"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Launch NaN on my device.",
+    "response": "Launching NaN on your device."
   },
   {
-    "text": "Play the top tracks of a specific genre.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "playlist_type",
-        "value": "top tracks"
-      },
-      {
-        "entity": "genre",
-        "value": "specific"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Open the NaN application.",
+    "response": "The NaN application is opening."
   },
   {
-    "text": "Play the best songs for a road trip.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "music_type",
-        "value": "best"
-      },
-      {
-        "entity": "activity",
-        "value": "road trip"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Start the NaN app.",
+    "response": "Starting the NaN app."
   },
   {
-    "text": "Play a lively pop song.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "music_type",
-        "value": "lively pop"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Run NaN on my device.",
+    "response": "Running NaN on your device."
   },
   {
-    "text": "Play a playlist for studying.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "playlist_type",
-        "value": "studying"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Access the NaN application.",
+    "response": "You now have access to the NaN application."
   },
   {
-    "text": "Play the latest hits from a specific artist.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "music_type",
-        "value": "latest hits"
-      },
-      {
-        "entity": "artist_type",
-        "value": "specific"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Launch NaN app.",
+    "response": "NaN app is launching."
   },
   {
-    "text": "Play a song that matches my mood.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "song_type",
-        "value": "matching mood"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Start NaN on my device.",
+    "response": "NaN has been started on your device."
   },
   {
-    "text": "Play the best songs of a particular decade.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "music_type",
-        "value": "best songs"
-      },
-      {
-        "entity": "time_period",
-        "value": "particular decade"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Run the NaN application.",
+    "response": "Running the NaN application."
   },
   {
-    "text": "Play a playlist for a chill evening.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "playlist_type",
-        "value": "chill evening"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Access the NaN app.",
+    "response": "You can now access the NaN app."
   },
   {
-    "text": "Play the latest songs from a specific genre.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "music_type",
-        "value": "latest songs"
-      },
-      {
-        "entity": "genre",
-        "value": "specific"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Launch NaN on my device.",
+    "response": "Launching NaN on your device."
   },
   {
-    "text": "Play a song from my childhood.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "song_type",
-        "value": "childhood"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Open the NaN application.",
+    "response": "The NaN application is opening."
   },
   {
-    "text": "Play a playlist for a rainy day.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "playlist_type",
-        "value": "rainy day"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Start the NaN app.",
+    "response": "Starting the NaN app."
   },
   {
-    "text": "Play the top tracks of a specific artist.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "playlist_type",
-        "value": "top tracks"
-      },
-      {
-        "entity": "artist_type",
-        "value": "specific"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Run NaN on my device.",
+    "response": "Running NaN on your device."
   },
   {
-    "text": "Play a song for dancing.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "song_type",
-        "value": "dancing"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Access the NaN application.",
+    "response": "You now have access to the NaN application."
   },
   {
-    "text": "Play a playlist for a workout session.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "playlist_type",
-        "value": "workout session"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Launch NaN app.",
+    "response": "NaN app is launching."
   },
   {
-    "text": "Play a song from a specific movie soundtrack.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "song_type",
-        "value": "specific movie soundtrack"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Start NaN on my device.",
+    "response": "NaN has been started on your device."
   },
   {
-    "text": "Play a playlist for a road trip.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "playlist_type",
-        "value": "road trip"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Run the NaN application.",
+    "response": "Running the NaN application."
   },
   {
-    "text": "Play a song that makes me feel energized.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "song_type",
-        "value": "energized"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Access the NaN app.",
+    "response": "You can now access the NaN app."
   },
   {
-    "text": "Play a playlist for a romantic evening.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "playlist_type",
-        "value": "romantic evening"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Launch NaN on my device.",
+    "response": "Launching NaN on your device."
   },
   {
-    "text": "Play the top tracks of a specific decade.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "playlist_type",
-        "value": "top tracks"
-      },
-      {
-        "entity": "time_period",
-        "value": "specific decade"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Open the NaN application.",
+    "response": "The NaN application is opening."
   },
   {
-    "text": "Play a song from a specific artist.",
-    "intent": "music_play",
-    "entities": [
-      {
-        "entity": "song_type",
-        "value": "specific artist"
-      }
-    ]
+    "intent": "open_app",
+    "statement": "Start the NaN app.",
+    "response": "Starting the NaN app."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Run NaN on my device.",
+    "response": "Running NaN on your device."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Access the NaN application.",
+    "response": "You now have access to the NaN application."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Launch NaN app.",
+    "response": "NaN app is launching."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Start NaN on my device.",
+    "response": "NaN has been started on your device."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Run the NaN application.",
+    "response": "Running the NaN application."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Access the NaN app.",
+    "response": "You can now access the NaN app."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Launch NaN on my device.",
+    "response": "Launching NaN on your device."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Open the NaN application.",
+    "response": "The NaN application is opening."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Start the NaN app.",
+    "response": "Starting the NaN app."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Run NaN on my device.",
+    "response": "Running NaN on your device."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Access the NaN application.",
+
+    "response": "You now have access to the NaN application."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Launch NaN app.",
+    "response": "NaN app is launching."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Start NaN on my device.",
+    "response": "NaN has been started on your device."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Run the NaN application.",
+    "response": "Running the NaN application."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Access the NaN app.",
+    "response": "You can now access the NaN app."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Launch NaN on my device.",
+    "response": "Launching NaN on your device."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Open the NaN application.",
+    "response": "The NaN application is opening."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Start the NaN app.",
+    "response": "Starting the NaN app."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Run NaN on my device.",
+    "response": "Running NaN on your device."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Access the NaN application.",
+    "response": "You now have access to the NaN application."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Launch NaN app.",
+    "response": "NaN app is launching."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Start NaN on my device.",
+    "response": "NaN has been started on your device."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Run the NaN application.",
+    "response": "Running the NaN application."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Access the NaN app.",
+    "response": "You can now access the NaN app."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Launch NaN on my device.",
+    "response": "Launching NaN on your device."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Open the NaN application.",
+    "response": "The NaN application is opening."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Start the NaN app.",
+    "response": "Starting the NaN app."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Run NaN on my device.",
+    "response": "Running NaN on your device."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Access the NaN application.",
+    "response": "You now have access to the NaN application."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Launch NaN app.",
+    "response": "NaN app is launching."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Start NaN on my device.",
+    "response": "NaN has been started on your device."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Run the NaN application.",
+    "response": "Running the NaN application."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Access the NaN app.",
+    "response": "You can now access the NaN app."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Launch NaN on my device.",
+    "response": "Launching NaN on your device."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Open the NaN application.",
+    "response": "The NaN application is opening."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Start the NaN app.",
+    "response": "Starting the NaN app."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Run NaN on my device.",
+    "response": "Running NaN on your device."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Access the NaN application.",
+    "response": "You now have access to the NaN application."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Launch NaN app.",
+    "response": "NaN app is launching."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Start NaN on my device.",
+    "response": "NaN has been started on your device."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Run the NaN application.",
+    "response": "Running the NaN application."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Access the NaN app.",
+    "response": "You can now access the NaN app."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Launch NaN on my device.",
+    "response": "Launching NaN on your device."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Open the NaN application.",
+    "response": "The NaN application is opening."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Start the NaN app.",
+    "response": "Starting the NaN app."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Run NaN on my device.",
+    "response": "Running NaN on your device."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Access the NaN application.",
+    "response": "You now have access to the NaN application."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Launch NaN app.",
+    "response": "NaN app is launching."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Start NaN on my device.",
+    "response": "NaN has been started on your device."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Run the NaN application.",
+    "response": "Running the NaN application."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Access the NaN app.",
+    "response": "You can now access the NaN app."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Launch NaN on my device.",
+    "response": "Launching NaN on your device."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Open the NaN application.",
+    "response": "The NaN application is opening."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Start the NaN app.",
+    "response": "Starting the NaN app."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Run NaN on my device.",
+    "response": "Running NaN on your device."
+  },
+  {
+    "intent": "open_app",
+    "statement": "Access the NaN application.",
+    "response": "You now have access to the NaN application."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Set an alarm.",
+    "response": "Alarm has been set."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Create a new alarm.",
+    "response": "New alarm created."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Set an alarm for NaN.",
+    "response": "Alarm set for NaN."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Create an alarm for NaN.",
+    "response": "Alarm created for NaN."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Set NaN as the alarm time.",
+    "response": "Alarm set for NaN."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Create an alarm at NaN.",
+    "response": "Alarm created at NaN."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Set the alarm to NaN.",
+    "response": "Alarm set to NaN."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Create an alarm for NaN.",
+    "response": "Alarm created for NaN."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Set an alarm for NaN o'clock.",
+    "response": "Alarm set for NaN o'clock."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Create a new alarm at NaN.",
+    "response": "New alarm created at NaN."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Set the alarm for NaN hours.",
+    "response": "Alarm set for NaN hours."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Create an alarm for NaN minutes.",
+    "response": "Alarm created for NaN minutes."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Set the alarm at NaN o'clock.",
+    "response": "Alarm set at NaN o'clock."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Create a new alarm for NaN.",
+    "response": "New alarm created for NaN."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Set an alarm at NaN hours.",
+    "response": "Alarm set at NaN hours."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Create an alarm for NaN seconds.",
+    "response": "Alarm created for NaN seconds."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Set the alarm to NaN minutes.",
+    "response": "Alarm set to NaN minutes."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Create a new alarm for NaN.",
+    "response": "New alarm created for NaN."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Set an alarm for NaN o'clock.",
+    "response": "Alarm set for NaN o'clock."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Create a new alarm at NaN.",
+    "response": "New alarm created at NaN."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Set the alarm for NaN hours.",
+    "response": "Alarm set for NaN hours."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Create an alarm for NaN minutes.",
+    "response": "Alarm created for NaN minutes."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Set the alarm at NaN o'clock.",
+    "response": "Alarm set at NaN o'clock."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Create a new alarm for NaN.",
+    "response": "New alarm created for NaN."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Set an alarm at NaN hours.",
+    "response": "Alarm set at NaN hours."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Create an alarm for NaN seconds.",
+    "response": "Alarm created for NaN seconds."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Set the alarm to NaN minutes.",
+    "response": "Alarm set to NaN minutes."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Create a new alarm for NaN.",
+    "response": "New alarm created for NaN."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Set an alarm for NaN o'clock.",
+    "response": "Alarm set for NaN o'clock."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Create a new alarm at NaN.",
+    "response": "New alarm created at NaN."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Set the alarm for NaN hours.",
+    "response": "Alarm set for NaN hours."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Create an alarm for NaN minutes.",
+    "response": "Alarm created for NaN minutes."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Set the alarm at NaN o'clock.",
+    "response": "Alarm set at NaN o'clock."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Create a new alarm for NaN.",
+    "response": "New alarm created for NaN."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Set an alarm at NaN hours.",
+    "response": "Alarm set at NaN hours."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Create an alarm for NaN seconds.",
+    "response": "Alarm created for NaN seconds."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Set the alarm to NaN minutes.",
+    "response": "Alarm set to NaN minutes."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Create a new alarm for NaN.",
+    "response": "New alarm created for NaN."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Set an alarm for NaN o'clock.",
+    "response": "Alarm set for NaN o'clock."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Create a new alarm at NaN.",
+    "response": "New alarm created at NaN."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Set the alarm for NaN hours.",
+    "response": "Alarm set for NaN hours."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Create an alarm for NaN minutes.",
+    "response": "Alarm created for NaN minutes."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Set the alarm at NaN o'clock.",
+    "response": "Alarm set at NaN o'clock."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Create a new alarm for NaN.",
+    "response": "New alarm created for NaN."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Set an alarm at NaN hours.",
+    "response": "Alarm set at NaN hours."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Create an alarm for NaN seconds.",
+    "response": "Alarm created for NaN seconds."
+  },
+  {
+    "intent": "set_alarm",
+    "statement": "Set the alarm to NaN minutes.",
+    "response": "Alarm set to NaN minutes."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Send a NaN to John.",
+    "response": "Message sent to John."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Text NaN to Alice.",
+    "response": "Message sent to Alice."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Send a message to NaN.",
+    "response": "Message sent."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Text NaN saying hello.",
+    "response": "Message sent."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Send a NaN to Bob.",
+    "response": "Message sent to Bob."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Text NaN to Sarah.",
+    "response": "Message sent to Sarah."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Send a message to NaN.",
+    "response": "Message sent."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Text NaN saying hi.",
+    "response": "Message sent."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Send a NaN to David.",
+    "response": "Message sent to David."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Text NaN to Emily.",
+    "response": "Message sent to Emily."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Send a message to NaN.",
+    "response": "Message sent."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Text NaN saying hey.",
+    "response": "Message sent."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Send a NaN to Alex.",
+    "response": "Message sent to Alex."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Text NaN to Olivia.",
+    "response": "Message sent to Olivia."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Send a message to NaN.",
+    "response": "Message sent."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Text NaN saying hi there.",
+    "response": "Message sent."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Send a NaN to Max.",
+    "response": "Message sent to Max."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Text NaN to Lily.",
+    "response": "Message sent to Lily."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Send a message to NaN.",
+    "response": "Message sent."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Text NaN saying how are you?",
+    "response": "Message sent."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Send a NaN to Lucy.",
+    "response": "Message sent to Lucy."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Text NaN to Daniel.",
+    "response": "Message sent to Daniel."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Send a message to NaN.",
+    "response": "Message sent."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Text NaN saying good morning.",
+    "response": "Message sent."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Send a NaN to Mia.",
+    "response": "Message sent to Mia."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Text NaN to Ethan.",
+    "response": "Message sent to Ethan."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Send a message to NaN.",
+    "response": "Message sent."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Text NaN saying how's it going?",
+    "response": "Message sent."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Send a NaN to Ava.",
+    "response": "Message sent to Ava."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Text NaN to Benjamin.",
+    "response": "Message sent to Benjamin."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Send a message to NaN.",
+    "response": "Message sent."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Text NaN saying good evening.",
+    "response": "Message sent."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Send a NaN to Sophia.",
+    "response": "Message sent to Sophia."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Text NaN to James.",
+    "response": "Message sent to James."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Send a message to NaN.",
+    "response": "Message sent."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Text NaN saying what's up?",
+    "response": "Message sent."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Send a NaN to Charlotte.",
+    "response": "Message sent to Charlotte."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Text NaN to William.",
+    "response": "Message sent to William."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Send a message to NaN.",
+    "response": "Message sent."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Text NaN saying good night.",
+    "response": "Message sent."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Send a NaN to Harper.",
+    "response": "Message sent to Harper."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Text NaN to Michael.",
+    "response": "Message sent to Michael."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Send a message to NaN.",
+    "response": "Message sent."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Text NaN saying have a nice day.",
+    "response": "Message sent."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Send a NaN to Evelyn.",
+    "response": "Message sent to Evelyn."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Text NaN to Alexander.",
+    "response": "Message sent to Alexander."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Send a message to NaN.",
+    "response": "Message sent."
+  },
+  {
+    "intent": "send_message",
+    "statement": "Text NaN saying take care.",
+    "response": "Message sent."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Send an email with subject NaN.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Email NaN with the following message.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Send an email to NaN.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Email NaN saying hello.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Send an email to NaN.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Email NaN with the following message.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Send an email to NaN.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Email NaN saying hi.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Send an email to NaN.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Email NaN with the following message.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Send an email to NaN.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Email NaN saying hey.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Send an email to NaN.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Email NaN with the following message.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Send an email to NaN.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Email NaN saying hi there.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Send an email to NaN.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Email NaN with the following message.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Send an email to NaN.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Email NaN saying how are you?",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Send an email to NaN.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Email NaN with the following message.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Send an email to NaN.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Email NaN saying good morning.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Send an email to NaN.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Email NaN with the following message.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Send an email to NaN.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Email NaN saying good afternoon.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Send an email to NaN.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Email NaN with the following message.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Send an email to NaN.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Email NaN saying how's it going?",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "send_email",
+    "statement": "Send an email to NaN.",
+    "response": "Email sent successfully."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "Set a timer for NaN minutes.",
+    "response": "Timer set for NaN minutes."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "Can you set a timer for NaN seconds?",
+    "response": "Sure, timer set for NaN seconds."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "I need to set a timer for NaN hours.",
+    "response": "Timer successfully set for NaN hours."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "Please set a timer for NaN minutes.",
+    "response": "Timer has been set for NaN minutes."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "I want to set a timer for NaN seconds.",
+    "response": "Timer is set for NaN seconds."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "Set a timer for NaN hours, please.",
+    "response": "Timer has been set for NaN hours."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "Can you set a timer for NaN minutes?",
+    "response": "Sure, timer set for NaN minutes."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "I need to set a timer for NaN seconds.",
+    "response": "Timer successfully set for NaN seconds."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "Please set a timer for NaN hours.",
+    "response": "Timer has been set for NaN hours."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "I want to set a timer for NaN minutes, please.",
+    "response": "Timer is set for NaN minutes."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "Set a timer for NaN seconds.",
+    "response": "Timer set for NaN seconds."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "Can you set a timer for NaN hours?",
+    "response": "Sure, timer set for NaN hours."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "I need to set a timer for NaN minutes.",
+    "response": "Timer successfully set for NaN minutes."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "Please set a timer for NaN seconds.",
+    "response": "Timer has been set for NaN seconds."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "I want to set a timer for NaN hours, please.",
+    "response": "Timer is set for NaN hours."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "Set a timer for NaN minutes, please.",
+    "response": "Timer set for NaN minutes."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "Can you set a timer for NaN seconds?",
+    "response": "Sure, timer set for NaN seconds."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "I need to set a timer for NaN hours.",
+    "response": "Timer successfully set for NaN hours."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "Please set a timer for NaN minutes.",
+    "response": "Timer has been set for NaN minutes."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "I want to set a timer for NaN seconds.",
+    "response": "Timer is set for NaN seconds."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "Set a timer for NaN hours, please.",
+    "response": "Timer has been set for NaN hours."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "Can you set a timer for NaN minutes?",
+    "response": "Sure, timer set for NaN minutes."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "I need to set a timer for NaN seconds.",
+    "response": "Timer successfully set for NaN seconds."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "Please set a timer for NaN hours.",
+    "response": "Timer has been set for NaN hours."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "I want to set a timer for NaN minutes, please.",
+    "response": "Timer is set for NaN minutes."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "Set a timer for NaN seconds.",
+    "response": "Timer set for NaN seconds."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "Can you set a timer for NaN hours?",
+    "response": "Sure, timer set for NaN hours."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "I need to set a timer for NaN minutes.",
+    "response": "Timer successfully set for NaN minutes."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "Please set a timer for NaN seconds.",
+    "response": "Timer has been set for NaN seconds."
+  },
+  {
+    "intent": "set_timer",
+    "statement": "I want to set a timer for NaN hours, please.",
+    "response": "Timer is set for NaN hours."
+  },
+  {
+    "intent": "get_time",
+    "statement": "What time is it?",
+    "response": "The current time is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "Tell me the time.",
+    "response": "It is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "What's the current time?",
+    "response": "The time is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "Can you let me know the time?",
+    "response": "It's NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "What time is it now?",
+    "response": "The current time is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "Tell me the current time.",
+    "response": "It is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "Do you know the time?",
+    "response": "The time is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "What is the time right now?",
+    "response": "It's NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "Let me know the time.",
+    "response": "The current time is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "What's the time?",
+    "response": "It is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "Can you tell me the current time?",
+    "response": "The time is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "What time is it at the moment?",
+    "response": "It's NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "Let me know the current time, please.",
+    "response": "The current time is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "Do you have the time?",
+    "response": "It is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "What's the time now?",
+    "response": "The current time is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "Tell me the time, please.",
+    "response": "It's NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "Do you know what time it is?",
+    "response": "The time is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "Let me know the current time, please.",
+    "response": "It is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "What time is it at the moment?",
+    "response": "The current time is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "Do you have the time?",
+    "response": "It's NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "What's the time now?",
+    "response": "The time is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "Tell me the time, please.",
+    "response": "It's NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "Do you know what time it is?",
+    "response": "The current time is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "Please tell me the time.",
+    "response": "It is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "What is the time at the moment?",
+    "response": "The time is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "Could you let me know the current time?",
+    "response": "It's NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "What time is it now?",
+    "response": "The current time is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "Tell me the current time, please.",
+    "response": "It is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "Do you know the time?",
+    "response": "The time is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "What is the time right now?",
+    "response": "It's NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "Let me know the time.",
+    "response": "The current time is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "What's the time?",
+    "response": "It is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "Can you tell me the current time?",
+    "response": "The time is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "What time is it at the moment?",
+    "response": "It's NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "Let me know the current time, please.",
+    "response": "The current time is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "Do you have the time?",
+    "response": "It is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "What's the time now?",
+    "response": "The current time is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "Tell me the time, please.",
+    "response": "It's NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "Do you know what time it is?",
+    "response": "The time is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "Let me know the current time, please.",
+    "response": "It is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "What time is it at the moment?",
+    "response": "The current time is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "Do you have the time?",
+    "response": "It's NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "What's the time now?",
+    "response": "The time is NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "Tell me the time, please.",
+    "response": "It's NaN."
+  },
+  {
+    "intent": "get_time",
+    "statement": "Do you know what time it is?",
+    "response": "The current time is NaN."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Turn on NaN.",
+    "response": "Turning on NaN."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Can you please turn on NaN?",
+    "response": "Sure, turning on NaN."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "I want to turn on NaN.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Please turn on NaN.",
+    "response": "NaN is now turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Turn on the NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Can you turn on NaN?",
+    "response": "Sure, turning on NaN."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "I want to turn on the NaN.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Please turn on the NaN.",
+    "response": "NaN is now turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Turn on NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Can you turn on the NaN?",
+    "response": "Sure, turning on NaN."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "I want to turn on NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Please turn on NaN, thank you.",
+    "response": "NaN is now turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Turn on the NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Can you turn on NaN, please?",
+    "response": "Sure, turning on NaN."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "I want to turn on the NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Please turn on NaN, thank you.",
+    "response": "NaN is now turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Turn on the NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Can you turn on NaN?",
+    "response": "Sure, turning on NaN."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "I want to turn on the NaN.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Please turn on the NaN.",
+    "response": "NaN is now turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Turn on NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Can you turn on NaN?",
+    "response": "Sure, turning on NaN."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "I want to turn on NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Please turn on NaN, thank you.",
+    "response": "NaN is now turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Turn on the NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Can you turn on NaN, please?",
+    "response": "Sure, turning on NaN."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "I want to turn on the NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Please turn on NaN, thank you.",
+    "response": "NaN is now turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Turn on the NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Can you turn on NaN?",
+    "response": "Sure, turning on NaN."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "I want to turn on the NaN.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Please turn on the NaN.",
+    "response": "NaN is now turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Turn on NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Can you turn on NaN?",
+    "response": "Sure, turning on NaN."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "I want to turn on NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Please turn on NaN, thank you.",
+    "response": "NaN is now turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Turn on the NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Can you turn on NaN, please?",
+    "response": "Sure, turning on NaN."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "I want to turn on the NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Please turn on NaN, thank you.",
+    "response": "NaN is now turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Turn on the NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Can you turn on NaN, please?",
+    "response": "Sure, turning on NaN."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "I want to turn on the NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Please turn on NaN, thank you.",
+    "response": "NaN is now turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Turn on the NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Can you turn on NaN, please?",
+    "response": "Sure, turning on NaN."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "I want to turn on the NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Please turn on NaN, thank you.",
+    "response": "NaN is now turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Turn on the NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Can you turn on NaN, please?",
+    "response": "Sure, turning on NaN."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "I want to turn on the NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Please turn on NaN, thank you.",
+    "response": "NaN is now turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Turn on the NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Can you turn on NaN, please?",
+    "response": "Sure, turning on NaN."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "I want to turn on the NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Please turn on NaN, thank you.",
+    "response": "NaN is now turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Turn on the NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Can you turn on NaN, please?",
+    "response": "Sure, turning on NaN."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "I want to turn on the NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Please turn on NaN, thank you.",
+    "response": "NaN is now turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Turn on the NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Can you turn on NaN, please?",
+    "response": "Sure, turning on NaN."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "I want to turn on the NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Please turn on NaN, thank you.",
+    "response": "NaN is now turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Turn on the NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Can you turn on NaN, please?",
+    "response": "Sure, turning on NaN."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "I want to turn on the NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Please turn on NaN, thank you.",
+    "response": "NaN is now turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Turn on the NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Can you turn on NaN, please?",
+    "response": "Sure, turning on NaN."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "I want to turn on the NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Please turn on NaN, thank you.",
+    "response": "NaN is now turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Turn on the NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Can you turn on NaN, please?",
+    "response": "Sure, turning on NaN."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "I want to turn on the NaN, please.",
+    "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Please turn on NaN, thank you.",
+    "response": "NaN is now turned on."
+  },
+  {
+    "intent": "turn_on_device",
+    "statement": "Turn on the NaN, please.",
+    "response": "Device NaN has been turned on."
   }
 ]

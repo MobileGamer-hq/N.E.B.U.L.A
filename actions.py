@@ -7,11 +7,11 @@ import data
 
 def get_intent(statement):
     # Load the vectorizer from disk
-    with open('models/vectorizer_model.pkl', 'rb') as file:
+    with open('models/intent_classifier_vectorizer_model.pkl', 'rb') as file:
         vectorizer = pickle.load(file)
 
     # Load the classifier from disk
-    with open('models/classifier_model.pkl', 'rb') as file:
+    with open('models/intent_classifier_model.pkl', 'rb') as file:
         classifier = pickle.load(file)
 
     # Vectorize the new sentence
@@ -23,6 +23,21 @@ def get_intent(statement):
 
     return intent
 
+def get_resposnse(intent):
+    # Load the model from disk
+    with open('models/response_model.pkl', 'rb') as file:
+        model = pickle.load(file)
+
+    # Load the vectorizer from disk
+    with open('models/response_vectorizer_model.pkl', 'rb') as file:
+        vectorizer = pickle.load(file)
+    # Vectorize the response
+    intent_vector = vectorizer.transform([intent])
+
+    # Predict the response
+    predicted_response = model.predict(intent_vector)[0]
+
+    return predicted_response
 
 #Control Apps
 def open_app(name):
@@ -137,8 +152,6 @@ def calculate(expression):
     except:
         return 'Error: Invalid expression'
     
-
-print(get_intent('who is somto?'))
 
 
 

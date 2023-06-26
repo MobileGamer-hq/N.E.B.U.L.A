@@ -1,46 +1,225 @@
 [
   {
     "intent": "greeting",
-    "responses": ["Hello!", "Hi there!", "Welcome!", "Greetings!"]
+    "statements": {
+      "Hello": [
+        "Hi there!",
+        "Hello!",
+        "Greetings!",
+        "Howdy!",
+        "Hey!",
+        "Nice to see you!",
+        "Hey, what's up?",
+        "Hi, how can I assist you today?",
+        "Hello, how may I help you?",
+        "Hey, nice to meet you!"
+      ],
+      "Hi": [
+        "Hi there!",
+        "Hello!",
+        "Greetings!",
+        "Howdy!",
+        "Hey!",
+        "Nice to see you!",
+        "Hey, what's up?",
+        "Hi, how can I assist you today?",
+        "Hello, how may I help you?",
+        "Hey, nice to meet you!"
+      ],
+      "Hey": [
+        "Hi there!",
+        "Hello!",
+        "Greetings!",
+        "Howdy!",
+        "Hey!",
+        "Nice to see you!",
+        "Hey, what's up?",
+        "Hi, how can I assist you today?",
+        "Hello, how may I help you?",
+        "Hey, nice to meet you!"
+      ],
+      "Howdy": [
+        "Hi there!",
+        "Hello!",
+        "Greetings!",
+        "Howdy!",
+        "Hey!",
+        "Nice to see you!",
+        "Hey, what's up?",
+        "Hi, how can I assist you today?",
+        "Hello, how may I help you?",
+        "Hey, nice to meet you!"
+      ],
+      "Good morning": [
+        "Hi there!",
+        "Hello!",
+        "Greetings!",
+        "Howdy!",
+        "Good morning!",
+        "Top of the morning to you!",
+        "Rise and shine!",
+        "Good morning, how can I assist you today?",
+        "Hello, have a great morning!",
+        "Hey, good to see you!"
+      ],
+      "Good afternoon": [
+        "Hi there!",
+        "Hello!",
+        "Greetings!",
+        "Howdy!",
+        "Good afternoon!",
+        "Hope you're having a great day!",
+        "Hello, how can I assist you this afternoon?",
+        "Hey, enjoying the day so far?",
+        "Hi, hope your day is going well!",
+        "Hey, good to see you!"
+      ],
+      "Good evening": [
+        "Hi there!",
+        "Hello!",
+        "Greetings!",
+        "Howdy!",
+        "Good evening!",
+        "Hope you're having a wonderful evening!",
+        "Hello, how can I assist you this evening?",
+        "Hey, enjoying the evening so far?",
+        "Hi, hope your evening is going well!",
+        "Hey, good to see you!"
+      ],
+      "Good night": [
+        "Hi there!",
+        "Hello!",
+        "Greetings!",
+        "Howdy!",
+        "Good night!",
+        "Have a restful night!",
+        "Hello, have a peaceful sleep!",
+        "Hey, sweet dreams!",
+        "Hi, sleep well!",
+        "Hey, good night! See you tomorrow!"
+      ]
+    }
+  },{
+    "intent": "calculations",
+    "statements": {
+      "What is the square root of 25?": [
+        "The square root of 25 is 5.",
+        "The square root of 25 equals 5.",
+        "The square root of 25 is equal to 5.",
+        "The square root of 25 is calculated to be 5.",
+        "The square root of 25 is approximately 5."
+      ],
+      "What is 10 multiplied by 3?": [
+        "10 multiplied by 3 equals 30.",
+        "The product of 10 and 3 is 30.",
+        "When you multiply 10 by 3, you get 30.",
+        "The result of multiplying 10 and 3 is 30.",
+        "10 multiplied by 3 is equal to 30."
+      ],
+      "What is 15 divided by 3?": [
+        "15 divided by 3 is 5.",
+        "The division of 15 by 3 equals 5.",
+        "When you divide 15 by 3, you get 5.",
+        "The result of dividing 15 by 3 is 5.",
+        "15 divided by 3 is equal to 5."
+      ],
+      "What is 7 plus 8?": [
+        "7 plus 8 equals 15.",
+        "The sum of 7 and 8 is 15.",
+        "When you add 7 and 8, you get 15.",
+        "The result of adding 7 and 8 is 15.",
+        "7 plus 8 is equal to 15."
+      ],
+      "What is 20 minus 9?": [
+        "20 minus 9 is 11.",
+        "The subtraction of 9 from 20 equals 11.",
+        "When you subtract 9 from 20, you get 11.",
+        "The result of subtracting 9 from 20 is 11.",
+        "20 minus 9 is equal to 11."
+      ]
+    }
   },
   {
     "intent": "weather",
-    "responses": [
-      "The weather is sunny today.",
-      "It's going to rain later.",
-      "Expect a cloudy day."
-    ]
-  },
-  {
-    "intent": "calculations",
-    "responses": [
-      "The result is 42.",
-      "Let me calculate that for you.",
-      "The answer is 5."
-    ]
+    "statements": {
+      "What's the weather like today?": [
+        "The weather is sunny today.",
+        "Today's forecast is sunny.",
+        "It's a sunny day today.",
+        "Expect clear skies and sunshine today.",
+        "The weather is nice and sunny today."
+      ],
+      "Will it rain later?": [
+        "Yes, it's going to rain later.",
+        "There's a chance of rain later today.",
+        "Rain is expected later in the day.",
+        "Be prepared for rain later today.",
+        "The forecast indicates rain later."
+      ],
+      "What's the forecast for tomorrow?": [
+        "Tomorrow will be a cloudy day.",
+        "Expect cloudy skies tomorrow.",
+        "The forecast for tomorrow is overcast.",
+        "Tomorrow will be mostly cloudy.",
+        "Cloudy conditions are expected tomorrow."
+      ],
+      "Will it snow today?": [
+        "No, there won't be any snow today.",
+        "Snow is not expected today.",
+        "Today will be snow-free.",
+        "Don't worry, there's no snow in today's forecast.",
+        "Snowfall is not predicted for today."
+      ],
+      "What's the temperature right now?": [
+        "The current temperature is 25 degrees Celsius.",
+        "Right now, it's 25 degrees Celsius.",
+        "The temperature at the moment is 25 degrees Celsius.",
+        "It's currently 25 degrees Celsius.",
+        "The current temperature reads 25 degrees Celsius."
+      ]
+    }
   },
   {
     "intent": "open_app",
-    "responses": [
-      "Opening the app.",
-      "The app is launching.",
-      "You can now access the app."
-    ]
-  },
-  {
-    "intent": "home_control",
-    "responses": [
-      "The lights have been turned on.",
-      "The thermostat is set to 25 degrees.",
-      "I've locked the front door."
-    ]
-  },
-  {
-    "intent": "computer_control",
-    "responses": [
-      "Your command has been executed.",
-      "The computer is performing the requested action.",
-      "Done! What's next?"
-    ]
+    "statements": {
+      "Open the app.": [
+        "Opening the app.",
+        "The app is launching.",
+        "You can now access the app.",
+        "The application is ready to use.",
+        "You're all set to explore the app."
+      ],
+      "Launch the application.": [
+        "Opening the app.",
+        "The app is launching.",
+        "You can now access the app.",
+        "The application is ready to use.",
+        "You're all set to explore the app."
+      ],
+      "Start the app.": [
+        "Opening the app.",
+        "The app is launching.",
+        "You can now access the app.",
+        "The application is ready to use.",
+        "You're all set to explore the app."
+      ],
+      "Access the app.": [
+        "Opening the app.",
+        "The app is launching.",
+        "You can now access the app.",
+        "The application is ready to use.",
+        "You're all set to explore the app."
+      ],
+      "Open the application.": [
+        "Opening the app.",
+        "The app is launching.",
+        "You can now access the app.",
+        "The application is ready to use.",
+        "You're all set to explore the app."
+      ]
+    }
   }
+
+
+
 ]

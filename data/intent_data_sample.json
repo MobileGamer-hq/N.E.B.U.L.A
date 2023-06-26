@@ -1,24 +1,140 @@
 [
   {
-    "text": "Shut down the computer",
+    "text": "Turn off the computer",
     "intent": "computer_control",
     "entities": [
       {
         "entity": "action",
-        "value": "shut down"
+        "value": "turn off"
+      },
+      {
+        "entity": "device",
+        "value": "computer"
       }
     ]
   },
   {
-    "text": "Dim the lights in the living room",
+    "text": "Restart the PC",
+    "intent": "computer_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "restart"
+      },
+      {
+        "entity": "device",
+        "value": "PC"
+      }
+    ]
+  },
+  {
+    "text": "Put the computer on sleep mode",
+    "intent": "computer_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "put on sleep"
+      },
+      {
+        "entity": "device",
+        "value": "computer"
+      }
+    ]
+  },
+  {
+    "text": "Open the web browser",
+    "intent": "computer_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "open"
+      },
+      {
+        "entity": "device",
+        "value": "web browser"
+      }
+    ]
+  },
+  {
+    "text": "Close all applications",
+    "intent": "computer_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "close"
+      },
+      {
+        "entity": "device",
+        "value": "applications"
+      }
+    ]
+  },
+  {
+    "text": "Maximize the window",
+    "intent": "computer_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "maximize"
+      },
+      {
+        "entity": "device",
+        "value": "window"
+      }
+    ]
+  },
+  {
+    "text": "Minimize the window",
+    "intent": "computer_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "minimize"
+      },
+      {
+        "entity": "device",
+        "value": "window"
+      }
+    ]
+  },
+  {
+    "text": "Open the file explorer",
+    "intent": "computer_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "open"
+      },
+      {
+        "entity": "device",
+        "value": "file explorer"
+      }
+    ]
+  },
+  {
+    "text": "Switch to the next tab",
+    "intent": "computer_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "switch to"
+      },
+      {
+        "entity": "device",
+        "value": "tab"
+      }
+    ]
+  },
+  {
+    "text": "Turn on the lights in the living room",
     "intent": "home_control",
     "entities": [
       {
         "entity": "action",
-        "value": "dim"
+        "value": "turn on"
       },
       {
-        "entity": "object",
+        "entity": "device",
         "value": "lights"
       },
       {
@@ -28,16 +144,38 @@
     ]
   },
   {
-    "text": "Turn on the air conditioning",
+    "text": "Dim the bedroom lights",
     "intent": "home_control",
     "entities": [
       {
         "entity": "action",
-        "value": "turn on"
+        "value": "dim"
       },
       {
-        "entity": "object",
-        "value": "air conditioning"
+        "entity": "device",
+        "value": "lights"
+      },
+      {
+        "entity": "location",
+        "value": "bedroom"
+      }
+    ]
+  },
+  {
+    "text": "Increase the temperature in the kitchen",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "increase"
+      },
+      {
+        "entity": "device",
+        "value": "temperature"
+      },
+      {
+        "entity": "location",
+        "value": "kitchen"
       }
     ]
   },
@@ -50,58 +188,12 @@
         "value": "lock"
       },
       {
-        "entity": "object",
-        "value": "front door"
-      }
-    ]
-  },
-  {
-    "text": "Increase the thermostat temperature to 25 degrees",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "increase"
-      },
-      {
-        "entity": "object",
-        "value": "thermostat temperature"
-      },
-      {
-        "entity": "value",
-        "value": "25 degrees"
-      }
-    ]
-  },
-  {
-    "text": "Play music in the bedroom",
-    "intent": "play_music",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "play"
-      },
-      {
-        "entity": "object",
-        "value": "music"
+        "entity": "device",
+        "value": "door"
       },
       {
         "entity": "location",
-        "value": "bedroom"
-      }
-    ]
-  },
-  {
-    "text": "Turn off the TV",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "turn off"
-      },
-      {
-        "entity": "object",
-        "value": "TV"
+        "value": "front"
       }
     ]
   },
@@ -114,13 +206,13 @@
         "value": "open"
       },
       {
-        "entity": "object",
+        "entity": "device",
         "value": "garage door"
       }
     ]
   },
   {
-    "text": "Set the alarm for 7 AM",
+    "text": "Set the living room lights to blue color",
     "intent": "home_control",
     "entities": [
       {
@@ -128,118 +220,74 @@
         "value": "set"
       },
       {
-        "entity": "object",
-        "value": "alarm"
+        "entity": "device",
+        "value": "lights"
       },
       {
-        "entity": "time",
-        "value": "7 AM"
-      }
-    ]
-  },
-  {
-    "text": "What's the weather like tomorrow?",
-    "intent": "weather",
-    "entities": [
-      {
-        "entity": "time",
-        "value": "tomorrow"
-      }
-    ]
-  },
-  {
-    "text": "Remind me to call John at 5 PM",
-    "intent": "reminder",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "call John"
+        "entity": "location",
+        "value": "living room"
       },
       {
-        "entity": "time",
-        "value": "5 PM"
-      }
-    ]
-  },
-  {
-    "text": "Calculate the square root of 16",
-    "intent": "calculation",
-    "entities": [
-      {
-        "entity": "operation",
-        "value": "square root"
+        "entity": "property",
+        "value": "color"
       },
       {
-        "entity": "number",
-        "value": "16"
+        "entity": "value",
+        "value": "blue"
       }
     ]
   },
   {
-    "text": "Open Spotify",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "Spotify"
-      }
-    ]
-  },
-  {
-    "text": "Open Chrome",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "app",
-        "value": "Chrome"
-      }
-    ]
-  },
-  {
-    "text": "What is the capital of France?",
-    "intent": "question",
-    "entities": [
-      {
-        "entity": "question",
-        "value": "capital of France"
-      }
-    ]
-  },
-  {
-    "text": "Shut down the computer",
-    "intent": "computer_control",
+    "text": "Turn off the TV in the bedroom",
+    "intent": "home_control",
     "entities": [
       {
         "entity": "action",
-        "value": "shut down"
+        "value": "turn off"
+      },
+      {
+        "entity": "device",
+        "value": "TV"
+      },
+      {
+        "entity": "location",
+        "value": "bedroom"
       }
     ]
   },
   {
-    "text": "Open the browser",
-    "intent": "open_app",
+    "text": "Set the thermostat to 25 degrees",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "set"
+      },
+      {
+        "entity": "device",
+        "value": "thermostat"
+      },
+      {
+        "entity": "property",
+        "value": "temperature"
+      },
+      {
+        "entity": "value",
+        "value": "25"
+      }
+    ]
+  },
+  {
+    "text": "Open the curtains in the living room",
+    "intent": "home_control",
     "entities": [
       {
         "entity": "action",
         "value": "open"
       },
       {
-        "entity": "object",
-        "value": "browser"
-      }
-    ]
-  },
-  {
-    "text": "Dim the lights in the living room",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "dim"
-      },
-      {
-        "entity": "object",
-        "value": "lights"
+        "entity": "device",
+        "value": "curtains"
       },
       {
         "entity": "location",
@@ -248,53 +296,25 @@
     ]
   },
   {
-    "text": "Turn on the air conditioning",
+    "text": "Play music in the kitchen",
     "intent": "home_control",
     "entities": [
       {
         "entity": "action",
-        "value": "turn on"
+        "value": "play"
       },
       {
-        "entity": "object",
-        "value": "air conditioning"
+        "entity": "device",
+        "value": "music"
+      },
+      {
+        "entity": "location",
+        "value": "kitchen"
       }
     ]
   },
   {
-    "text": "Lock the front door",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "lock"
-      },
-      {
-        "entity": "object",
-        "value": "front door"
-      }
-    ]
-  },
-  {
-    "text": "Increase the thermostat temperature to 25 degrees",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "increase"
-      },
-      {
-        "entity": "object",
-        "value": "thermostat temperature"
-      },
-      {
-        "entity": "value",
-        "value": "25 degrees"
-      }
-    ]
-  },
-  {
-    "text": "Set the alarm for 7 AM",
+    "text": "Set the alarm for 7 AM in the bedroom",
     "intent": "home_control",
     "entities": [
       {
@@ -302,177 +322,21 @@
         "value": "set"
       },
       {
-        "entity": "object",
+        "entity": "device",
         "value": "alarm"
       },
       {
-        "entity": "time",
+        "entity": "value",
         "value": "7 AM"
-      }
-    ]
-  },
-  {
-    "text": "What's the weather like tomorrow?",
-    "intent": "weather",
-    "entities": [
-      {
-        "entity": "time",
-        "value": "tomorrow"
-      }
-    ]
-  },
-  {
-    "text": "Remind me to call John at 5 PM",
-    "intent": "reminder",
-    "entities": [
-      {
-        "entity": "task",
-        "value": "call John"
-      },
-      {
-        "entity": "time",
-        "value": "5 PM"
-      }
-    ]
-  },
-  {
-    "text": "Tell me a funny joke",
-    "intent": "joke",
-    "entities": [
-      {
-        "entity": "type",
-        "value": "funny"
-      }
-    ]
-  },
-  {
-    "text": "Who designed the Eiffel Tower?",
-    "intent": "knowledge",
-    "entities": [
-      {
-        "entity": "subject",
-        "value": "Eiffel Tower"
-      }
-    ]
-  },
-  {
-    "text": "Play some rock music",
-    "intent": "play_music",
-    "entities": [
-      {
-        "entity": "genre",
-        "value": "rock"
-      }
-    ]
-  },
-  {
-    "text": "What's the population of France?",
-    "intent": "question",
-    "entities": [
-      {
-        "entity": "country",
-        "value": "France"
-      }
-    ]
-  },
-  {
-    "text": "Make a reservation for four at a sushi restaurant",
-    "intent": "reservation",
-    "entities": [
-      {
-        "entity": "party_size",
-        "value": "four"
-      },
-      {
-        "entity": "reservation_type",
-        "value": "sushi restaurant"
-      }
-    ]
-  },
-  {
-    "text": "How far is the nearest bus stop?",
-    "intent": "directions",
-    "entities": [
-      {
-        "entity": "poi",
-        "value": "bus stop"
-      }
-    ]
-  },
-  {
-    "text": "What's the latest technology news?",
-    "intent": "news",
-    "entities": [
-      {
-        "entity": "category",
-        "value": "technology"
-      }
-    ]
-  },
-  {
-    "text": "Find a recipe for spaghetti carbonara",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "dish",
-        "value": "spaghetti carbonara"
-      }
-    ]
-  },
-  {
-    "text": "Are there any romantic movies playing in theaters?",
-    "intent": "search",
-    "entities": [
-      {
-        "entity": "genre",
-        "value": "romantic"
-      }
-    ]
-  },
-  {
-    "text": "Can you recommend a good Mexican restaurant in this area?",
-    "intent": "recommend",
-    "entities": [
-      {
-        "entity": "cuisine",
-        "value": "Mexican"
       },
       {
         "entity": "location",
-        "value": "this area"
+        "value": "bedroom"
       }
     ]
   },
   {
-    "text": "Open Microsoft Word",
-    "intent": "open_app",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "open"
-      },
-      {
-        "entity": "object",
-        "value": "Microsoft Word"
-      }
-    ]
-  },
-  {
-    "text": "Increase the volume",
-    "intent": "computer_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "increase"
-      },
-      {
-        "entity": "object",
-        "value": "volume"
-      }
-    ]
-  },
-  {
-    "text": "Turn on the bedroom lights",
+    "text": "Turn on the fan in the living room",
     "intent": "home_control",
     "entities": [
       {
@@ -480,13 +344,17 @@
         "value": "turn on"
       },
       {
-        "entity": "object",
-        "value": "bedroom lights"
+        "entity": "device",
+        "value": "fan"
+      },
+      {
+        "entity": "location",
+        "value": "living room"
       }
     ]
   },
   {
-    "text": "Close the garage door",
+    "text": "Close the blinds in the bedroom",
     "intent": "home_control",
     "entities": [
       {
@@ -494,31 +362,217 @@
         "value": "close"
       },
       {
-        "entity": "object",
+        "entity": "device",
+        "value": "blinds"
+      },
+      {
+        "entity": "location",
+        "value": "bedroom"
+      }
+    ]
+  },
+  {
+    "text": "Lower the volume of the speakers in the living room",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "lower"
+      },
+      {
+        "entity": "device",
+        "value": "speakers"
+      },
+      {
+        "entity": "location",
+        "value": "living room"
+      }
+    ]
+  },
+  {
+    "text": "Turn off all lights in the house",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "turn off"
+      },
+      {
+        "entity": "device",
+        "value": "lights"
+      },
+      {
+        "entity": "location",
+        "value": "house"
+      }
+    ]
+  },
+  {
+    "text": "Set the coffee machine to brew coffee at 8 AM",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "set"
+      },
+      {
+        "entity": "device",
+        "value": "coffee machine"
+      },
+      {
+        "entity": "value",
+        "value": "8 AM"
+      }
+    ]
+  },
+  {
+    "text": "Open the window blinds in the living room",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "open"
+      },
+      {
+        "entity": "device",
+        "value": "window blinds"
+      },
+      {
+        "entity": "location",
+        "value": "living room"
+      }
+    ]
+  },
+  {
+    "text": "Set the TV channel to CNN in the bedroom",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "set"
+      },
+      {
+        "entity": "device",
+        "value": "TV"
+      },
+      {
+        "entity": "property",
+        "value": "channel"
+      },
+      {
+        "entity": "value",
+        "value": "CNN"
+      },
+      {
+        "entity": "location",
+        "value": "bedroom"
+      }
+    ]
+  },
+  {
+    "text": "Turn on the air conditioning in the kitchen",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "turn on"
+      },
+      {
+        "entity": "device",
+        "value": "air conditioning"
+      },
+      {
+        "entity": "location",
+        "value": "kitchen"
+      }
+    ]
+  },
+  {
+    "text": "Set the volume of the speakers to 50% in the living room",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "set"
+      },
+      {
+        "entity": "device",
+        "value": "speakers"
+      },
+      {
+        "entity": "property",
+        "value": "volume"
+      },
+      {
+        "entity": "value",
+        "value": "50%"
+      },
+      {
+        "entity": "location",
+        "value": "living room"
+      }
+    ]
+  },
+  {
+    "text": "Lock the back door",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "lock"
+      },
+      {
+        "entity": "device",
+        "value": "door"
+      },
+      {
+        "entity": "location",
+        "value": "back"
+      }
+    ]
+  },
+  {
+    "text": "Set the bedroom lights to dim mode",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "set"
+      },
+      {
+        "entity": "device",
+        "value": "lights"
+      },
+      {
+        "entity": "location",
+        "value": "bedroom"
+      },
+      {
+        "entity": "property",
+        "value": "mode"
+      },
+      {
+        "entity": "value",
+        "value": "dim"
+      }
+    ]
+  },
+  {
+    "text": "Open the garage door",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "open"
+      },
+      {
+        "entity": "device",
         "value": "garage door"
       }
     ]
   },
   {
-    "text": "Set the thermostat to 22 degrees Celsius",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "set"
-      },
-      {
-        "entity": "object",
-        "value": "thermostat"
-      },
-      {
-        "entity": "value",
-        "value": "22 degrees Celsius"
-      }
-    ]
-  },
-  {
-    "text": "Turn off all the lights",
+    "text": "Turn off the living room lights",
     "intent": "home_control",
     "entities": [
       {
@@ -526,41 +580,39 @@
         "value": "turn off"
       },
       {
-        "entity": "object",
+        "entity": "device",
         "value": "lights"
+      },
+      {
+        "entity": "location",
+        "value": "living room"
       }
     ]
   },
   {
-    "text": "Lock the back door",
+    "text": "Set the temperature to 22 degrees in the bedroom",
     "intent": "home_control",
     "entities": [
       {
         "entity": "action",
-        "value": "lock"
+        "value": "set"
       },
       {
-        "entity": "object",
-        "value": "back door"
+        "entity": "device",
+        "value": "temperature"
+      },
+      {
+        "entity": "value",
+        "value": "22"
+      },
+      {
+        "entity": "location",
+        "value": "bedroom"
       }
     ]
   },
   {
-    "text": "Play jazz music",
-    "intent": "play_music",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "play"
-      },
-      {
-        "entity": "object",
-        "value": "jazz music"
-      }
-    ]
-  },
-  {
-    "text": "Turn on the TV and set the channel to CNN",
+    "text": "Turn on the TV in the living room",
     "intent": "home_control",
     "entities": [
       {
@@ -568,113 +620,35 @@
         "value": "turn on"
       },
       {
-        "entity": "object",
+        "entity": "device",
         "value": "TV"
       },
       {
-        "entity": "channel",
-        "value": "CNN"
-      }
-    ]
-  },
-  {
-    "text": "Open the curtains in the living room",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "open"
-      },
-      {
-        "entity": "object",
-        "value": "curtains"
-      },
-      {
         "entity": "location",
         "value": "living room"
       }
     ]
   },
   {
-    "text": "Start a timer for 10 minutes",
+    "text": "Open the blinds in the kitchen",
     "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "start"
-      },
-      {
-        "entity": "object",
-        "value": "timer"
-      },
-      {
-        "entity": "duration",
-        "value": "10 minutes"
-      }
-    ]
-  },
-  {
-    "text": "Open Microsoft Word",
-    "intent": "open_app",
     "entities": [
       {
         "entity": "action",
         "value": "open"
       },
       {
-        "entity": "object",
-        "value": "Microsoft Word"
+        "entity": "device",
+        "value": "blinds"
+      },
+      {
+        "entity": "location",
+        "value": "kitchen"
       }
     ]
   },
   {
-    "text": "Increase the volume",
-    "intent": "computer_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "increase"
-      },
-      {
-        "entity": "object",
-        "value": "volume"
-      }
-    ]
-  },
-  {
-    "text": "Turn on the bedroom lights",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "turn on"
-      },
-      {
-        "entity": "object",
-        "value": "bedroom lights"
-      }
-    ]
-  },
-  {
-    "text": "Set the thermostat to 22 degrees Celsius",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "set"
-      },
-      {
-        "entity": "object",
-        "value": "thermostat"
-      },
-      {
-        "entity": "value",
-        "value": "22 degrees Celsius"
-      }
-    ]
-  },
-  {
-    "text": "Turn off all the lights",
+    "text": "Turn off the air conditioning in the bedroom",
     "intent": "home_control",
     "entities": [
       {
@@ -682,68 +656,488 @@
         "value": "turn off"
       },
       {
-        "entity": "object",
+        "entity": "device",
+        "value": "air conditioning"
+      },
+      {
+        "entity": "location",
+        "value": "bedroom"
+      }
+    ]
+  },
+  {
+    "text": "Set the living room lights to maximum brightness",
+    "intent": "home_control",
+    "entities": [
+      {
+        "entity": "action",
+        "value": "set"
+      },
+      {
+        "entity": "device",
         "value": "lights"
-      }
-    ]
-  },
-  {
-    "text": "Lock the back door",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "lock"
-      },
-      {
-        "entity": "object",
-        "value": "back door"
-      }
-    ]
-  },
-  {
-    "text": "Open the curtains in the living room",
-    "intent": "home_control",
-    "entities": [
-      {
-        "entity": "action",
-        "value": "open"
-      },
-      {
-        "entity": "object",
-        "value": "curtains"
       },
       {
         "entity": "location",
         "value": "living room"
+      },
+      {
+        "entity": "property",
+        "value": "brightness"
+      },
+      {
+        "entity": "value",
+        "value": "maximum"
       }
     ]
   },
   {
-    "text": "Start a timer for 10 minutes",
-    "intent": "set_timer",
+    "text": "Hello, how are you?",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Hi there! How's your day going?",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Good morning! How are you today?",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Hey, how's everything with you?",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Hi, what's up?",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Hello! How have you been?",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Hey there! Long time no see. How have you been?",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Good afternoon! How's your day so far?",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Hi, how's life treating you?",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Hello! It's nice to see you.",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Hey, how have you been keeping?",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Good evening! How was your day?",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Hi there! How's everything going?",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Hello! How's your week been so far?",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Hey, how's your family doing?",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Good morning! Any exciting plans for the day?",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Hi, how's work been treating you?",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Hello! What's new in your world?",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Hey there! How's the weather in your area?",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Good afternoon! How's your project coming along?",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Hi, any exciting plans for the weekend?",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Hello! How's your vacation going?",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Hey, any interesting news to share?",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Good morning! How's the traffic today?",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Hi there! How's your health these days?",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Hello! Have you tried any new restaurants recently?",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Hey, how's your pet doing?",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Good afternoon! How's your fitness routine going?",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Hi, have you watched any good movies lately?",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Hello! How's your gardening coming along?",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "text": "Open the messaging app",
+    "intent": "open_app",
     "entities": [
       {
-        "entity": "action",
-        "value": "start"
-      },
+        "entity": "app",
+        "value": "messaging"
+      }
+    ]
+  },
+  {
+    "text": "Launch the camera application",
+    "intent": "open_app",
+    "entities": [
       {
-        "entity": "object",
-        "value": "timer"
-      },
+        "entity": "app",
+        "value": "camera"
+      }
+    ]
+  },
+  {
+    "text": "Start the music player",
+    "intent": "open_app",
+    "entities": [
       {
-        "entity": "duration",
-        "value": "10 minutes"
+        "entity": "app",
+        "value": "music player"
+      }
+    ]
+  },
+  {
+    "text": "Open the weather app",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "app",
+        "value": "weather"
+      }
+    ]
+  },
+  {
+    "text": "Launch the calendar application",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "app",
+        "value": "calendar"
+      }
+    ]
+  },
+  {
+    "text": "Start the navigation app",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "app",
+        "value": "navigation"
+      }
+    ]
+  },
+  {
+    "text": "Open the social media app",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "app",
+        "value": "social media"
+      }
+    ]
+  },
+  {
+    "text": "Launch the email application",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "app",
+        "value": "email"
+      }
+    ]
+  },
+  {
+    "text": "Start the web browser",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "app",
+        "value": "web browser"
+      }
+    ]
+  },
+  {
+    "text": "Open the settings app",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "app",
+        "value": "settings"
+      }
+    ]
+  },
+  {
+    "text": "Launch the note-taking application",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "app",
+        "value": "note-taking"
+      }
+    ]
+  },
+  {
+    "text": "Start the calculator app",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "app",
+        "value": "calculator"
+      }
+    ]
+  },
+  {
+    "text": "Open the file manager app",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "app",
+        "value": "file manager"
+      }
+    ]
+  },
+  {
+    "text": "Launch the video streaming application",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "app",
+        "value": "video streaming"
+      }
+    ]
+  },
+  {
+    "text": "Start the alarm clock app",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "app",
+        "value": "alarm clock"
+      }
+    ]
+  },
+  {
+    "text": "Open the shopping app",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "app",
+        "value": "shopping"
+      }
+    ]
+  },
+  {
+    "text": "Launch the news application",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "app",
+        "value": "news"
+      }
+    ]
+  },
+  {
+    "text": "Start the video editing app",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "app",
+        "value": "video editing"
+      }
+    ]
+  },
+  {
+    "text": "Open the ride-sharing app",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "app",
+        "value": "ride-sharing"
+      }
+    ]
+  },
+  {
+    "text": "Launch the social networking application",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "app",
+        "value": "social networking"
+      }
+    ]
+  },
+  {
+    "text": "Start the document scanner app",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "app",
+        "value": "document scanner"
+      }
+    ]
+  },
+  {
+    "text": "Open the fitness tracking app",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "app",
+        "value": "fitness tracking"
+      }
+    ]
+  },
+  {
+    "text": "Launch the translation application",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "app",
+        "value": "translation"
+      }
+    ]
+  },
+  {
+    "text": "Start the photo editing app",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "app",
+        "value": "photo editing"
+      }
+    ]
+  },
+  {
+    "text": "Open the video calling app",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "app",
+        "value": "video calling"
+      }
+    ]
+  },
+  {
+    "text": "Launch the podcast application",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "app",
+        "value": "podcast"
+      }
+    ]
+  },
+  {
+    "text": "Start the music streaming app",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "app",
+        "value": "music streaming"
+      }
+    ]
+  },
+  {
+    "text": "Open the photo gallery app",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "app",
+        "value": "photo gallery"
+      }
+    ]
+  },
+  {
+    "text": "Launch the video game application",
+    "intent": "open_app",
+    "entities": [
+      {
+        "entity": "app",
+        "value": "video game"
       }
     ]
   },
   {
     "text": "Calculate the square of 10",
-    "intent": "calculation",
+    "intent": "calculations",
     "entities": [
       {
         "entity": "operation",
-        "value": "square root"
+        "value": "square"
       },
       {
         "entity": "number",
@@ -752,141 +1146,2279 @@
     ]
   },
   {
-    "text": "What is how are you in french",
-    "intent": "translate",
+    "text": "What is 5 plus 3?",
+    "intent": "calculations",
     "entities": [
       {
         "entity": "operation",
-        "value": "translate"
+        "value": "addition"
       },
       {
-        "entity": "text",
-        "value": "how are you"
+        "entity": "number",
+        "value": "5"
       },
       {
-        "entity": "language",
-        "value": "french"
+        "entity": "number",
+        "value": "3"
       }
     ]
   },
   {
-    "text": "How are you",
-    "intent": "greeting",
+    "text": "Subtract 7 from 15",
+    "intent": "calculations",
     "entities": [
       {
         "entity": "operation",
-        "value": "greet"
+        "value": "subtraction"
       },
       {
-        "entity": "value",
-        "value": "how are you"
+        "entity": "number",
+        "value": "7"
+      },
+      {
+        "entity": "number",
+        "value": "15"
       }
     ]
   },
   {
-    "text": "Hello",
-    "intent": "greeting",
+    "text": "What is 12 multiplied by 4?",
+    "intent": "calculations",
     "entities": [
       {
         "entity": "operation",
-        "value": "greet"
+        "value": "multiplication"
       },
       {
-        "entity": "value",
-        "value": "hello"
+        "entity": "number",
+        "value": "12"
+      },
+      {
+        "entity": "number",
+        "value": "4"
       }
     ]
   },
   {
-    "text": "Hey",
-    "intent": "greeting",
+    "text": "Divide 20 by 5",
+    "intent": "calculations",
     "entities": [
       {
         "entity": "operation",
-        "value": "greet"
+        "value": "division"
       },
       {
-        "entity": "value",
-        "value": "hey"
+        "entity": "number",
+        "value": "20"
+      },
+      {
+        "entity": "number",
+        "value": "5"
       }
     ]
   },
-    {
-      "text": "Calculate the square of 10",
-      "intent": "calculation",
-      "entities": [
-        {
-          "entity": "operation",
-          "value": "square"
-        },
-        {
-          "entity": "number",
-          "value": "10"
-        }
-      ]
-    },
-    {
-      "text": "Remind me to buy milk when I leave work today.",
-      "intent": "reminder",
-      "entities": [
-        {
-          "entity": "task",
-          "value": "buy milk"
-        },
-        {
-          "entity": "trigger",
-          "value": "leave work"
-        },
-        {
-          "entity": "time",
-          "value": "today"
-        }
-      ]
-    },
-    {
-      "text": "Find the nearest coffee shop.",
-      "intent": "search",
-      "entities": [
-        {
-          "entity": "category",
-          "value": "coffee shop"
-        }
-      ]
-    },
-    {
-      "text": "What's the forecast for tomorrow?",
-      "intent": "weather",
-      "entities": [
-        {
-          "entity": "date",
-          "value": "tomorrow"
-        }
-      ]
-    },
-    {
-      "text": "Why is the sky blue?",
-      "intent": "question",
-      "entities": []
-    },
-    {
-      "text": "Tell me a joke.",
-      "intent": "joke",
-      "entities": []
-    },
-    {
-      "text": "Who invented the telephone?",
-      "intent": "knowledge",
-      "entities": [
-        {
-          "entity": "topic",
-          "value": "telephone"
-        }
-      ]
-    },
-    {
-      "text": "What are the latest news headlines?",
-      "intent": "news",
-      "entities": []
-    }
+  {
+    "text": "What is the square root of 25?",
+    "intent": "calculations",
+    "entities": [
+      {
+        "entity": "operation",
+        "value": "square root"
+      },
+      {
+        "entity": "number",
+        "value": "25"
+      }
+    ]
+  },
+  {
+    "text": "Calculate the factorial of 6",
+    "intent": "calculations",
+    "entities": [
+      {
+        "entity": "operation",
+        "value": "factorial"
+      },
+      {
+        "entity": "number",
+        "value": "6"
+      }
+    ]
+  },
+  {
+    "text": "What is 10 to the power of 3?",
+    "intent": "calculations",
+    "entities": [
+      {
+        "entity": "operation",
+        "value": "exponentiation"
+      },
+      {
+        "entity": "number",
+        "value": "10"
+      },
+      {
+        "entity": "number",
+        "value": "3"
+      }
+    ]
+  },
+  {
+    "text": "Add 1.5 and 2.7",
+    "intent": "calculations",
+    "entities": [
+      {
+        "entity": "operation",
+        "value": "addition"
+      },
+      {
+        "entity": "number",
+        "value": "1.5"
+      },
+      {
+        "entity": "number",
+        "value": "2.7"
+      }
+    ]
+  },
+  {
+    "text": "Subtract 0.8 from 1.2",
+    "intent": "calculations",
+    "entities": [
+      {
+        "entity": "operation",
+        "value": "subtraction"
+      },
+      {
+        "entity": "number",
+        "value": "0.8"
+      },
+      {
+        "entity": "number",
+        "value": "1.2"
+      }
+    ]
+  },
+  {
+    "text": "Multiply 3.5 by 2.2",
+    "intent": "calculations",
+    "entities": [
+      {
+        "entity": "operation",
+        "value": "multiplication"
+      },
+      {
+        "entity": "number",
+        "value": "3.5"
+      },
+      {
+        "entity": "number",
+        "value": "2.2"
+      }
+    ]
+  },
+  {
+    "text": "Divide 10.8 by 2.4",
+    "intent": "calculations",
+    "entities": [
+      {
+        "entity": "operation",
+        "value": "division"
+      },
+      {
+        "entity": "number",
+        "value": "10.8"
+      },
+      {
+        "entity": "number",
+        "value": "2.4"
+      }
+    ]
+  },
+  {
+    "text": "What is the square root of 16.5?",
+    "intent": "calculations",
+    "entities": [
+      {
+        "entity": "operation",
+        "value": "square root"
+      },
+      {
+        "entity": "number",
+        "value": "16.5"
+      }
+    ]
+  },
+  {
+    "text": "Calculate the factorial of 8",
+    "intent": "calculations",
+    "entities": [
+      {
+        "entity": "operation",
+        "value": "factorial"
+      },
+      {
+        "entity": "number",
+        "value": "8"
+      }
+    ]
+  },
+  {
+    "text": "What is 5 to the power of 4?",
+    "intent": "calculations",
+    "entities": [
+      {
+        "entity": "operation",
+        "value": "exponentiation"
+      },
+      {
+        "entity": "number",
+        "value": "5"
+      },
+      {
+        "entity": "number",
+        "value": "4"
+      }
+    ]
+  },
+  {
+    "text": "Add 1,000 and 2,500",
+    "intent": "calculations",
+    "entities": [
+      {
+        "entity": "operation",
+        "value": "addition"
+      },
+      {
+        "entity": "number",
+        "value": "1000"
+      },
+      {
+        "entity": "number",
+        "value": "2500"
+      }
+    ]
+  },
+  {
+    "text": "Subtract 800 from 1,200",
+    "intent": "calculations",
+    "entities": [
+      {
+        "entity": "operation",
+        "value": "subtraction"
+      },
+      {
+        "entity": "number",
+        "value": "800"
+      },
+      {
+        "entity": "number",
+        "value": "1200"
+      }
+    ]
+  },
+  {
+    "text": "Multiply 350 by 220",
+    "intent": "calculations",
+    "entities": [
+      {
+        "entity": "operation",
+        "value": "multiplication"
+      },
+      {
+        "entity": "number",
+        "value": "350"
+      },
+      {
+        "entity": "number",
+        "value": "220"
+      }
+    ]
+  },
+  {
+    "text": "Divide 1,080 by 240",
+    "intent": "calculations",
+    "entities": [
+      {
+        "entity": "operation",
+        "value": "division"
+      },
+      {
+        "entity": "number",
+        "value": "1080"
+      },
+      {
+        "entity": "number",
+        "value": "240"
+      }
+    ]
+  },
+  {
+    "text": "What is the square root of 16.5?",
+    "intent": "calculations",
+    "entities": [
+      {
+        "entity": "operation",
+        "value": "square root"
+      },
+      {
+        "entity": "number",
+        "value": "16.5"
+      }
+    ]
+  },
+  {
+    "text": "Calculate the factorial of 8",
+    "intent": "calculations",
+    "entities": [
+      {
+        "entity": "operation",
+        "value": "factorial"
+      },
+      {
+        "entity": "number",
+        "value": "8"
+      }
+    ]
+  },
+  {
+    "text": "What is 5 to the power of 4?",
+    "intent": "calculations",
+    "entities": [
+      {
+        "entity": "operation",
+        "value": "exponentiation"
+      },
+      {
+        "entity": "number",
+        "value": "5"
+      },
+      {
+        "entity": "number",
+        "value": "4"
+      }
+    ]
+  },
+  {
+    "text": "Add 1000 and 2500",
+    "intent": "calculations",
+    "entities": [
+      {
+        "entity": "operation",
+        "value": "addition"
+      },
+      {
+        "entity": "number",
+        "value": "1000"
+      },
+      {
+        "entity": "number",
+        "value": "2500"
+      }
+    ]
+  },
+  {
+    "text": "Subtract 800 from 1200",
+    "intent": "calculations",
+    "entities": [
+      {
+        "entity": "operation",
+        "value": "subtraction"
+      },
+      {
+        "entity": "number",
+        "value": "800"
+      },
+      {
+        "entity": "number",
+        "value": "1200"
+      }
+    ]
+  },
+  {
+    "text": "Multiply 350 by 220",
+    "intent": "calculations",
+    "entities": [
+      {
+        "entity": "operation",
+        "value": "multiplication"
+      },
+      {
+        "entity": "number",
+        "value": "350"
+      },
+      {
+        "entity": "number",
+        "value": "220"
+      }
+    ]
+  },
+  {
+    "text": "Divide 1080 by 240",
+    "intent": "calculations",
+    "entities": [
+      {
+        "entity": "operation",
+        "value": "division"
+      },
+      {
+        "entity": "number",
+        "value": "1080"
+      },
+      {
+        "entity": "number",
+        "value": "240"
+      }
+    ]
+  },
+  {
+    "text": "What's the weather like today?",
+    "intent": "weather",
+    "entities": []
+  },
+  {
+    "text": "Will it rain tomorrow?",
+    "intent": "weather",
+    "entities": []
+  },
+  {
+    "text": "Is it going to be sunny this weekend?",
+    "intent": "weather",
+    "entities": []
+  },
+  {
+    "text": "What's the forecast for the next 3 days?",
+    "intent": "weather",
+    "entities": []
+  },
+  {
+    "text": "How hot will it be today?",
+    "intent": "weather",
+    "entities": []
+  },
+  {
+    "text": "Is there a chance of thunderstorms?",
+    "intent": "weather",
+    "entities": []
+  },
+  {
+    "text": "What's the temperature right now?",
+    "intent": "weather",
+    "entities": []
+  },
+  {
+    "text": "Will there be strong winds tomorrow?",
+    "intent": "weather",
+    "entities": []
+  },
+  {
+    "text": "Can I expect snowfall this week?",
+    "intent": "weather",
+    "entities": []
+  },
+  {
+    "text": "What's the humidity level today?",
+    "intent": "weather",
+    "entities": []
+  },
+  {
+    "text": "Will it be foggy in the morning?",
+    "intent": "weather",
+    "entities": []
+  },
+  {
+    "text": "What's the UV index today?",
+    "intent": "weather",
+    "entities": []
+  },
+  {
+    "text": "Is there a chance of rain in the evening?",
+    "intent": "weather",
+    "entities": []
+  },
+  {
+    "text": "What's the weather like in London?",
+    "intent": "weather",
+    "entities": [
+      {
+        "entity": "location",
+        "value": "London"
+      }
+    ]
+  },
+  {
+    "text": "Will it be cloudy in the afternoon?",
+    "intent": "weather",
+    "entities": []
+  },
+  {
+    "text": "What's the forecast for the weekend?",
+    "intent": "weather",
+    "entities": []
+  },
+  {
+    "text": "How much rainfall is expected today?",
+    "intent": "weather",
+    "entities": []
+  },
+  {
+    "text": "Is it going to be hot tomorrow?",
+    "intent": "weather",
+    "entities": []
+  },
+  {
+    "text": "Will there be a heatwave this month?",
+    "intent": "weather",
+    "entities": []
+  },
+  {
+    "text": "What's the weather like in New York?",
+    "intent": "weather",
+    "entities": [
+      {
+        "entity": "location",
+        "value": "New York"
+      }
+    ]
+  },
+  {
+    "text": "Will there be snow in the mountains?",
+    "intent": "weather",
+    "entities": []
+  },
+  {
+    "text": "Is it going to rain heavily?",
+    "intent": "weather",
+    "entities": []
+  },
+  {
+    "text": "What's the weather like in Paris today?",
+    "intent": "weather",
+    "entities": [
+      {
+        "entity": "location",
+        "value": "Paris"
+      }
+    ]
+  },
+  {
+    "text": "Will it be windy in the evening?",
+    "intent": "weather",
+    "entities": []
+  },
+  {
+    "text": "Is there a chance of a thunderstorm in the next hour?",
+    "intent": "weather",
+    "entities": []
+  },
+  {
+    "text": "What's the weather like in Tokyo?",
+    "intent": "weather",
+    "entities": [
+      {
+        "entity": "location",
+        "value": "Tokyo"
+      }
+    ]
+  },
+  {
+    "text": "Will it be sunny all day?",
+    "intent": "weather",
+    "entities": []
+  },
+  {
+    "text": "How cold will it be tonight?",
+    "intent": "weather",
+    "entities": []
+  },
+  {
+    "text": "Is there a chance of hail tomorrow?",
+    "intent": "weather",
+    "entities": []
+  },
+  {
+    "text": "What's the weather like in San Francisco?",
+    "intent": "weather",
+    "entities": [
+      {
+        "entity": "location",
+        "value": "San Francisco"
+      }
+    ]
+  },
+  {
+    "text": "Tell me a joke.",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "I need a good laugh. Tell me a joke.",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "Knock, knock.",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "Why don't scientists trust atoms?",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "What's orange and sounds like a parrot?",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "Why couldn't the bicycle stand up by itself?",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "What do you call a fish with no eyes?",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "Why did the scarecrow win an award?",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "Why did the chicken go to the seance?",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "What's brown and sticky?",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "Why don't skeletons fight each other?",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "Why did the tomato turn red?",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "How do you make holy water?",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "What's the difference between a snowman and a snowwoman?",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "Why did the golfer bring two pairs of pants?",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "Why did the tomato turn red?",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "Why did the scarecrow win an award?",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "Why couldn't the leopard play hide and seek?",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "What do you call a bear with no teeth?",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "What do you get when you cross a snowman and a vampire?",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "Why don't skeletons fight each other?",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "What's orange and sounds like a parrot?",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "Why don't scientists trust atoms?",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "What do you call a fish with no eyes?",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "Why did the chicken go to the seance?",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "What's brown and sticky?",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "Why don't skeletons fight each other?",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "Why did the tomato turn red?",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "How do you make holy water?",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "What's the difference between a snowman and a snowwoman?",
+    "intent": "joke_tell",
+    "entities": []
+  },
+  {
+    "text": "Set a timer for 10 minutes.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "10 minutes"
+      }
+    ]
+  },
+  {
+    "text": "Can you start a timer for 20 minutes?",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "20 minutes"
+      }
+    ]
+  },
+  {
+    "text": "I need to set a timer for 5 minutes.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "5 minutes"
+      }
+    ]
+  },
+  {
+    "text": "Please set a timer for 15 minutes.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "15 minutes"
+      }
+    ]
+  },
+  {
+    "text": "Start a timer for 30 minutes.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "30 minutes"
+      }
+    ]
+  },
+  {
+    "text": "I want to set a timer for 25 minutes.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "25 minutes"
+      }
+    ]
+  },
+  {
+    "text": "Can you set a timer for 12 minutes?",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "12 minutes"
+      }
+    ]
+  },
+  {
+    "text": "Please start a timer for 8 minutes.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "8 minutes"
+      }
+    ]
+  },
+  {
+    "text": "Set a timer for 18 minutes.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "18 minutes"
+      }
+    ]
+  },
+  {
+    "text": "I need to set a timer for 3 minutes.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "3 minutes"
+      }
+    ]
+  },
+  {
+    "text": "Please set a timer for 7 minutes.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "7 minutes"
+      }
+    ]
+  },
+  {
+    "text": "Start a timer for 22 minutes.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "22 minutes"
+      }
+    ]
+  },
+  {
+    "text": "I want to set a timer for 14 minutes.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "14 minutes"
+      }
+    ]
+  },
+  {
+    "text": "Can you set a timer for 9 minutes?",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "9 minutes"
+      }
+    ]
+  },
+  {
+    "text": "Please start a timer for 6 minutes.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "6 minutes"
+      }
+    ]
+  },
+  {
+    "text": "Set a timer for 16 minutes.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "16 minutes"
+      }
+    ]
+  },
+  {
+    "text": "I need to set a timer for 4 minutes.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "4 minutes"
+      }
+    ]
+  },
+  {
+    "text": "Please set a timer for 11 minutes.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "11 minutes"
+      }
+    ]
+  },
+  {
+    "text": "Start a timer for 28 minutes.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "28 minutes"
+      }
+    ]
+  },
+  {
+    "text": "I want to set a timer for 13 minutes.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "13 minutes"
+      }
+    ]
+  },
+  {
+    "text": "Can you set a timer for 17 minutes?",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "17 minutes"
+      }
+    ]
+  },
+  {
+    "text": "Please start a timer for 23 minutes.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "23 minutes"
+      }
+    ]
+  },
+  {
+    "text": "Set a timer for 2 minutes.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "2 minutes"
+      }
+    ]
+  },
+  {
+    "text": "I need to set a timer for 19 minutes.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "19 minutes"
+      }
+    ]
+  },
+  {
+    "text": "Please set a timer for 1 minute.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "1 minute"
+      }
+    ]
+  },
+  {
+    "text": "Start a timer for 27 minutes.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "27 minutes"
+      }
+    ]
+  },
+  {
+    "text": "I want to set a timer for 21 minutes.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "21 minutes"
+      }
+    ]
+  },
+  {
+    "text": "Can you set a timer for 26 minutes?",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "26 minutes"
+      }
+    ]
+  },
+  {
+    "text": "Please start a timer for 30 minutes.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "30 minutes"
+      }
+    ]
+  },
+  {
+    "text": "Set a timer for 24 minutes.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "24 minutes"
+      }
+    ]
+  },
+  {
+    "text": "I need to set a timer for 29 minutes.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "29 minutes"
+      }
+    ]
+  },
+  {
+    "text": "Please set a timer for 3 minutes.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "3 minutes"
+      }
+    ]
+  },
+  {
+    "text": "Start a timer for 5 minutes.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "5 minutes"
+      }
+    ]
+  },
+  {
+    "text": "I want to set a timer for 9 minutes.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "9 minutes"
+      }
+    ]
+  },
+  {
+    "text": "Can you set a timer for 15 minutes?",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "15 minutes"
+      }
+    ]
+  },
+  {
+    "text": "Please start a timer for 7 minutes.",
+    "intent": "timer_set",
+    "entities": [
+      {
+        "entity": "duration",
+        "value": "7 minutes"
+      }
+    ]
+  },
+  {
+    "text": "Remind me to buy groceries tomorrow.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "buy groceries"
+      },
+      {
+        "entity": "date",
+        "value": "tomorrow"
+      }
+    ]
+  },
+  {
+    "text": "Create a reminder to pay bills next week.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "pay bills"
+      },
+      {
+        "entity": "date",
+        "value": "next week"
+      }
+    ]
+  },
+  {
+    "text": "Set a reminder to call mom on her birthday.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "call mom"
+      },
+      {
+        "entity": "date",
+        "value": "her birthday"
+      }
+    ]
+  },
+  {
+    "text": "Remind me to water the plants this afternoon.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "water the plants"
+      },
+      {
+        "entity": "date",
+        "value": "this afternoon"
+      }
+    ]
+  },
+  {
+    "text": "Create a reminder to attend the meeting next Monday.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "attend the meeting"
+      },
+      {
+        "entity": "date",
+        "value": "next Monday"
+      }
+    ]
+  },
+  {
+    "text": "Set a reminder to submit the report by Friday.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "submit the report"
+      },
+      {
+        "entity": "date",
+        "value": "by Friday"
+      }
+    ]
+  },
+  {
+    "text": "Remind me to feed the cat tomorrow morning.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "feed the cat"
+      },
+      {
+        "entity": "date",
+        "value": "tomorrow morning"
+      }
+    ]
+  },
+  {
+    "text": "Create a reminder to pick up dry cleaning on Friday evening.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "pick up dry cleaning"
+      },
+      {
+        "entity": "date",
+        "value": "on Friday evening"
+      }
+    ]
+  },
+  {
+    "text": "Set a reminder to take medication every morning.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "take medication"
+      },
+      {
+        "entity": "time",
+        "value": "every morning"
+      }
+    ]
+  },
+  {
+    "text": "Remind me to call the dentist next week on Tuesday.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "call the dentist"
+      },
+      {
+        "entity": "date",
+        "value": "next week"
+      },
+      {
+        "entity": "day",
+        "value": "Tuesday"
+      }
+    ]
+  },
+  {
+    "text": "Create a reminder to buy a birthday gift for Sarah next month.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "buy a birthday gift for Sarah"
+      },
+      {
+        "entity": "date",
+        "value": "next month"
+      }
+    ]
+  },
+  {
+    "text": "Set a reminder to submit the project proposal by the end of the week.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "submit the project proposal"
+      },
+      {
+        "entity": "date",
+        "value": "by the end of the week"
+      }
+    ]
+  },
+  {
+    "text": "Remind me to renew the car insurance next month on the 15th.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "renew the car insurance"
+      },
+      {
+        "entity": "date",
+        "value": "next month"
+      },
+      {
+        "entity": "day",
+        "value": "15th"
+      }
+    ]
+  },
+  {
+    "text": "Create a reminder to send the report to the manager on Wednesday.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "send the report to the manager"
+      },
+      {
+        "entity": "day",
+        "value": "Wednesday"
+      }
+    ]
+  },
+  {
+    "text": "Set a reminder to book flight tickets for the vacation next week.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "book flight tickets for the vacation"
+      },
+      {
+        "entity": "date",
+        "value": "next week"
+      }
+    ]
+  },
+  {
+    "text": "Remind me to submit the expense report by the end of the month.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "submit the expense report"
+      },
+      {
+        "entity": "date",
+        "value": "by the end of the month"
+      }
+    ]
+  },
+  {
+    "text": "Create a reminder to call the client at 2 p.m. tomorrow.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "call the client"
+      },
+      {
+        "entity": "time",
+        "value": "2 p.m."
+      },
+      {
+        "entity": "date",
+        "value": "tomorrow"
+      }
+    ]
+  },
+  {
+    "text": "Set a reminder to start the meeting at 10 a.m. on Monday.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "start the meeting"
+      },
+      {
+        "entity": "time",
+        "value": "10 a.m."
+      },
+      {
+        "entity": "day",
+        "value": "Monday"
+      }
+    ]
+  },
+  {
+    "text": "Remind me to take out the trash tonight.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "take out the trash"
+      },
+      {
+        "entity": "time",
+        "value": "tonight"
+      }
+    ]
+  },
+  {
+    "text": "Create a reminder to buy a birthday cake for John next week.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "buy a birthday cake for John"
+      },
+      {
+        "entity": "date",
+        "value": "next week"
+      }
+    ]
+  },
+  {
+    "text": "Set a reminder to water the plants every Monday and Friday.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "water the plants"
+      },
+      {
+        "entity": "day",
+        "value": "Monday and Friday"
+      }
+    ]
+  },
+  {
+    "text": "Remind me to pick up the dry cleaning on Tuesday evening.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "pick up the dry cleaning"
+      },
+      {
+        "entity": "day",
+        "value": "Tuesday"
+      },
+      {
+        "entity": "time",
+        "value": "evening"
+      }
+    ]
+  },
+  {
+    "text": "Create a reminder to take the car for servicing next month.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "take the car for servicing"
+      },
+      {
+        "entity": "date",
+        "value": "next month"
+      }
+    ]
+  },
+  {
+    "text": "Set a reminder to pay the utility bills by the 20th of this month.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "pay the utility bills"
+      },
+      {
+        "entity": "day",
+        "value": "20th"
+      },
+      {
+        "entity": "date",
+        "value": "of this month"
+      }
+    ]
+  },
+  {
+    "text": "Remind me to take a break every hour.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "take a break"
+      },
+      {
+        "entity": "time",
+        "value": "every hour"
+      }
+    ]
+  },
+  {
+    "text": "Create a reminder to complete the project by the deadline.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "complete the project"
+      },
+      {
+        "entity": "date",
+        "value": "by the deadline"
+      }
+    ]
+  },
+  {
+    "text": "Set a reminder to check the mail every morning.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "check the mail"
+      },
+      {
+        "entity": "time",
+        "value": "every morning"
+      }
+    ]
+  },
+  {
+    "text": "Remind me to call the doctor for an appointment tomorrow.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "call the doctor for an appointment"
+      },
+      {
+        "entity": "date",
+        "value": "tomorrow"
+      }
+    ]
+  },
+  {
+    "text": "Create a reminder to submit the tax documents by the end of the month.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "submit the tax documents"
+      },
+      {
+        "entity": "date",
+        "value": "by the end of the month"
+      }
+    ]
+  },
+  {
+    "text": "Set a reminder to buy a gift for the wedding next Saturday.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "buy a gift for the wedding"
+      },
+      {
+        "entity": "date",
+        "value": "next Saturday"
+      }
+    ]
+  },
+  {
+    "text": "Remind me to start the laundry in the afternoon.",
+    "intent": "reminder_create",
+    "entities": [
+      {
+        "entity": "task",
+        "value": "start the laundry"
+      },
+      {
+        "entity": "time",
+        "value": "in the afternoon"
+      }
+    ]
+  },
+  {
+    "text": "Search for the best restaurants in New York City.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "best restaurants"
+      },
+      {
+        "entity": "location",
+        "value": "New York City"
+      }
+    ]
+  },
+  {
+    "text": "Find information about the latest smartphones on the market.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "latest smartphones"
+      }
+    ]
+  },
+  {
+    "text": "Look up the symptoms of a common cold.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "symptoms of a common cold"
+      }
+    ]
+  },
+  {
+    "text": "Search for the history of Ancient Rome.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "history of Ancient Rome"
+      }
+    ]
+  },
+  {
+    "text": "Find the recipe for chocolate chip cookies.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "recipe for chocolate chip cookies"
+      }
+    ]
+  },
+  {
+    "text": "Look up the top tourist attractions in Paris.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "top tourist attractions"
+      },
+      {
+        "entity": "location",
+        "value": "Paris"
+      }
+    ]
+  },
+  {
+    "text": "Search for the latest news updates.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "latest news updates"
+      }
+    ]
+  },
+  {
+    "text": "Find information about the benefits of regular exercise.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "benefits of regular exercise"
+      }
+    ]
+  },
+  {
+    "text": "Look up the definition of a specific word.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "definition of a specific word"
+      }
+    ]
+  },
+  {
+    "text": "Search for the best hiking trails in the area.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "best hiking trails"
+      },
+      {
+        "entity": "location",
+        "value": "the area"
+      }
+    ]
+  },
+  {
+    "text": "Find information about famous historical figures.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "famous historical figures"
+      }
+    ]
+  },
+  {
+    "text": "Look up the latest fashion trends.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "latest fashion trends"
+      }
+    ]
+  },
+  {
+    "text": "Search for the best deals on electronics.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "best deals on electronics"
+      }
+    ]
+  },
+  {
+    "text": "Find information about the benefits of meditation.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "benefits of meditation"
+      }
+    ]
+  },
+  {
+    "text": "Look up the reviews for a specific movie.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "reviews for a specific movie"
+      }
+    ]
+  },
+  {
+    "text": "Search for the best beaches in the world.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "best beaches"
+      },
+      {
+        "entity": "location",
+        "value": "the world"
+      }
+    ]
+  },
+  {
+    "text": "Find information about different programming languages.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "different programming languages"
+      }
+    ]
+  },
+  {
+    "text": "Look up the lyrics of a specific song.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "lyrics of a specific song"
+      }
+    ]
+  },
+  {
+    "text": "Search for the best travel destinations in Asia.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "best travel destinations"
+      },
+      {
+        "entity": "location",
+        "value": "Asia"
+      }
+    ]
+  },
+  {
+    "text": "Find information about healthy eating habits.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "healthy eating habits"
+      }
+    ]
+  },
+  {
+    "text": "Look up the reviews for a specific restaurant.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "reviews for a specific restaurant"
+      }
+    ]
+  },
+  {
+    "text": "Search for the latest technology news.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "latest technology news"
+      }
+    ]
+  },
+  {
+    "text": "Find information about the causes of climate change.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "causes of climate change"
+      }
+    ]
+  },
+  {
+    "text": "Look up the benefits of drinking green tea.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "benefits of drinking green tea"
+      }
+    ]
+  },
+  {
+    "text": "Search for the best hiking trails in the mountains.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "best hiking trails"
+      },
+      {
+        "entity": "location",
+        "value": "the mountains"
+      }
+    ]
+  },
+  {
+    "text": "Find information about famous painters throughout history.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "famous painters throughout history"
+      }
+    ]
+  },
+  {
+    "text": "Look up the nutritional information of a specific food.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "nutritional information of a specific food"
+      }
+    ]
+  },
 
+  {
+    "text": "Search for the best books to read in 2023.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "best books to read"
+      },
+      {
+        "entity": "year",
+        "value": "2023"
+      }
+    ]
+  },
+  {
+    "text": "Find information about the history of space exploration.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "history of space exploration"
+      }
+    ]
+  },
+  {
+    "text": "Look up the benefits of practicing mindfulness.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "benefits of practicing mindfulness"
+      }
+    ]
+  },
+  {
+    "text": "Search for the latest fashion trends for men.",
+    "intent": "search",
+    "entities": [
+      {
+        "entity": "query",
+        "value": "latest fashion trends"
+      },
+      {
+        "entity": "gender",
+        "value": "men"
+      }
+    ]
+  },
+  {
+    "text": "Play a random playlist.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "playlist_type",
+        "value": "random"
+      }
+    ]
+  },
+  {
+    "text": "Play my favorite song.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "song_type",
+        "value": "favorite"
+      }
+    ]
+  },
+  {
+    "text": "Play some relaxing music.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "music_type",
+        "value": "relaxing"
+      }
+    ]
+  },
+  {
+    "text": "Play the top hits of this month.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "playlist_type",
+        "value": "top hits"
+      },
+      {
+        "entity": "time_period",
+        "value": "this month"
+      }
+    ]
+  },
+  {
+    "text": "Play a popular song from the 80s.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "music_type",
+        "value": "popular"
+      },
+      {
+        "entity": "time_period",
+        "value": "80s"
+      }
+    ]
+  },
+  {
+    "text": "Play the latest album of my favorite artist.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "album_type",
+        "value": "latest"
+      },
+      {
+        "entity": "artist_type",
+        "value": "favorite"
+      }
+    ]
+  },
+  {
+    "text": "Play a playlist for working out.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "playlist_type",
+        "value": "working out"
+      }
+    ]
+  },
+  {
+    "text": "Play a classic rock song.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "music_type",
+        "value": "classic rock"
+      }
+    ]
+  },
+  {
+    "text": "Play the greatest hits of all time.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "playlist_type",
+        "value": "greatest hits"
+      },
+      {
+        "entity": "time_period",
+        "value": "all time"
+      }
+    ]
+  },
+  {
+    "text": "Play a jazz instrumental track.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "music_type",
+        "value": "jazz instrumental"
+      }
+    ]
+  },
+  {
+    "text": "Play a playlist for a party.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "playlist_type",
+        "value": "party"
+      }
+    ]
+  },
+  {
+    "text": "Play a romantic song.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "music_type",
+        "value": "romantic"
+      }
+    ]
+  },
+  {
+    "text": "Play the top tracks of a specific genre.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "playlist_type",
+        "value": "top tracks"
+      },
+      {
+        "entity": "genre",
+        "value": "specific"
+      }
+    ]
+  },
+  {
+    "text": "Play the best songs for a road trip.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "music_type",
+        "value": "best"
+      },
+      {
+        "entity": "activity",
+        "value": "road trip"
+      }
+    ]
+  },
+  {
+    "text": "Play a lively pop song.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "music_type",
+        "value": "lively pop"
+      }
+    ]
+  },
+  {
+    "text": "Play a playlist for studying.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "playlist_type",
+        "value": "studying"
+      }
+    ]
+  },
+  {
+    "text": "Play the latest hits from a specific artist.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "music_type",
+        "value": "latest hits"
+      },
+      {
+        "entity": "artist_type",
+        "value": "specific"
+      }
+    ]
+  },
+  {
+    "text": "Play a song that matches my mood.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "song_type",
+        "value": "matching mood"
+      }
+    ]
+  },
+  {
+    "text": "Play the best songs of a particular decade.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "music_type",
+        "value": "best songs"
+      },
+      {
+        "entity": "time_period",
+        "value": "particular decade"
+      }
+    ]
+  },
+  {
+    "text": "Play a playlist for a chill evening.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "playlist_type",
+        "value": "chill evening"
+      }
+    ]
+  },
+  {
+    "text": "Play the latest songs from a specific genre.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "music_type",
+        "value": "latest songs"
+      },
+      {
+        "entity": "genre",
+        "value": "specific"
+      }
+    ]
+  },
+  {
+    "text": "Play a song from my childhood.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "song_type",
+        "value": "childhood"
+      }
+    ]
+  },
+  {
+    "text": "Play a playlist for a rainy day.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "playlist_type",
+        "value": "rainy day"
+      }
+    ]
+  },
+  {
+    "text": "Play the top tracks of a specific artist.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "playlist_type",
+        "value": "top tracks"
+      },
+      {
+        "entity": "artist_type",
+        "value": "specific"
+      }
+    ]
+  },
+  {
+    "text": "Play a song for dancing.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "song_type",
+        "value": "dancing"
+      }
+    ]
+  },
+  {
+    "text": "Play a playlist for a workout session.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "playlist_type",
+        "value": "workout session"
+      }
+    ]
+  },
+  {
+    "text": "Play a song from a specific movie soundtrack.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "song_type",
+        "value": "specific movie soundtrack"
+      }
+    ]
+  },
+  {
+    "text": "Play a playlist for a road trip.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "playlist_type",
+        "value": "road trip"
+      }
+    ]
+  },
+  {
+    "text": "Play a song that makes me feel energized.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "song_type",
+        "value": "energized"
+      }
+    ]
+  },
+  {
+    "text": "Play a playlist for a romantic evening.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "playlist_type",
+        "value": "romantic evening"
+      }
+    ]
+  },
+  {
+    "text": "Play the top tracks of a specific decade.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "playlist_type",
+        "value": "top tracks"
+      },
+      {
+        "entity": "time_period",
+        "value": "specific decade"
+      }
+    ]
+  },
+  {
+    "text": "Play a song from a specific artist.",
+    "intent": "music_play",
+    "entities": [
+      {
+        "entity": "song_type",
+        "value": "specific artist"
+      }
+    ]
+  }
 ]

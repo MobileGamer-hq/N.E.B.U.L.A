@@ -2,4 +2,6 @@ import assistant
 
 nebula =  assistant.Assistant
 
-nebula.start(nebula)
+statement = ""
+while statement == "":
+    statement = nebula.listen()

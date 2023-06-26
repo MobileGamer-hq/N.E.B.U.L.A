@@ -15,7 +15,6 @@ import wolframalpha
 import actions
 import data
 
-
 class Assistant:
     name = "nebula"
     password = ""
@@ -23,8 +22,7 @@ class Assistant:
     engine = pyttsx3.init('sapi5')
     activated = False
 
-    def __init__(self) -> None:
-
+    def __init__(self):
         # Ignore all warnings during the run of the code
         warnings.filterwarnings('ignore')
 
@@ -33,12 +31,13 @@ class Assistant:
         self.engine.setProperty('voice', voices[1].id)
 
         self.options = data.get_json('data/assistant_options.json')
-        if self.options === None:
+        if self.options is None:
             self.options = {
-                'user': null,
+                'user': None,
+                'language': 'en-in'
             }
 
-    # cognitive senses speaking, listening, seeing
+    # Cognitive senses: speaking, listening, seeing
     def speak(self, phrase):
         self.engine.say(phrase)
         self.engine.runAndWait()
@@ -53,35 +52,31 @@ class Assistant:
             audio = recognizer.listen(source)
 
             try:
-                statement = recognizer.recognize_google(audio, language='en-in')
+                statement = recognizer.recognize_google(audio, language=self.options['language'])
                 print(': ' + statement)
             except Exception as exc:
-                self.speak("please say that again")
+                self.speak("Please say that again")
                 return "None"
-            
+
         return statement
 
     def brain(self, statement):
         intent = actions.get_intent(statement)
 
-        if intent === "greeting":
+        if intent == "greeting":
             print('')
+        elif intent == "calcultions":
+            actions.calculate()
 
     def start(self):
-        if __name__ == "__main__":
-            while self.activated == True:
+        while self.activated:
+            statement = self.listen().lower()
+            self.speak("What can I do for you?")
 
-                statement = self.listen().lower()
-                self.speak("What can I do for you?")
-
-                whatYouSaid = open("statement.txt", "w")
-                whatYouSaid.write(statement)
-                whatYouSaid.close()
-
-                if statement == 0:
-                    continue
-                else:
-                    self.brain(statement)
+            if statement == 0:
+                continue
+            else:
+                self.brain(statement)
 
 nebula = Assistant()
 text = nebula.listen()
