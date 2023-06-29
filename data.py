@@ -1,6 +1,8 @@
 import json
 import os
-#data manager functions
+
+
+# data manager functions
 def clean_json(location):
     with open(location, 'r') as file:
         data = json.load(file)
@@ -15,11 +17,13 @@ def clean_json(location):
         json.dump(clean_json, file, indent=4)
     return cleaned_data
 
+
 def save_json(obj, location):
     with open(location, 'w') as file:
         json.dump(obj, file, indent=4)
 
     return obj
+
 
 def get_json(location):
     if os.path.exists(location):
@@ -27,7 +31,8 @@ def get_json(location):
             obj = json.load(file)
         return obj
     else:
-      return None
+        return None
+
 
 def append_json(obj, location):
     if os.path.exists(location):
@@ -40,80 +45,102 @@ def append_json(obj, location):
     else:
         return None
 
+
 def pop_json(obj, location):
-    if  os.path.exists(location):
+    if os.path.exists(location):
         with open(location, 'r') as file:
             data = json.load(file)
         data.pop(obj)
         with open(location, 'w') as file:
             json.dump(data, file, indent=4)
         return data
-    
 
-#data models
+def manage_assistant_data():
+    data_path = 'data/users_data'
+    data = Assistant_Data
+    data["about"] = get_json(data_path+"about")
+    data["user"] = get_json(data_path+"user")
+
+
+# data models
+Assistant_Data = {
+    "about": None,
+    "user": None,
+    "users_with_access": [],
+    "users_data": {
+        "timers": [],
+        "reminders": [],
+        "alarms": [],
+        "projects": [],
+        "apps": [],
+
+    },
+    "options": None
+}
 Person = {
-  "name": {
-    "nick_name": "",
-    "first": "",
-    "last": "",
-    "other": []
-  },
-  "date_of_birth": {
-    "day": "",
-    "month": "",
-    "year": ""
-  },
-  "age": 0,
-  "occupation": "",
-  "address": {
-    "home": "",
-    "office": "",
-    "others": []
-  },
-  "friends": [],
-  "enemies": [],
-  "details": None,
-  "id": ""
+    "name": {
+        "nick_name": "",
+        "first": "",
+        "last": "",
+        "other": []
+    },
+    "date_of_birth": {
+        "day": "",
+        "month": "",
+        "year": ""
+    },
+    "age": 0,
+    "occupation": "",
+    "address": {
+        "home": "",
+        "office": "",
+        "others": []
+    },
+    "friends": [],
+    "enemies": [],
+    "details": None,
+    "id": ""
 }
 
 Friend = {
-    "relationship": "freind",
+    "relationship": "friend",
     "friends": [],
 }
 
-
 Place = {
-  'name': '',
-  'address': '',
-  'about': '',
+    'name': '',
+    'address': '',
+    'about': '',
+    'id': ''
 }
 
 Reminder = {
-  'title': '',
-  'description': '',
-  'time': '',
-  'duration': {
-      'start': '',
-      'end': ''
-  },
-  'options': {
-      'ring': False,
-      'vibrate': True,
-      'importance': ''
-  },
-  'id': ''
+    'title': '',
+    'description': '',
+    'time': '',
+    'duration': {
+        'start': '',
+        'end': ''
+    },
+    'options': {
+        'ring': False,
+        'vibrate': True,
+        'importance': ''
+    },
+    'id': ''
 }
 
 timer = {
-  'title': '',
-  'time': '',
-  'duration': {
-      'start': '',
-      'end': ''
-  },
-  'options': {
-      'ring': False,
-      'vibrate': True,
-      'importance': ''
-  },
+    'title': '',
+    'time': '',
+    'duration': {
+        'start': '',
+        'end': ''
+    },
+    'options': {
+        'ring': False,
+        'vibrate': True,
+        'importance': ''
+    },
+    'id': ''
 }

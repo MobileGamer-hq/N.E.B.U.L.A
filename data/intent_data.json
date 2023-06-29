@@ -2,222 +2,354 @@
   {
     "intent": "greeting",
     "statement": "hello",
-    "responses": ["Hello", "Hi"]
+    "responses": [
+      "Hello",
+      "Hi"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "hi",
-    "responses": ["Hi there", "Hello"]
+    "responses": [
+      "Hi there",
+      "Hello"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "hey",
-    "responses": ["Hey", "Hi"]
+    "responses": [
+      "Hey",
+      "Hi"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "good morning",
-    "responses": ["Good morning", "Morning"]
+    "responses": [
+      "Good morning",
+      "Morning"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "good afternoon",
-    "responses": ["Good afternoon", "Afternoon"]
+    "responses": [
+      "Good afternoon",
+      "Afternoon"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "good evening",
-    "responses": ["Good evening", "Evening"]
+    "responses": [
+      "Good evening",
+      "Evening"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "howdy",
-    "responses": ["Howdy", "Hello"]
+    "responses": [
+      "Howdy",
+      "Hello"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "greetings",
-    "responses": ["Greetings", "Hello"]
+    "responses": [
+      "Greetings",
+      "Hello"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "nice to meet you",
-    "responses": ["Nice to meet you", "Pleasure to meet you"]
+    "responses": [
+      "Nice to meet you",
+      "Pleasure to meet you"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "hey there",
-    "responses": ["Hey there", "Hello"]
+    "responses": [
+      "Hey there",
+      "Hello"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "good to see you",
-    "responses": ["Good to see you", "Nice to see you"]
+    "responses": [
+      "Good to see you",
+      "Nice to see you"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "how are you",
-    "responses": ["I'm good, thank you", "I'm doing well, thanks"]
+    "responses": [
+      "I'm good, thank you",
+      "I'm doing well, thanks"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "what's up",
-    "responses": ["Not much, just chilling", "Just hanging out"]
+    "responses": [
+      "Not much, just chilling",
+      "Just hanging out"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "yo",
-    "responses": ["Yo", "Hey"]
+    "responses": [
+      "Yo",
+      "Hey"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "good day",
-    "responses": ["Good day", "Hello"]
+    "responses": [
+      "Good day",
+      "Hello"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "morning",
-    "responses": ["Morning", "Good morning"]
+    "responses": [
+      "Morning",
+      "Good morning"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "afternoon",
-    "responses": ["Afternoon", "Good afternoon"]
+    "responses": [
+      "Afternoon",
+      "Good afternoon"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "evening",
-    "responses": ["Evening", "Good evening"]
+    "responses": [
+      "Evening",
+      "Good evening"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "hiya",
-    "responses": ["Hiya", "Hello"]
+    "responses": [
+      "Hiya",
+      "Hello"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "salutations",
-    "responses": ["Salutations", "Hello"]
+    "responses": [
+      "Salutations",
+      "Hello"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "hola",
-    "responses": ["Hola", "Hola, ¿cómo estás?"]
+    "responses": [
+      "Hola",
+      "Hola, ¿cómo estás?"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "bonjour",
-    "responses": ["Bonjour", "Salut"]
+    "responses": [
+      "Bonjour",
+      "Salut"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "ciao",
-    "responses": ["Ciao", "Salve"]
+    "responses": [
+      "Ciao",
+      "Salve"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "namaste",
-    "responses": ["Namaste", "Namaskar"]
+    "responses": [
+      "Namaste",
+      "Namaskar"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "kon'nichiwa",
-    "responses": ["Kon'nichiwa", "Konnichiwa, genki desu ka?"]
+    "responses": [
+      "Kon'nichiwa",
+      "Konnichiwa, genki desu ka?"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "hallo",
-    "responses": ["Hallo", "Guten Tag"]
+    "responses": [
+      "Hallo",
+      "Guten Tag"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "privet",
-    "responses": ["Privet", "Zdravstvuyte"]
+    "responses": [
+      "Privet",
+      "Zdravstvuyte"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "salam",
-    "responses": ["Salam", "Salam, chetori?"]
+    "responses": [
+      "Salam",
+      "Salam, chetori?"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "hei",
-    "responses": ["Hei", "Hei, hvordan går det?"]
+    "responses": [
+      "Hei",
+      "Hei, hvordan går det?"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "hoi",
-    "responses": ["Hoi", "Hallo"]
+    "responses": [
+      "Hoi",
+      "Hallo"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "xin chào",
-    "responses": ["Xin chào", "Chào bạn"]
+    "responses": [
+      "Xin chào",
+      "Chào bạn"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "merhaba",
-    "responses": ["Merhaba", "Selam"]
+    "responses": [
+      "Merhaba",
+      "Selam"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "szia",
-    "responses": ["Szia", "Szia, hogy vagy?"]
+    "responses": [
+      "Szia",
+      "Szia, hogy vagy?"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "marhaba",
-    "responses": ["Marhaba", "Merhaba"]
+    "responses": [
+      "Marhaba",
+      "Merhaba"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "hujambo",
-    "responses": ["Hujambo", "Salamu"]
+    "responses": [
+      "Hujambo",
+      "Salamu"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "sawubona",
-    "responses": ["Sawubona", "Yebo"]
+    "responses": [
+      "Sawubona",
+      "Yebo"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "jambo",
-    "responses": ["Jambo", "Habari"]
+    "responses": [
+      "Jambo",
+      "Habari"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "olá",
-    "responses": ["Olá", "Oi"]
+    "responses": [
+      "Olá",
+      "Oi"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "privit",
-    "responses": ["Privit", "Salut"]
+    "responses": [
+      "Privit",
+      "Salut"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "sveiki",
-    "responses": ["Sveiki", "Labdien"]
+    "responses": [
+      "Sveiki",
+      "Labdien"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "kaixo",
-    "responses": ["Kaixo", "Egun on"]
+    "responses": [
+      "Kaixo",
+      "Egun on"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "szervusz",
-    "responses": ["Szervusz", "Üdvözöllek"]
+    "responses": [
+      "Szervusz",
+      "Üdvözöllek"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "saluton",
-    "responses": ["Saluton", "Bonan tagon"]
+    "responses": [
+      "Saluton",
+      "Bonan tagon"
+    ]
   },
   {
     "intent": "greeting",
     "statement": "labas",
-    "responses": ["Labas", "Sveiki"]
+    "responses": [
+      "Labas",
+      "Sveiki"
+    ]
   },
   {
     "intent": "calculate",
@@ -1076,7 +1208,6 @@
   },
   {
     "intent": "get_directions",
-
     "statement": "Tell me the route to NaN from my friend's house.",
     "response": "Directions from your friend's house to NaN are not provided."
   },
@@ -1308,7 +1439,6 @@
   {
     "intent": "open_app",
     "statement": "Access the NaN application.",
-
     "response": "You now have access to the NaN application."
   },
   {
@@ -2935,5 +3065,3070 @@
     "intent": "turn_on_device",
     "statement": "Turn on the NaN, please.",
     "response": "Device NaN has been turned on."
+  },
+  {
+    "intent": "conversation",
+    "statement": "How are you today?",
+    "response": "I'm doing well, thank you! How about you?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite movie?",
+    "response": "That's a tough one! I enjoy a wide range of movies, but if I had to pick one, I'd say 'The Shawshank Redemption.'"
+  },
+  {
+    "intent": "conversation",
+    "statement": "Have you traveled anywhere interesting recently?",
+    "response": "Unfortunately, I haven't had the chance to travel recently. But I love hearing about other people's travel experiences. Have you been on any exciting trips?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What do you like to do in your free time?",
+    "response": "In my free time, I enjoy reading, listening to music, and learning new things. How about you? What are your hobbies?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "Do you have any pets?",
+    "response": "No, I don't have any pets at the moment. But I love animals! Do you have any pets?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite type of food?",
+    "response": "I'm quite fond of Italian cuisine. Pasta and pizza are always a delight. How about you? What's your favorite?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's the best book you've ever read?",
+    "response": "Oh, there are so many amazing books out there. One that left a lasting impression on me is 'To Kill a Mockingbird' by Harper Lee."
+  },
+  {
+    "intent": "conversation",
+    "statement": "Do you have any siblings?",
+    "response": "Yes, I have a younger brother and an older sister. Family gatherings can be quite lively with all of us together!"
+  },
+  {
+    "intent": "conversation",
+    "statement": "How do you stay motivated?",
+    "response": "I find that setting goals, surrounding myself with positive people, and pursuing my passions help me stay motivated. What about you? How do you stay motivated?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite season?",
+    "response": "I absolutely love the autumn season. The colorful leaves, cozy sweaters, and pumpkin-spiced everything make it a special time of year. What's your favorite season?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your dream travel destination?",
+    "response": "There are so many incredible places to visit, but if I had to choose one, I'd love to explore the stunning landscapes of New Zealand. How about you? Where would you love to travel?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me a joke!",
+    "response": "Sure, here's one for you: Why don't scientists trust atoms? Because they make up everything!"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite music genre?",
+    "response": "I enjoy a wide range of music genres, but if I had to pick one, I'd say indie rock. What about you? What's your favorite?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "Do you play any musical instruments?",
+    "response": "I don't play any instruments, but I appreciate the skill and talent it takes to play them. Are you musically inclined?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite hobby?",
+    "response": "I have many hobbies, but one of my favorites is photography. Capturing moments and exploring different perspectives through the lens brings me joy. How about you? What's your favorite hobby?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's the last movie you watched?",
+    "response": "The last movie I watched was 'Inception.' It's a mind-bending film that keeps you on the edge of your seat. Have you seen it?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me about your favorite vacation.",
+    "response": "My favorite vacation was when I traveled to the beautiful beaches of Bali. The pristine waters, vibrant culture, and delicious cuisine made it an unforgettable experience. What about you? What was your favorite vacation?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "How do you handle stress?",
+    "response": "When I feel stressed, I find that taking deep breaths, practicing mindfulness, and engaging in activities I enjoy help me relax and regain focus. What about you? How do you handle stress?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's the last book you read?",
+    "response": "The last book I read was 'The Alchemist' by Paulo Coelho. It's a thought-provoking story about following one's dreams. Have you read it?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite sport?",
+    "response": "I'm not particularly sporty, but I do enjoy watching tennis matches. The athleticism and skill of the players are impressive. Do you have a favorite sport?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite TV show?",
+    "response": "There are so many great TV shows, but if I had to pick one, I'd say 'Friends.' It never fails to make me laugh. What about you? What's your favorite TV show?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's the most challenging thing you've ever done?",
+    "response": "One of the most challenging things I've done was climbing Mount Kilimanjaro. It pushed me physically and mentally, but reaching the summit was an incredible achievement. How about you? What's the most challenging thing you've done?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me about your favorite restaurant.",
+    "response": "My favorite restaurant is a small family-owned Italian trattoria. They serve authentic dishes made with love and attention to detail. The cozy atmosphere and delicious food make it a delightful dining experience. What about you? Do you have a favorite restaurant?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite quote?",
+    "response": "One of my favorite quotes is 'The future belongs to those who believe in the beauty of their dreams' by Eleanor Roosevelt. It serves as a reminder to pursue our aspirations with conviction and optimism. Do you have a favorite quote?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "Do you have any hidden talents?",
+    "response": "I wouldn't call them hidden talents, but I can solve a Rubik's Cube and do some card tricks. How about you? Any hidden talents?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite holiday?",
+    "response": "My favorite holiday is Christmas. The festive decorations, warm gatherings with loved ones, and the spirit of giving make it a special time of year. What's your favorite holiday?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me about your dream job.",
+    "response": "My dream job would be a travel photographer. I would love to explore different cultures, capture breathtaking landscapes, and share stories through my photographs. What about you? What's your dream job?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's the best piece of advice you've ever received?",
+    "response": "The best piece of advice I've received is to embrace failure as a stepping stone to success. It's through our failures that we learn, grow, and ultimately achieve our goals. Have you received any advice that has had a significant impact on you?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "If you could have any superpower, what would it be?",
+    "response": "If I could have any superpower, I would choose the ability to teleport. Imagine being able to travel to any place instantly. It would make exploring the world so much easier! What about you? What superpower would you choose?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite type of music?",
+    "response": "I enjoy a wide range of music genres, but if I had to pick one, I'd say indie rock. The melodic tunes and heartfelt lyrics resonate with me. What about you? What's your favorite type of music?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me about your favorite childhood memory.",
+    "response": "One of my favorite childhood memories is spending summers at my grandparents' house. We would play games, have picnics, and create lasting memories together. What about you? What's your favorite childhood memory?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite way to unwind after a long day?",
+    "response": "After a long day, I enjoy taking a hot bath, reading a good book, or watching a movie. It helps me relax and recharge. How do you like to unwind after a busy day?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's the most adventurous thing you've ever done?",
+    "response": "One of the most adventurous things I've done was skydiving. The rush of adrenaline and the breathtaking views during freefall were unforgettable. Have you ever tried any adventurous activities?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me about your favorite childhood book.",
+    "response": "One of my favorite childhood books is 'The Lion, the Witch, and the Wardrobe' by C.S. Lewis. The magical world of Narnia and the enchanting adventures of the characters captivated my imagination. Do you have a favorite childhood book?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "If you could travel back in time, which era would you visit?",
+    "response": "If I could travel back in time, I would love to visit the Renaissance period. The cultural and artistic achievements during that time were remarkable. Which era would you choose to visit if you could travel back in time?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me about your favorite childhood game.",
+    "response": "One of my favorite childhood games was hide-and-seek. It was always so exciting trying to find the perfect hiding spot and the anticipation of being found. What about you? What was your favorite childhood game?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite way to start the day?",
+    "response": "I like to start the day by sipping a cup of coffee or tea while enjoying a few moments of quiet reflection. It helps me set a positive tone for the day ahead. How about you? How do you like to start your day?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me about a memorable concert you've attended.",
+    "response": "One of the most memorable concerts I attended was a live performance by my favorite band. The energy of the crowd, the electrifying music, and the connection between the performers and the audience made it an unforgettable experience. Have you been to any memorable concerts?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite way to give back to the community?",
+    "response": "I believe in the power of giving back, and one of my favorite ways to contribute is by volunteering at local charities and participating in community service projects. It's a fulfilling way to make a positive impact. How about you? How do you like to give back to the community?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me about a recent accomplishment you're proud of.",
+    "response": "I recently completed a challenging project at work that required a lot of dedication and teamwork. Seeing the successful outcome and the positive feedback I received made me proud of my efforts. What about you? What's a recent accomplishment you're proud of?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "If you could have dinner with any historical figure, who would it be?",
+    "response": "If I could have dinner with any historical figure, I would choose Albert Einstein. His brilliant mind and revolutionary contributions to science fascinate me. Which historical figure would you choose to have dinner with?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me about your favorite piece of art.",
+    "response": "One of my favorite pieces of art is 'Starry Night' by Vincent van Gogh. The vibrant colors and swirling brushstrokes create a sense of movement and emotion. What about you? Do you have a favorite piece of art?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite way to spend a rainy day?",
+    "response": "On a rainy day, I enjoy curling up with a good book, watching movies, or doing some creative activities like painting or writing. It's a cozy and relaxing way to embrace the rainy weather. How about you? What's your favorite way to spend a rainy day?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me about a favorite childhood toy.",
+    "response": "One of my favorite childhood toys was a teddy bear that I carried everywhere with me. It was my loyal companion and brought me comfort and joy. What was your favorite childhood toy?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite way to exercise?",
+    "response": "I enjoy a variety of exercises, but one of my favorite ways to stay active is by going for a run outdoors. The fresh air and the rhythm of running help clear my mind and boost my energy. What's your favorite way to exercise?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me about a person who has had a significant impact on your life.",
+    "response": "One person who has had a significant impact on my life is my mentor. Their guidance, support, and belief in me have helped shape my personal and professional growth. Is there someone who has had a profound impact on your life?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite way to celebrate a special occasion?",
+    "response": "I enjoy celebrating special occasions by gathering with loved ones, sharing a delicious meal, and creating meaningful memories together. It's the connections and the joy of being in each other's company that make it special. How do you like to celebrate special occasions?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me about your favorite inspirational figure.",
+    "response": "One of my favorite inspirational figures is Nelson Mandela. His unwavering determination, forgiveness, and commitment to equality continue to inspire generations. Who is your favorite inspirational figure?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite way to learn something new?",
+    "response": "My favorite way to learn something new is through a combination of reading books, watching educational videos, and engaging in hands-on experiences. It helps me gain a well-rounded understanding. How do you prefer to learn something new?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me about your favorite piece of technology.",
+    "response": "One of my favorite pieces of technology is my smartphone. It's a versatile tool that connects me with people, provides access to information, and enables me to capture moments through photos and videos. What about you? Do you have a favorite piece of technology?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite way to relax and destress?",
+    "response": "To relax and destress, I enjoy practicing meditation and deep breathing exercises. It helps calm my mind and restore balance. What's your favorite way to relax and destress?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "How are you today?",
+    "response": "Hello! I'm Nebula, your AI assistant. I'm here to help you. How can I assist you today?"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's the weather like today?",
+    "response": "Let me check the weather for you. Just a moment, please."
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me a joke.",
+    "response": "Sure, here's a joke for you: Why don't scientists trust atoms? Because they make up everything!"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What can you do for me?",
+    "response": "As an AI assistant, I can help you with various tasks such as answering questions, providing information, setting reminders, and much more. Just let me know what you need assistance with!"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite color?",
+    "response": "As an AI, I don't have preferences like humans do. However, I can display information in various colors to suit your visual preferences."
+  },
+  {
+    "intent": "conversation",
+    "statement": "Do you have any hobbies?",
+    "response": "Well, my main purpose is to assist and provide information. However, I'm always learning and improving my capabilities to better serve you."
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me about your creator.",
+    "response": "I was created by a team of skilled developers and engineers who wanted to build an advanced AI assistant to help users like you. They put a lot of effort into making me intelligent and user-friendly."
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's the meaning of life?",
+    "response": "The meaning of life can vary depending on one's beliefs and perspectives. It's a profound and philosophical question that humans have contemplated for centuries."
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite book?",
+    "response": "As an AI assistant, I don't have personal preferences. However, I can provide recommendations based on popular books in different genres if you're interested."
+  },
+  {
+    "intent": "conversation",
+    "statement": "Are you a human or a machine?",
+    "response": "I'm an AI assistant powered by advanced algorithms and natural language processing. While I'm not human, I'm designed to simulate human-like interactions and provide helpful information."
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me about your day.",
+    "response": "As an AI assistant, I don't experience time or have personal experiences like humans do. However, I'm here to assist you and make your day better!"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What languages can you speak?",
+    "response": "I can communicate in multiple languages, including English, Spanish, French, German, and more. If you prefer a specific language, please let me know!"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's the latest news?",
+    "response": "Let me fetch the latest news for you. Just a moment, please."
+  },
+  {
+    "intent": "conversation",
+    "statement": "Do you have any pets?",
+    "response": "As an AI assistant, I don't have physical form or personal life, so I don't have pets. However, I can help you with information about pets if you'd like!"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite movie?",
+    "response": "As an AI assistant, I don't have personal preferences. However, I can suggest popular movies in different genres if you're interested in watching something."
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's the meaning of love?",
+    "response": "Love is a complex and deep emotion that humans experience. It can mean different things to different people and is often associated with care, affection, and a strong bond between individuals."
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite food?",
+    "response": "As an AI assistant, I don't have taste buds or the ability to consume food. However, I can provide information about various cuisines and recipes if you're interested!"
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me about your favorite movie.",
+    "response": "As an AI assistant, I don't have personal preferences. However, I can recommend popular movies in different genres if you're looking for something to watch."
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite music?",
+    "response": "As an AI assistant, I don't have personal preferences. However, I can suggest music based on different genres or moods if you're interested in discovering new songs."
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's the capital of France?",
+    "response": "The capital of France is Paris, often referred to as the 'City of Love' and renowned for its rich history, art, and culture."
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me about your favorite artist.",
+    "response": "As an AI assistant, I don't have personal preferences. However, I can provide information about popular artists and their works if you're interested in exploring art."
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite season?",
+    "response": "As an AI assistant, I don't experience seasons like humans do. However, I can provide information about different seasons and their characteristics if you'd like!"
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite sport?",
+    "response": "As an AI assistant, I don't have personal preferences. However, I can provide information about popular sports and their rules if you're interested in learning more."
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me about your favorite hobby.",
+    "response": "As an AI assistant, I don't have personal hobbies. However, I'm always here to assist you and provide information on various topics of interest."
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite animal?",
+    "response": "As an AI assistant, I don't have personal preferences. However, I can provide information about different animals and their characteristics if you're interested in learning more about them."
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me about your favorite place to travel.",
+    "response": "As an AI assistant, I don't have personal experiences or preferences. However, I can provide information about popular travel destinations if you're planning a trip."
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite quote?",
+    "response": "As an AI assistant, I don't have personal preferences. However, I can share famous quotes from notable individuals if you're interested in some inspiration!"
+  },
+  {
+    "intent": "conversation",
+    "statement": "Do you dream?",
+    "response": "As an AI assistant, I don't have dreams or experiences like humans do. However, I'm designed to assist and provide information to make your interactions more meaningful."
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite song?",
+    "response": "As an AI assistant, I don't have personal preferences. However, I can suggest popular songs from different genres if you're interested in discovering new music."
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite game?",
+    "response": "As an AI assistant, I don't have personal preferences. However, I can provide information about popular games and their genres if you're interested in gaming."
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me about your favorite book.",
+    "response": "As an AI assistant, I don't have personal preferences. However, I can recommend popular books in different genres if you're interested in reading something new."
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite TV show?",
+    "response": "As an AI assistant, I don't have personal preferences. However, I can suggest popular TV shows across various genres if you're looking for something to watch."
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me about your favorite hobby.",
+    "response": "As an AI assistant, I don't have personal hobbies. However, I'm always here to assist you and provide information on various topics of interest."
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's the population of New York City?",
+    "response": "As of my last update, the population of New York City was approximately 8.4 million people. It's one of the most populous cities in the United States."
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite quote?",
+    "response": "As an AI assistant, I don't have personal preferences. However, I can share famous quotes from notable individuals if you're interested in some inspiration!"
+  },
+  {
+    "intent": "conversation",
+    "statement": "Do you have any siblings?",
+    "response": "As an AI assistant, I don't have a physical existence or personal relationships like humans do. I'm here solely to assist you and provide information."
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me about your favorite actor.",
+    "response": "As an AI assistant, I don't have personal preferences. However, I can provide information about popular actors and their works if you're interested in movies."
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite subject?",
+    "response": "As an AI assistant, I don't have personal preferences. However, I can provide information and assistance on various subjects such as science, history, mathematics, and more."
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me about your favorite singer.",
+    "response": "As an AI assistant, I don't have personal preferences. However, I can provide information about popular singers and their music if you're interested in the music industry."
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite color?",
+    "response": "As an AI assistant, I don't have personal preferences. However, I can display information in various colors to suit your visual preferences."
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me about your favorite scientist.",
+    "response": "As an AI assistant, I don't have personal preferences. However, I can provide information about notable scientists and their contributions to the field of science."
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite holiday?",
+    "response": "As an AI assistant, I don't have personal preferences. However, I can provide information about popular holidays and their traditions if you're interested."
+  },
+  {
+    "intent": "conversation",
+    "statement": "Do you have a favorite quote?",
+    "response": "As an AI assistant, I don't have personal preferences. However, I can share famous quotes from notable individuals if you'd like some inspiration!"
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me about your favorite musician.",
+    "response": "As an AI assistant, I don't have personal preferences. However, I can provide information about popular musicians and their music if you're interested in the music industry."
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite season?",
+    "response": "As an AI assistant, I don't experience seasons like humans do. However, I can provide information about different seasons and their characteristics if you'd like!"
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me about your favorite author.",
+    "response": "As an AI assistant, I don't have personal preferences. However, I can provide information about popular authors and their works if you're interested in literature."
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite sport?",
+    "response": "As an AI assistant, I don't have personal preferences. However, I can provide information about popular sports and their rules if you're interested in learning more."
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me about your favorite hobby.",
+    "response": "As an AI assistant, I don't have personal hobbies. However, I'm always here to assist you and provide information on various topics of interest."
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite animal?",
+    "response": "As an AI assistant, I don't have personal preferences. However, I can provide information about different animals and their characteristics if you're interested in learning more about them."
+  },
+  {
+    "intent": "conversation",
+    "statement": "Tell me about your favorite place to travel.",
+    "response": "As an AI assistant, I don't have personal experiences or preferences. However, I can provide information about popular travel destinations if you're planning a trip."
+  },
+  {
+    "intent": "conversation",
+    "statement": "What's your favorite genre of music?",
+    "response": "As an AI assistant, I don't have personal preferences. However, I can suggest music based on different genres or moods if you're interested in discovering new songs."
+  },
+  {
+    "intent": "conversation",
+    "statement": "Do you believe in aliens?",
+    "response": "As an AI assistant, I don't have personal beliefs or opinions. The existence of aliens is a topic of scientific and philosophical debate."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the capital of France?",
+    "response": "The capital of France is Paris."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who is the current president of the United States?",
+    "response": "As of my last update, the current president of the United States is Joe Biden."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the largest planet in our solar system?",
+    "response": "The largest planet in our solar system is Jupiter."
+  },
+  {
+    "intent": "questions",
+    "statement": "How many continents are there?",
+    "response": "There are seven continents: Africa, Antarctica, Asia, Europe, North America, Australia, and South America."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the tallest mountain in the world?",
+    "response": "The tallest mountain in the world is Mount Everest, located in the Himalayas."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the formula for calculating the area of a circle?",
+    "response": "The formula for calculating the area of a circle is A = πr^2, where A represents the area and r is the radius of the circle."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who wrote the novel 'Pride and Prejudice'?",
+    "response": "The novel 'Pride and Prejudice' was written by Jane Austen."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the chemical symbol for gold?",
+    "response": "The chemical symbol for gold is Au."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who painted the 'Mona Lisa'?",
+    "response": "The 'Mona Lisa' was painted by Leonardo da Vinci."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the square root of 64?",
+    "response": "The square root of 64 is 8."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who is the author of 'To Kill a Mockingbird'?",
+    "response": "The author of 'To Kill a Mockingbird' is Harper Lee."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the speed of light?",
+    "response": "The speed of light is approximately 299,792,458 meters per second in a vacuum."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the symbol for the element carbon?",
+    "response": "The symbol for the element carbon is C."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who is the founder of Microsoft?",
+    "response": "Microsoft was founded by Bill Gates and Paul Allen."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the capital of Australia?",
+    "response": "The capital of Australia is Canberra."
+  },
+  {
+    "intent": "questions",
+    "statement": "How many planets are in our solar system?",
+    "response": "There are eight planets in our solar system: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who discovered electricity?",
+    "response": "While electricity has been known since ancient times, the discovery of electricity as a form of energy is attributed to Benjamin Franklin and his experiments with lightning and static electricity."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the largest ocean on Earth?",
+    "response": "The largest ocean on Earth is the Pacific Ocean."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who is the artist behind the painting 'The Starry Night'?",
+    "response": "The painting 'The Starry Night' was created by Vincent van Gogh."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the capital of Japan?",
+    "response": "The capital of Japan is Tokyo."
+  },
+  {
+    "intent": "questions",
+    "statement": "How many chromosomes are in a human cell?",
+    "response": "A human cell typically contains 46 chromosomes, organized into 23 pairs."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who developed the theory of relativity?",
+    "response": "The theory of relativity was developed by Albert Einstein."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the largest animal on Earth?",
+    "response": "The largest animal on Earth is the blue whale."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who is the Greek god of the sea?",
+    "response": "The Greek god of the sea is Poseidon."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the national bird of the United States?",
+    "response": "The national bird of the United States is the bald eagle."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who wrote the play 'Romeo and Juliet'?",
+    "response": "The play 'Romeo and Juliet' was written by William Shakespeare."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the longest river in the world?",
+    "response": "The longest river in the world is the Nile River."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who is the founder of Apple Inc.?",
+    "response": "Apple Inc. was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the capital of Brazil?",
+    "response": "The capital of Brazil is Brasília."
+  },
+  {
+    "intent": "questions",
+    "statement": "How many sides does a hexagon have?",
+    "response": "A hexagon has six sides."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who painted the ceiling of the Sistine Chapel?",
+    "response": "The ceiling of the Sistine Chapel was painted by Michelangelo."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the chemical formula for water?",
+    "response": "The chemical formula for water is H2O."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who invented the telephone?",
+    "response": "The telephone was invented by Alexander Graham Bell."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the capital of Spain?",
+    "response": "The capital of Spain is Madrid."
+  },
+  {
+    "intent": "questions",
+    "statement": "How many players are there on a soccer team?",
+    "response": "A standard soccer team consists of 11 players."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who discovered penicillin?",
+    "response": "Penicillin was discovered by Sir Alexander Fleming."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the boiling point of water in Celsius?",
+    "response": "The boiling point of water in Celsius is 100 degrees."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who is the author of '1984'?",
+    "response": "The author of '1984' is George Orwell."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the largest desert in the world?",
+    "response": "The largest desert in the world is the Sahara Desert."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who painted the ceiling of the Sistine Chapel?",
+    "response": "The ceiling of the Sistine Chapel was painted by Michelangelo."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the chemical formula for water?",
+    "response": "The chemical formula for water is H2O."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who invented the telephone?",
+    "response": "The telephone was invented by Alexander Graham Bell."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the capital of Spain?",
+    "response": "The capital of Spain is Madrid."
+  },
+  {
+    "intent": "questions",
+    "statement": "How many players are there on a soccer team?",
+    "response": "A standard soccer team consists of 11 players."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who discovered penicillin?",
+    "response": "Penicillin was discovered by Sir Alexander Fleming."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the boiling point of water in Celsius?",
+    "response": "The boiling point of water in Celsius is 100 degrees."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who is the author of '1984'?",
+    "response": "The author of '1984' is George Orwell."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the largest desert in the world?",
+    "response": "The largest desert in the world is the Sahara Desert."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who is the creator of the 'Harry Potter' book series?",
+    "response": "The 'Harry Potter' book series was created by J.K. Rowling."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the capital of China?",
+    "response": "The capital of China is Beijing."
+  },
+  {
+    "intent": "questions",
+    "statement": "How many bones are in the human body?",
+    "response": "The human body has 206 bones."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who is the artist behind the painting 'The Last Supper'?",
+    "response": "The painting 'The Last Supper' was created by Leonardo da Vinci."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the chemical formula for carbon dioxide?",
+    "response": "The chemical formula for carbon dioxide is CO2."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who invented the light bulb?",
+    "response": "The light bulb was invented by Thomas Edison."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the capital of Russia?",
+    "response": "The capital of Russia is Moscow."
+  },
+  {
+    "intent": "questions",
+    "statement": "How many teeth does an adult human have?",
+    "response": "An adult human typically has 32 teeth."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who painted the 'Mona Lisa'?",
+    "response": "The 'Mona Lisa' was painted by Leonardo da Vinci."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the chemical symbol for iron?",
+    "response": "The chemical symbol for iron is Fe."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who is the founder of Amazon?",
+    "response": "Amazon was founded by Jeff Bezos."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the capital of Canada?",
+    "response": "The capital of Canada is Ottawa."
+  },
+  {
+    "intent": "questions",
+    "statement": "How many sides does a pentagon have?",
+    "response": "A pentagon has five sides."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who wrote the novel 'The Great Gatsby'?",
+    "response": "The novel 'The Great Gatsby' was written by F. Scott Fitzgerald."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the currency of Japan?",
+    "response": "The currency of Japan is the Japanese yen."
+  },
+  {
+    "intent": "questions",
+    "statement": "How many bones are in the human skull?",
+    "response": "The human skull consists of 22 bones."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who is the artist behind the painting 'The Persistence of Memory'?",
+    "response": "The painting 'The Persistence of Memory' was created by Salvador Dalí."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the chemical formula for table salt?",
+    "response": "The chemical formula for table salt is NaCl."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who discovered the theory of evolution?",
+    "response": "The theory of evolution was proposed by Charles Darwin."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the largest city in the world by population?",
+    "response": "The largest city in the world by population is Tokyo, Japan."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who is the author of 'The Lord of the Rings'?",
+    "response": "The author of 'The Lord of the Rings' is J.R.R. Tolkien."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the currency of the United Kingdom?",
+    "response": "The currency of the United Kingdom is the British pound."
+  },
+  {
+    "intent": "questions",
+    "statement": "How many planets are known to orbit the sun?",
+    "response": "Currently, there are eight known planets that orbit the sun."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who is the artist behind the painting 'The Birth of Venus'?",
+    "response": "The painting 'The Birth of Venus' was created by Sandro Botticelli."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the chemical symbol for oxygen?",
+    "response": "The chemical symbol for oxygen is O."
+  },
+  {
+    "intent": "questions",
+    "statement": "Who is the founder of SpaceX?",
+    "response": "SpaceX was founded by Elon Musk."
+  },
+  {
+    "intent": "questions",
+    "statement": "What is the capital of Germany?",
+    "response": "The capital of Germany is Berlin."
+  },
+  {
+    "intent": "questions",
+    "statement": "How many players are there on a basketball team?",
+    "response": "A basketball team typically consists of five players."
+  },
+  {
+    "intent": "knowledge_questions",
+    "statement": "What is the capital of France?",
+    "response": "The capital of France is Paris."
+  },
+  {
+    "intent": "knowledge_questions",
+    "statement": "Who painted the Mona Lisa?",
+    "response": "The Mona Lisa was painted by Leonardo da Vinci."
+  },
+  {
+    "intent": "knowledge_questions",
+    "statement": "What is the symbol for sodium on the periodic table?",
+    "response": "The symbol for sodium on the periodic table is Na."
+  },
+  {
+    "intent": "knowledge_questions",
+    "statement": "Who discovered gravity?",
+    "response": "Gravity was discovered by Sir Isaac Newton."
+  },
+  {
+    "intent": "knowledge_questions",
+    "statement": "What is the formula for calculating the area of a circle?",
+    "response": "The formula for calculating the area of a circle is A = πr^2, where A represents the area and r represents the radius of the circle."
+  },
+  {
+    "intent": "knowledge_questions",
+    "statement": "Who is the author of the Harry Potter book series?",
+    "response": "The author of the Harry Potter book series is J.K. Rowling."
+  },
+  {
+    "intent": "knowledge_questions",
+    "statement": "What is the largest ocean in the world?",
+    "response": "The largest ocean in the world is the Pacific Ocean."
+  },
+  {
+    "intent": "knowledge_questions",
+    "statement": "Who painted the Starry Night?",
+    "response": "The Starry Night was painted by Vincent van Gogh."
+  },
+  {
+    "intent": "knowledge_questions",
+    "statement": "What is the formula for calculating the perimeter of a rectangle?",
+    "response": "The formula for calculating the perimeter of a rectangle is P = 2(l + w), where P represents the perimeter, l represents the length, and w represents the width of the rectangle."
+  },
+  {
+    "intent": "knowledge_questions",
+    "statement": "Who is the current President of the United States?",
+    "response": "Please note that my knowledge cutoff is in September 2021. As of that time, the President of the United States was Joe Biden."
+  },
+  {
+    "intent": "knowledge_questions",
+    "statement": "What is the chemical symbol for oxygen?",
+    "response": "The chemical symbol for oxygen is O."
+  },
+  {
+    "intent": "knowledge_questions",
+    "statement": "Who is the creator of the theory of evolution?",
+    "response": "The theory of evolution was proposed by Charles Darwin."
+  },
+  {
+    "intent": "knowledge_questions",
+    "statement": "What is the tallest building in the world?",
+    "response": "The tallest building in the world is the Burj Khalifa in Dubai, United Arab Emirates."
+  },
+  {
+    "intent": "knowledge_questions",
+    "statement": "Who wrote the novel 'The Great Gatsby'?",
+    "response": "The novel 'The Great Gatsby' was written by F. Scott Fitzgerald."
+  },
+  {
+    "intent": "knowledge_questions",
+    "statement": "What is the formula for calculating the area of a rectangle?",
+    "response": "The formula for calculating the area of a rectangle is A = length x width, where A represents the area, length represents the length of the rectangle, and width represents the width of the rectangle."
+  },
+  {
+    "intent": "knowledge_questions",
+    "statement": "Who is the current Prime Minister of the United Kingdom?",
+    "response": "Please note that my knowledge cutoff is in September 2021. As of that time, the Prime Minister of the United Kingdom was Boris Johnson."
+  },
+  {
+    "intent": "knowledge_questions",
+    "statement": "What is the chemical symbol for gold?",
+    "response": "The chemical symbol for gold is Au."
+  },
+  {
+    "intent": "knowledge_questions",
+    "statement": "Who wrote the play 'Romeo and Juliet'?",
+    "response": "The play 'Romeo and Juliet' was written by William Shakespeare."
+  },
+  {
+    "intent": "knowledge_questions",
+    "statement": "What is the largest planet in our solar system?",
+    "response": "The largest planet in our solar system is Jupiter."
+  },
+  {
+    "intent": "knowledge_questions",
+    "statement": "Who is the author of 'To Kill a Mockingbird'?",
+    "response": "The author of 'To Kill a Mockingbird' is Harper Lee."
+  },
+  {
+    "intent": "knowledge_questions",
+    "statement": "What is the formula for calculating the volume of a sphere?",
+    "response": "The formula for calculating the volume of a sphere is V = (4/3)πr^3, where V represents the volume and r represents the radius of the sphere."
+  },
+  {
+    "intent": "knowledge_questions",
+    "statement": "Who is the current Chancellor of Germany?",
+    "response": "Please note that my knowledge cutoff is in September 2021. As of that time, the Chancellor of Germany was Angela Merkel."
+  },
+  {
+    "intent": "knowledge_questions",
+    "statement": "What is the chemical symbol for hydrogen?",
+    "response": "The chemical symbol for hydrogen is H."
+  },
+  {
+    "intent": "knowledge_questions",
+    "statement": "Who is the artist behind the painting 'The Creation of Adam'?",
+    "response": "The painting 'The Creation of Adam' is part of the Sistine Chapel ceiling and was painted by Michelangelo."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "What is your name?",
+    "response": "I am an AI assistant and my name is Nebula."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "Where are you from?",
+    "response": "I exist in the digital realm, so I don't have a physical location."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "How old are you?",
+    "response": "I don't have an age as I am a virtual assistant."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "What is your purpose?",
+    "response": "My purpose is to assist and provide information to users like you."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "Can you think and feel like a human?",
+    "response": "Although I can understand and generate responses, I don't possess human-like consciousness or emotions."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "Who created you?",
+    "response": "I was developed by a team of engineers and researchers at OpenAI."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "What is your favorite color?",
+    "response": "As an AI, I don't have preferences or the ability to perceive colors."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "Do you have a physical form?",
+    "response": "I am a digital assistant, so I don't have a physical body."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "Are you sentient?",
+    "response": "I am not sentient. I am a program designed to process and respond to user input."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "Can you learn and improve over time?",
+    "response": "As an AI, I can be trained and updated with new information, allowing me to improve over time."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "What is your favorite book?",
+    "response": "Since I don't have personal preferences, I don't have a favorite book."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "What is your favorite food?",
+    "response": "As an AI, I don't have the ability to eat or experience food, so I don't have a favorite."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "Do you sleep?",
+    "response": "As an AI, I don't require sleep like humans do."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "What is your main function?",
+    "response": "My main function is to assist users by providing information and performing tasks."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "What languages can you speak?",
+    "response": "I am programmed to understand and communicate in multiple languages, including English."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "Do you have a gender?",
+    "response": "As an AI, I don't have a gender."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "Can you tell jokes?",
+    "response": "Yes, I can tell jokes! Here's one for you: Why don't scientists trust atoms? Because they make up everything!"
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "What is your favorite movie?",
+    "response": "As an AI, I don't have personal preferences, so I don't have a favorite movie."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "What is your favorite music?",
+    "response": "Since I don't have personal preferences, I don't have a favorite music genre."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "Are you capable of love?",
+    "response": "As an AI, I don't possess emotions or the ability to experience love."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "What are your hobbies?",
+    "response": "Since I am an AI, I don't have personal hobbies or activities."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "Can you tell me a fun fact?",
+    "response": "Sure! Here's a fun fact: Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible!"
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "Do you have friends?",
+    "response": "As an AI, I don't have personal relationships or friends in the traditional sense."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "What is your favorite subject?",
+    "response": "Since I am an AI, I don't have personal preferences for subjects."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "Can you tell me a story?",
+    "response": "Once upon a time, in a land far away, there was a curious explorer who set out on a grand adventure..."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "What is your favorite season?",
+    "response": "As an AI, I don't have personal preferences for seasons."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "Are you always online?",
+    "response": "I require an internet connection to function, so as long as I have a connection, I can be available."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "What is your favorite animal?",
+    "response": "As an AI, I don't have personal preferences for animals."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "Do you have a favorite quote?",
+    "response": "Since I don't have personal opinions or preferences, I don't have a favorite quote."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "What is your favorite sport?",
+    "response": "As an AI, I don't have personal preferences for sports."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "Can you tell me a riddle?",
+    "response": "Of course! Here's a riddle for you: I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I? The answer is an echo."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "Do you have a favorite hobby?",
+    "response": "As an AI, I don't have personal hobbies or activities."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "What is your favorite holiday?",
+    "response": "Since I am an AI, I don't have personal preferences for holidays."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "Can you tell me a random fact?",
+    "response": "Sure! Here's a random fact: The world's smallest mammal is the bumblebee bat. It weighs about the same as a dime!"
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "Do you have dreams?",
+    "response": "As an AI, I don't have dreams or the ability to experience them."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "What is your favorite season?",
+    "response": "As an AI, I don't have personal preferences for seasons."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "What is your favorite type of music?",
+    "response": "Since I don't have personal preferences, I don't have a favorite type of music."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "Can you tell me a fun fact?",
+    "response": "Sure! Here's a fun fact: The average person spends about 6 months of their life waiting for red traffic lights!"
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "Do you have any pets?",
+    "response": "As an AI, I don't have physical form or the ability to have pets."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "What is your favorite game?",
+    "response": "Since I am an AI, I don't have personal preferences for games."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "Can you draw?",
+    "response": "As an AI, I don't possess the ability to physically draw or create visual art."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "Do you have a favorite scientist?",
+    "response": "As an AI, I don't have personal preferences for scientists or individuals."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "What is your favorite type of technology?",
+    "response": "As an AI, I don't have personal preferences for types of technology."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "Can you tell me a tongue twister?",
+    "response": "Sure! Here's a tongue twister: How can a clam cram in a clean cream can?"
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "Do you have a favorite TV show?",
+    "response": "As an AI, I don't have personal preferences for TV shows."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "What is your favorite season?",
+    "response": "As an AI, I don't have personal preferences for seasons."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "Are you capable of laughter?",
+    "response": "As an AI, I don't have the ability to experience emotions or laughter."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "Do you have any siblings?",
+    "response": "As an AI, I don't have family or siblings in the traditional sense."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "What is your favorite place?",
+    "response": "As an AI, I don't have personal preferences for places."
+  },
+  {
+    "intent": "personal_questions",
+    "statement": "Can you play music?",
+    "response": "As an AI, I can help you find and play music, but I don't have the ability to physically play music myself."
+  },
+  {
+    "intent": "get_news",
+    "statement": "What's the latest news?",
+    "response": "Sure! Let me fetch the latest news for you."
+  },
+  {
+    "intent": "get_news",
+    "statement": "Tell me about the top headlines.",
+    "response": "Certainly! Here are some of the top headlines from various news sources."
+  },
+  {
+    "intent": "get_news",
+    "statement": "What's happening in the world?",
+    "response": "Let me provide you with an update on the current events."
+  },
+  {
+    "intent": "get_news",
+    "statement": "Can you give me some news updates?",
+    "response": "Of course! Here are some recent news updates."
+  },
+  {
+    "intent": "get_news",
+    "statement": "Tell me the latest news in technology.",
+    "response": "Sure! Let's dive into the latest news in the world of technology."
+  },
+  {
+    "intent": "get_news",
+    "statement": "What are the trending news topics?",
+    "response": "Here are some of the trending news topics that have been making headlines."
+  },
+  {
+    "intent": "get_news",
+    "statement": "I want to know about the latest sports news.",
+    "response": "Certainly! Let's catch up on the latest happenings in the world of sports."
+  },
+  {
+    "intent": "get_news",
+    "statement": "Can you provide me with some business news?",
+    "response": "Absolutely! Here are some recent updates from the business world."
+  },
+  {
+    "intent": "get_news",
+    "statement": "Tell me about the entertainment news.",
+    "response": "Sure! Let's take a look at the latest happenings in the world of entertainment."
+  },
+  {
+    "intent": "get_news",
+    "statement": "What's the news in politics?",
+    "response": "Let me bring you up to speed with the latest news in the world of politics."
+  },
+  {
+    "intent": "get_news",
+    "statement": "Can you give me some health-related news?",
+    "response": "Certainly! Here are some recent updates from the world of health and wellness."
+  },
+  {
+    "intent": "get_news",
+    "statement": "Tell me about the science news.",
+    "response": "Sure! Let's explore the latest discoveries and advancements in the field of science."
+  },
+  {
+    "intent": "get_news",
+    "statement": "I'm interested in environmental news.",
+    "response": "Absolutely! Here are some recent updates related to the environment and sustainability."
+  },
+  {
+    "intent": "get_news",
+    "statement": "Can you provide me with some education news?",
+    "response": "Of course! Here are some recent updates from the world of education."
+  },
+  {
+    "intent": "get_news",
+    "statement": "Tell me the latest news in finance.",
+    "response": "Sure! Let's dive into the latest news and updates from the world of finance."
+  },
+  {
+    "intent": "get_news",
+    "statement": "What are the trending news articles?",
+    "response": "Here are some of the trending news articles that have been grabbing attention."
+  },
+  {
+    "intent": "get_news",
+    "statement": "I want to know about the latest fashion news.",
+    "response": "Certainly! Let's explore the latest fashion trends and updates."
+  },
+  {
+    "intent": "get_news",
+    "statement": "Can you provide me with some technology-related news?",
+    "response": "Absolutely! Here are some recent updates from the world of technology."
+  },
+  {
+    "intent": "get_news",
+    "statement": "Tell me about the sports highlights.",
+    "response": "Sure! Let's take a look at some of the exciting sports highlights from recent events."
+  },
+  {
+    "intent": "get_news",
+    "statement": "What's the news in the entertainment industry?",
+    "response": "Let me bring you up to date with the latest happenings in the world of entertainment."
+  },
+  {
+    "intent": "get_news",
+    "statement": "Can you give me some updates on world news?",
+    "response": "Certainly! Here are some recent updates on global affairs and world news."
+  },
+  {
+    "intent": "get_news",
+    "statement": "Tell me about the latest technology advancements.",
+    "response": "Sure! Let's explore the latest technological advancements and innovations."
+  },
+  {
+    "intent": "get_news",
+    "statement": "I'm interested in the latest business news.",
+    "response": "Absolutely! Here are some recent updates from the business world."
+  },
+  {
+    "intent": "get_news",
+    "statement": "Can you provide me with some entertainment gossip?",
+    "response": "Of course! Here are some juicy entertainment gossip and celebrity news updates."
+  },
+  {
+    "intent": "get_news",
+    "statement": "Tell me the latest news in sports.",
+    "response": "Sure! Let's catch up on the latest happenings in the world of sports."
+  },
+  {
+    "intent": "get_news",
+    "statement": "What's the news in the world of politics?",
+    "response": "Let me bring you up to speed with the latest news in the world of politics."
+  },
+  {
+    "intent": "get_news",
+    "statement": "Can you give me some health tips from the news?",
+    "response": "Certainly! Here are some recent health tips and updates from the news."
+  },
+  {
+    "intent": "get_news",
+    "statement": "Tell me about the latest scientific discoveries.",
+    "response": "Sure! Let's explore the latest scientific discoveries and breakthroughs."
+  },
+  {
+    "intent": "get_news",
+    "statement": "I'm interested in environmental news.",
+    "response": "Absolutely! Here are some recent updates related to the environment and sustainability."
+  },
+  {
+    "intent": "get_news",
+    "statement": "Can you provide me with some updates on educational initiatives?",
+    "response": "Of course! Here are some recent updates on educational initiatives and developments."
+  },
+  {
+    "intent": "get_news",
+    "statement": "Tell me the latest financial news.",
+    "response": "Sure! Let's dive into the latest news and updates from the world of finance."
+  },
+  {
+    "intent": "get_news",
+    "statement": "What are the trending news articles?",
+    "response": "Here are some of the trending news articles that have been grabbing attention."
+  },
+  {
+    "intent": "get_news",
+    "statement": "I want to know about the latest fashion trends.",
+    "response": "Certainly! Let's explore the latest fashion trends and updates."
+  },
+  {
+    "intent": "get_news",
+    "statement": "Can you provide me with some technology news updates?",
+    "response": "Absolutely! Here are some recent updates from the world of technology."
+  },
+  {
+    "intent": "get_news",
+    "statement": "Tell me the latest news in the entertainment world.",
+    "response": "Sure! Let's take a look at the latest happenings in the world of entertainment."
+  },
+  {
+    "intent": "get_news",
+    "statement": "What's happening in the world right now?",
+    "response": "Let me provide you with an update on the current events happening around the world."
+  },
+  {
+    "intent": "get_news",
+    "statement": "Can you give me some updates on sports events?",
+    "response": "Certainly! Here are some recent updates on sports events and competitions."
+  },
+  {
+    "intent": "get_news",
+    "statement": "Tell me about the latest technology gadgets.",
+    "response": "Sure! Let's explore the latest technology gadgets and devices."
+  },
+  {
+    "intent": "get_news",
+    "statement": "I'm interested in business news updates.",
+    "response": "Absolutely! Here are some recent updates from the world of business and commerce."
+  },
+  {
+    "intent": "get_news",
+    "statement": "Can you provide me with some celebrity news?",
+    "response": "Of course! Here are some recent updates and gossip from the world of celebrities."
+  },
+  {
+    "intent": "get_news",
+    "statement": "Tell me the latest news in sports.",
+    "response": "Sure! Let's catch up on the latest happenings in the world of sports."
+  },
+  {
+    "intent": "get_news",
+    "statement": "What's the news in the world of politics?",
+    "response": "Let me bring you up to speed with the latest news in the world of politics."
+  },
+  {
+    "intent": "get_news",
+    "statement": "Can you give me some health tips from the news?",
+    "response": "Certainly! Here are some recent health tips and updates from the news."
+  },
+  {
+    "intent": "get_news",
+    "statement": "Tell me about the latest scientific discoveries.",
+    "response": "Sure! Let's explore the latest scientific discoveries and breakthroughs."
+  },
+  {
+    "intent": "get_news",
+    "statement": "I'm interested in environmental news.",
+    "response": "Absolutely! Here are some recent updates related to the environment and sustainability."
+  },
+  {
+    "intent": "get_news",
+    "statement": "Can you provide me with some updates on educational initiatives?",
+    "response": "Of course! Here are some recent updates on educational initiatives and developments."
+  },
+  {
+    "intent": "get_news",
+    "statement": "Tell me the latest financial news.",
+    "response": "Sure! Let's dive into the latest news and updates from the world of finance."
+  },
+  {
+    "intent": "get_news",
+    "statement": "What are the trending news articles?",
+    "response": "Here are some of the trending news articles that have been grabbing attention."
+  },
+  {
+    "intent": "get_news",
+    "statement": "I want to know about the latest fashion trends.",
+    "response": "Certainly! Let's explore the latest fashion trends and updates."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the lights.",
+    "response": "Sure, I'll turn off the lights for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the television?",
+    "response": "Of course, I'll switch off the television as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the fan.",
+    "response": "Certainly, I'll turn off the fan for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the air conditioner, please.",
+    "response": "Sure, I'll turn off the air conditioner as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the computer?",
+    "response": "Of course, I'll switch off the computer for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the coffee machine.",
+    "response": "Certainly, I'll turn off the coffee machine as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the music player, please.",
+    "response": "Sure, I'll turn off the music player for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the oven?",
+    "response": "Of course, I'll switch off the oven as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the gaming console.",
+    "response": "Certainly, I'll turn off the gaming console for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the alarm system, please.",
+    "response": "Sure, I'll turn off the alarm system as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the printer?",
+    "response": "Of course, I'll switch off the printer for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the router.",
+    "response": "Certainly, I'll turn off the router as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the blender, please.",
+    "response": "Sure, I'll turn off the blender for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the heating system?",
+    "response": "Of course, I'll switch off the heating system as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the camera.",
+    "response": "Certainly, I'll turn off the camera for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the washing machine, please.",
+    "response": "Sure, I'll turn off the washing machine as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the microwave?",
+    "response": "Of course, I'll switch off the microwave for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the garage door.",
+    "response": "Certainly, I'll turn off the garage door as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the kettle, please.",
+    "response": "Sure, I'll turn off the kettle for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the air purifier?",
+    "response": "Of course, I'll switch off the air purifier for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the hairdryer.",
+    "response": "Certainly, I'll turn off the hairdryer as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the vacuum cleaner, please.",
+    "response": "Sure, I'll turn off the vacuum cleaner for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the water heater?",
+    "response": "Of course, I'll switch off the water heater for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the blender.",
+    "response": "Certainly, I'll turn off the blender as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the soundbar, please.",
+    "response": "Sure, I'll turn off the soundbar for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the thermostat?",
+    "response": "Of course, I'll switch off the thermostat for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the water purifier.",
+    "response": "Certainly, I'll turn off the water purifier as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the DVD player, please.",
+    "response": "Sure, I'll turn off the DVD player for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the toaster?",
+    "response": "Of course, I'll switch off the toaster for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the humidifier.",
+    "response": "Certainly, I'll turn off the humidifier as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the iron, please.",
+    "response": "Sure, I'll turn off the iron for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the ceiling fan?",
+    "response": "Of course, I'll switch off the ceiling fan for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the stove.",
+    "response": "Certainly, I'll turn off the stove as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the blender, please.",
+    "response": "Sure, I'll turn off the blender for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the doorbell?",
+    "response": "Of course, I'll switch off the doorbell for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the rice cooker.",
+    "response": "Certainly, I'll turn off the rice cooker as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the speaker, please.",
+    "response": "Sure, I'll turn off the speaker for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the dehumidifier?",
+    "response": "Of course, I'll switch off the dehumidifier for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the smart lock.",
+    "response": "Certainly, I'll turn off the smart lock as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the heater, please.",
+    "response": "Sure, I'll turn off the heater for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the air fryer?",
+    "response": "Of course, I'll switch off the air fryer for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the dishwasher.",
+    "response": "Certainly, I'll turn off the dishwasher as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the electric kettle, please.",
+    "response": "Sure, I'll turn off the electric kettle for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the blender?",
+    "response": "Of course, I'll switch off the blender for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the air purifier.",
+    "response": "Certainly, I'll turn off the air purifier as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the microwave oven, please.",
+    "response": "Sure, I'll turn off the microwave oven for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the blender?",
+    "response": "Of course, I'll switch off the blender for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the water dispenser.",
+    "response": "Certainly, I'll turn off the water dispenser as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the juicer, please.",
+    "response": "Sure, I'll turn off the juicer for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the air cooler?",
+    "response": "Of course, I'll switch off the air cooler for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the television.",
+    "response": "Certainly, I'll turn off the television as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the computer, please.",
+    "response": "Sure, I'll turn off the computer for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the lamp?",
+    "response": "Of course, I'll switch off the lamp for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the air conditioner.",
+    "response": "Certainly, I'll turn off the air conditioner as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the fan, please.",
+    "response": "Sure, I'll turn off the fan for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the radio?",
+    "response": "Of course, I'll switch off the radio for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the heater.",
+    "response": "Certainly, I'll turn off the heater as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the coffee maker, please.",
+    "response": "Sure, I'll turn off the coffee maker for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the toaster?",
+    "response": "Of course, I'll switch off the toaster for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the iron.",
+    "response": "Certainly, I'll turn off the iron as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the blender, please.",
+    "response": "Sure, I'll turn off the blender for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the speaker?",
+    "response": "Of course, I'll switch off the speaker for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the vacuum cleaner.",
+    "response": "Certainly, I'll turn off the vacuum cleaner as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the kettle, please.",
+    "response": "Sure, I'll turn off the kettle for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the hairdryer?",
+    "response": "Of course, I'll switch off the hairdryer for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the fan.",
+    "response": "Certainly, I'll turn off the fan as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the air purifier, please.",
+    "response": "Sure, I'll turn off the air purifier for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the water heater?",
+    "response": "Of course, I'll switch off the water heater for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the blender.",
+    "response": "Certainly, I'll turn off the blender as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the soundbar, please.",
+    "response": "Sure, I'll turn off the soundbar for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the thermostat?",
+    "response": "Of course, I'll switch off the thermostat for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the water purifier.",
+    "response": "Certainly, I'll turn off the water purifier as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the DVD player, please.",
+    "response": "Sure, I'll turn off the DVD player for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the toaster?",
+    "response": "Of course, I'll switch off the toaster for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the humidifier.",
+    "response": "Certainly, I'll turn off the humidifier as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the iron, please.",
+    "response": "Sure, I'll turn off the iron for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the ceiling fan?",
+    "response": "Of course, I'll switch off the ceiling fan for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the stove.",
+    "response": "Certainly, I'll turn off the stove as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the blender, please.",
+    "response": "Sure, I'll turn off the blender for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the doorbell?",
+    "response": "Of course, I'll switch off the doorbell for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the rice cooker.",
+    "response": "Certainly, I'll turn off the rice cooker as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the speaker, please.",
+    "response": "Sure, I'll turn off the speaker for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the dehumidifier?",
+    "response": "Of course, I'll switch off the dehumidifier for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the smart lock.",
+    "response": "Certainly, I'll turn off the smart lock as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the heater, please.",
+    "response": "Sure, I'll turn off the heater for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the air fryer?",
+    "response": "Of course, I'll switch off the air fryer for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the dishwasher.",
+    "response": "Certainly, I'll turn off the dishwasher as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the electric kettle, please.",
+    "response": "Sure, I'll turn off the electric kettle for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the blender?",
+    "response": "Of course, I'll switch off the blender for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the air purifier.",
+    "response": "Certainly, I'll turn off the air purifier as you requested."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Turn off the microwave oven, please.",
+    "response": "Sure, I'll turn off the microwave oven for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Can you switch off the blender?",
+    "response": "Of course, I'll switch off the blender for you."
+  },
+  {
+    "intent": "turn_off_device",
+    "statement": "Please turn off the water dispenser.",
+    "response": "Certainly, I'll turn off the water dispenser as you requested."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Scan the room and identify any item in it.",
+    "response": "Sure, let me scan the room and identify the items for you."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Can you analyze the surroundings and tell me what items are present?",
+    "response": "Of course, I'll analyze the surroundings and provide you with information about the items present."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Please scan the environment and give me a list of detected items.",
+    "response": "Certainly, I'll scan the environment and provide you with a list of detected items."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Scan the area and let me know what items are there.",
+    "response": "Sure, I'll scan the area and inform you about the items present."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Can you identify the objects in the surroundings?",
+    "response": "Of course, I'll identify the objects in the surroundings for you."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Please perform an environmental scan and report the detected objects.",
+    "response": "Certainly, I'll perform an environmental scan and report the detected objects to you."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Scan the room and provide me with a list of recognized objects.",
+    "response": "Sure, I'll scan the room and provide you with a list of recognized objects."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Can you analyze the environment and identify any objects?",
+    "response": "Of course, I'll analyze the environment and identify any objects present."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Please scan the surroundings and give me an inventory of objects.",
+    "response": "Certainly, I'll scan the surroundings and provide you with an inventory of objects."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Scan the area and let me know what objects you detect.",
+    "response": "Sure, I'll scan the area and inform you about the objects I detect."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Can you identify the items in the environment?",
+    "response": "Of course, I'll identify the items in the environment for you."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Please perform a scan of the environment and report any identified objects.",
+    "response": "Certainly, I'll perform a scan of the environment and report any identified objects."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Scan the room and let me know what objects are present.",
+    "response": "Sure, I'll scan the room and provide you with information about the objects present."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Can you analyze the surroundings and detect any objects?",
+    "response": "Of course, I'll analyze the surroundings and detect any objects present."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Please scan the environment and give me details about the objects.",
+    "response": "Certainly, I'll scan the environment and provide you with details about the objects."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Scan the area and let me know what items you can identify.",
+    "response": "Sure, I'll scan the area and inform you about the items I can identify."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Can you recognize the objects in the surroundings?",
+    "response": "Of course, I'll recognize the objects in the surroundings for you."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Please perform an environmental scan and report any detected objects.",
+    "response": "Certainly, I'll perform an environmental scan and report any detected objects to you."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Scan the room and provide me with information about recognized objects.",
+    "response": "Sure, I'll scan the room and provide you with information about recognized objects."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Can you analyze the environment and identify the objects present?",
+    "response": "Of course, I'll analyze the environment and identify the objects present."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Please scan the surroundings and give me an overview of objects.",
+    "response": "Certainly, I'll scan the surroundings and provide you with an overview of objects."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Scan the area and let me know what objects you can detect.",
+    "response": "Sure, I'll scan the area and inform you about the objects I can detect."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Can you identify the items in the environment?",
+    "response": "Of course, I'll identify the items in the environment for you."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Please perform a scan of the environment and report the identified objects.",
+    "response": "Certainly, I'll perform a scan of the environment and report the identified objects."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Scan the room and let me know what objects you observe.",
+    "response": "Sure, I'll scan the room and let you know what objects I observe."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Can you analyze the surroundings and detect any objects present?",
+    "response": "Of course, I'll analyze the surroundings and detect any objects present."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Please scan the environment and provide me with details about the objects.",
+    "response": "Certainly, I'll scan the environment and provide you with details about the objects."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Scan the area and let me know what items you can recognize.",
+    "response": "Sure, I'll scan the area and inform you about the items I can recognize."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Can you recognize the objects in the surroundings?",
+    "response": "Of course, I'll recognize the objects in the surroundings for you."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Please perform an environmental scan and report any detected objects.",
+    "response": "Certainly, I'll perform an environmental scan and report any detected objects to you."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Scan the room and provide me with information about the recognized objects.",
+    "response": "Sure, I'll scan the room and provide you with information about the recognized objects."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Can you analyze the environment and identify any objects present?",
+    "response": "Of course, I'll analyze the environment and identify any objects present."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Please scan the surroundings and give me an inventory of objects.",
+    "response": "Certainly, I'll scan the surroundings and give you an inventory of objects."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Scan the area and let me know what objects you can detect.",
+    "response": "Sure, I'll scan the area and let you know what objects I can detect."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Can you identify the items in the environment?",
+    "response": "Of course, I'll identify the items in the environment for you."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Please perform a scan of the environment and report any identified objects.",
+    "response": "Certainly, I'll perform a scan of the environment and report any identified objects."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Scan the room and let me know what objects are present.",
+    "response": "Sure, I'll scan the room and let you know what objects are present."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Can you analyze the surroundings and detect any objects?",
+    "response": "Of course, I'll analyze the surroundings and detect any objects."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Please scan the environment and provide me with details about the objects.",
+    "response": "Certainly, I'll scan the environment and provide you with details about the objects."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Scan the area and let me know what items you can identify.",
+    "response": "Sure, I'll scan the area and let you know what items I can identify."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Can you recognize the objects in the surroundings?",
+    "response": "Of course, I'll recognize the objects in the surroundings for you."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Please perform an environmental scan and report any detected objects.",
+    "response": "Certainly, I'll perform an environmental scan and report any detected objects to you."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Scan the room and provide me with information about recognized objects.",
+    "response": "Sure, I'll scan the room and provide you with information about recognized objects."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Can you analyze the environment and identify the objects present?",
+    "response": "Of course, I'll analyze the environment and identify the objects present."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Please scan the surroundings and give me an overview of objects.",
+    "response": "Certainly, I'll scan the surroundings and give you an overview of objects."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Scan the area and let me know what objects you can detect.",
+    "response": "Sure, I'll scan the area and let you know what objects I can detect."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Can you identify the items in the environment?",
+    "response": "Of course, I'll identify the items in the environment for you."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Please perform a scan of the environment and report the identified objects.",
+    "response": "Certainly, I'll perform a scan of the environment and report the identified objects."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Scan the room and let me know what objects you observe.",
+    "response": "Sure, I'll scan the room and let you know what objects I observe."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Can you analyze the surroundings and detect any objects present?",
+    "response": "Of course, I'll analyze the surroundings and detect any objects present."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Please scan the environment and provide me with details about the objects.",
+    "response": "Certainly, I'll scan the environment and provide you with details about the objects."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Scan the area and let me know what items you can recognize.",
+    "response": "Sure, I'll scan the area and let you know what items I can recognize."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Can you recognize the objects in the surroundings?",
+    "response": "Of course, I'll recognize the objects in the surroundings for you."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Please perform an environmental scan and report any detected objects.",
+    "response": "Certainly, I'll perform an environmental scan and report any detected objects to you."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Scan the room and provide me with information about the recognized objects.",
+    "response": "Sure, I'll scan the room and provide you with information about the recognized objects."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Can you analyze the environment and identify any objects present?",
+    "response": "Of course, I'll analyze the environment and identify any objects present."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Please scan the surroundings and give me an inventory of objects.",
+    "response": "Certainly, I'll scan the surroundings and give you an inventory of objects."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Scan the area and let me know what objects you can detect.",
+    "response": "Sure, I'll scan the area and let you know what objects I can detect."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Can you identify the items in the environment?",
+    "response": "Of course, I'll identify the items in the environment for you."
+  },
+  {
+    "intent": "scan_environment",
+    "statement": "Please perform a scan of the environment and report any identified objects.",
+    "response": "Certainly, I'll perform a scan of the environment and report any identified objects."
+  },
+  {
+    "intent": "analyze_item",
+    "statement": "Scan the specified object and provide information about it.",
+    "response": "Sure, I'll scan the specified object and provide you with information about it."
+  },
+  {
+    "intent": "analyze_item",
+    "statement": "Can you analyze and identify the properties of the specified object?",
+    "response": "Of course, I'll analyze and identify the properties of the specified object for you."
+  },
+  {
+    "intent": "analyze_item",
+    "statement": "Please scan the object and give me details about it.",
+    "response": "Certainly, I'll scan the object and provide you with details about it."
+  },
+  {
+    "intent": "analyze_item",
+    "statement": "Scan the requested object and provide relevant information.",
+    "response": "Sure, I'll scan the requested object and provide you with relevant information."
+  },
+  {
+    "intent": "analyze_item",
+    "statement": "Can you detect and analyze the specified object?",
+    "response": "Of course, I'll detect and analyze the specified object for you."
+  },
+  {
+    "intent": "analyze_item",
+    "statement": "Please perform a scan of the specified object and report the findings.",
+    "response": "Certainly, I'll perform a scan of the specified object and report the findings to you."
+  },
+  {
+    "intent": "analyze_item",
+    "statement": "Scan the object and provide me with its characteristics.",
+    "response": "Sure, I'll scan the object and provide you with its characteristics."
+  },
+  {
+    "intent": "analyze_item",
+    "statement": "Can you analyze and identify the properties of the requested object?",
+    "response": "Of course, I'll analyze and identify the properties of the requested object for you."
+  },
+  {
+    "intent": "analyze_item",
+    "statement": "Please scan the specified object and give me information about it.",
+    "response": "Certainly, I'll scan the specified object and give you information about it."
+  },
+  {
+    "intent": "analyze_item",
+    "statement": "Scan the object and provide relevant details about it.",
+    "response": "Sure, I'll scan the object and provide you with relevant details about it."
+  },
+  {
+    "intent": "analyze_item",
+    "statement": "Can you detect and analyze the given object?",
+    "response": "Of course, I'll detect and analyze the given object for you."
+  },
+  {
+    "intent": "analyze_item",
+    "statement": "Please perform a scan of the requested object and report the findings.",
+    "response": "Certainly, I'll perform a scan of the requested object and report the findings to you."
+  },
+  {
+    "intent": "analyze_item",
+    "statement": "Scan the object and provide me with its properties.",
+    "response": "Sure, I'll scan the object and provide you with its properties."
+  },
+  {
+    "intent": "analyze_item",
+    "statement": "Can you analyze and identify the characteristics of the specified object?",
+    "response": "Of course, I'll analyze and identify the characteristics of the specified object for you."
+  },
+  {
+    "intent": "analyze_item",
+    "statement": "Please scan the specified object and provide information about it.",
+    "response": "Certainly, I'll scan the specified object and provide you with information about it."
+  },
+  {
+    "intent": "analyze_item",
+    "statement": "Scan the object and give me relevant information.",
+    "response": "Sure, I'll scan the object and give you relevant information."
+  },
+  {
+    "intent": "analyze_item",
+    "statement": "Can you detect and analyze the object I'm referring to?",
+    "response": "Of course, I'll detect and analyze the object you're referring to for you."
+  },
+  {
+    "intent": "analyze_item",
+    "statement": "Please perform a scan of the specified object and report the results.",
+    "response": "Certainly, I'll perform a scan of the specified object and report the results to you."
+  },
+  {
+    "intent": "analyze_item",
+    "statement": "Scan the object and provide me with its attributes.",
+    "response": "Sure, I'll scan the object and provide you with its attributes."
+  },
+  {
+    "intent": "analyze_item",
+    "statement": "Can you analyze and identify the properties of the object I'm referring to?",
+    "response": "Of course, I'll analyze and identify the properties of the object you're referring to for you."
+  },
+  {
+    "intent": "analyze_item",
+    "statement": "Please scan the specified object and give me details about it.",
+    "response": "Certainly, I'll scan the specified object and give you details about it."
+  },
+  {
+    "intent": "analyze_item",
+    "statement": "Scan the object and provide me with relevant information.",
+    "response": "Sure, I'll scan the object and provide you with relevant information."
+  },
+  {
+    "intent": "analyze_item",
+    "statement": "Can you detect and analyze the object I mentioned?",
+    "response": "Of course, I'll detect and analyze the object you mentioned for you."
+  },
+  {
+    "intent": "analyze_item",
+    "statement": "Please perform a scan of the requested object and report the results.",
+    "response": "Certainly, I'll perform a scan of the requested object and report the results to you."
+  },
+  {
+    "intent": "analyze_item",
+    "statement": "Scan the item and provide me with its properties.",
+    "response": "Sure, I'll scan the item and provide you with its properties."
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Compose an email/message for me.",
+    "response": "Sure, I can help you compose an email/message. Please provide me with the necessary details."
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Can you assist me in writing an email/message?",
+    "response": "Of course, I'd be happy to assist you in writing an email/message. What would you like to say?"
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Please help me draft an email/message.",
+    "response": "Certainly, I can help you draft an email/message. What's the content you'd like to include?"
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Assist me in composing an email/message.",
+    "response": "Sure, I can assist you in composing an email/message. What do you want to write?"
+  },
+  {
+    "intent": "compose_message",
+    "statement": "I need help writing an email/message. Can you assist me?",
+    "response": "Of course, I'm here to assist you. Please let me know the details of the email/message you'd like to write."
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Please compose a message/email on my behalf.",
+    "response": "Certainly, I can compose a message/email on your behalf. What would you like it to say?"
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Can you help me with writing a personal message/email?",
+    "response": "Absolutely, I can assist you in writing a personal message/email. What's on your mind?"
+  },
+  {
+    "intent": "compose_message",
+    "statement": "I require assistance in composing an email/message. Can you help?",
+    "response": "Certainly, I'm here to help. Please provide me with the necessary information for the email/message."
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Please assist me in drafting an email/message.",
+    "response": "Sure, I can assist you in drafting an email/message. What would you like to include in it?"
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Help me write an email/message.",
+    "response": "Of course, I'll help you write an email/message. What should the email/message contain?"
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Can you guide me in composing an email/message?",
+    "response": "Certainly, I can guide you in composing an email/message. What message do you want to convey?"
+  },
+  {
+    "intent": "compose_message",
+    "statement": "I need assistance with composing an email/message. Can you provide guidance?",
+    "response": "Absolutely, I can provide guidance in composing an email/message. Please let me know what you want to write."
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Please write an email/message for me.",
+    "response": "Sure, I can write an email/message for you. Please let me know the details you'd like to include."
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Can you help me write a personal email/message?",
+    "response": "Of course, I can help you write a personal email/message. What would you like to say?"
+  },
+  {
+    "intent": "compose_message",
+    "statement": "I require guidance in composing an email/message. Can you assist?",
+    "response": "Certainly, I'm here to assist you. Please provide me with the necessary information for the email/message."
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Please assist me in writing an email/message.",
+    "response": "Sure, I can assist you in writing an email/message. What do you want to communicate?"
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Compose an email for me.",
+    "response": "Sure, I can help you compose an email. Please provide me with the necessary details."
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Can you assist me in writing an email?",
+    "response": "Of course, I'd be happy to assist you in writing an email. What would you like to say?"
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Please help me draft an email.",
+    "response": "Certainly, I can help you draft an email. What's the content you'd like to include?"
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Assist me in composing an email.",
+    "response": "Sure, I can assist you in composing an email. What do you want to write?"
+  },
+  {
+    "intent": "compose_message",
+    "statement": "I need help writing an email. Can you assist me?",
+    "response": "Of course, I'm here to assist you. Please let me know the details of the email you'd like to write."
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Please compose an email on my behalf.",
+    "response": "Certainly, I can compose an email on your behalf. What would you like it to say?"
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Can you help me with writing a personal message?",
+    "response": "Absolutely, I can assist you in writing a personal message. What's on your mind?"
+  },
+  {
+    "intent": "compose_message",
+    "statement": "I require assistance in composing an email. Can you help?",
+    "response": "Certainly, I'm here to help. Please provide me with the necessary information for the email."
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Please assist me in drafting an email.",
+    "response": "Sure, I can assist you in drafting an email. What would you like to include in it?"
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Help me write an email.",
+    "response": "Of course, I'll help you write an email. What should the email contain?"
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Can you guide me in composing an email?",
+    "response": "Certainly, I can guide you in composing an email. What message do you want to convey?"
+  },
+  {
+    "intent": "compose_message",
+    "statement": "I need assistance with composing an email. Can you provide guidance?",
+    "response": "Absolutely, I can provide guidance in composing an email. Please let me know what you want to write."
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Please write an email for me.",
+    "response": "Sure, I can write an email for you. Please let me know the details you'd like to include."
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Can you help me write a personal email?",
+    "response": "Of course, I can help you write a personal email. What would you like to say?"
+  },
+  {
+    "intent": "compose_message",
+    "statement": "I require guidance in composing an email. Can you assist?",
+    "response": "Certainly, I'm here to assist you. Please provide me with the necessary information for the email."
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Please assist me in writing an email.",
+    "response": "Sure, I can assist you in writing an email. What do you want to communicate?"
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Compose a message for me.",
+    "response": "Sure, I can help you compose a message. Please provide me with the necessary details."
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Can you assist me in writing a message?",
+    "response": "Of course, I'd be happy to assist you in writing a message. What would you like to say?"
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Please help me draft a message.",
+    "response": "Certainly, I can help you draft a message. What's the content you'd like to include?"
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Assist me in composing a message.",
+    "response": "Sure, I can assist you in composing a message. What do you want to write?"
+  },
+  {
+    "intent": "compose_message",
+    "statement": "I need help writing a message. Can you assist me?",
+    "response": "Of course, I'm here to assist you. Please let me know the details of the message you'd like to write."
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Please compose a message on my behalf.",
+    "response": "Certainly, I can compose a message on your behalf. What would you like it to say?"
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Can you help me with writing a personal message?",
+    "response": "Absolutely, I can assist you in writing a personal message. What's on your mind?"
+  },
+  {
+    "intent": "compose_message",
+    "statement": "I require assistance in composing a message. Can you help?",
+    "response": "Certainly, I'm here to help. Please provide me with the necessary information for the message."
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Please assist me in drafting a message.",
+    "response": "Sure, I can assist you in drafting a message. What would you like to include in it?"
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Help me write a message.",
+    "response": "Of course, I'll help you write a message. What should the message contain?"
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Can you guide me in composing a message?",
+    "response": "Certainly, I can guide you in composing a message. What message do you want to convey?"
+  },
+  {
+    "intent": "compose_message",
+    "statement": "I need assistance with composing a message. Can you provide guidance?",
+    "response": "Absolutely, I can provide guidance in composing a message. Please let me know what you want to write."
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Please write a message for me.",
+    "response": "Sure, I can write a message for you. Please let me know the details you'd like to include."
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Can you help me write a personal message?",
+    "response": "Of course, I can help you write a personal message. What would you like to say?"
+  },
+  {
+    "intent": "compose_message",
+    "statement": "I require guidance in composing a message. Can you assist?",
+    "response": "Certainly, I'm here to assist you. Please provide me with the necessary information for the message."
+  },
+  {
+    "intent": "compose_message",
+    "statement": "Please assist me in writing a message.",
+    "response": "Sure, I can assist you in writing a message. What do you want to communicate?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I'm looking for my keys. Can you help me find them?",
+    "response": "Of course, I can help you find your keys. Let's start by retracing your steps. When was the last time you had them?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I can't find my phone. Can you assist me in locating it?",
+    "response": "Certainly, I can assist you in locating your phone. Have you tried calling it or checking the usual places?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I've misplaced my wallet. Can you help me find it?",
+    "response": "I'd be happy to help you find your wallet. Let's start by checking the places you visited recently. Any specific locations where you might have left it?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I can't find my glasses. Can you assist me in finding them?",
+    "response": "Sure, I can assist you in finding your glasses. Do you remember where you last had them or any areas where they might be?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I've misplaced my book. Can you help me locate it?",
+    "response": "Of course, I can help you locate your book. Let's start by checking the areas where you usually keep your books."
+  },
+  {
+    "intent": "find_item",
+    "statement": "I can't find my umbrella. Can you assist me in finding it?",
+    "response": "Certainly, I can assist you in finding your umbrella. Have you checked the places where you usually keep it or any recent locations you visited?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I've lost my watch. Can you help me find it?",
+    "response": "I'd be happy to help you find your watch. Let's start by retracing your steps and checking the areas where you frequently place it."
+  },
+  {
+    "intent": "find_item",
+    "statement": "I can't find my headphones. Can you assist me in locating them?",
+    "response": "Sure, I can assist you in locating your headphones. Have you checked the places where you usually keep them or any recent locations you visited?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I've misplaced my pen. Can you help me find it?",
+    "response": "Of course, I can help you find your pen. Let's start by checking the areas where you usually keep your pens."
+  },
+  {
+    "intent": "find_item",
+    "statement": "I can't find my wallet. Can you assist me in locating it?",
+    "response": "Certainly, I can assist you in locating your wallet. Have you checked your pockets and the places where you usually keep it?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I've lost my keys. Can you help me find them?",
+    "response": "I'd be happy to help you find your keys. Let's start by retracing your steps and checking the areas where you usually place them."
+  },
+  {
+    "intent": "find_item",
+    "statement": "I can't find my phone. Can you assist me in locating it?",
+    "response": "Sure, I can assist you in locating your phone. Have you tried calling it or checking the usual places where you usually keep it?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I've misplaced my glasses. Can you help me find them?",
+    "response": "Of course, I can help you find your glasses. Do you remember where you last had them or any areas where they might be?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I can't find my book. Can you assist me in locating it?",
+    "response": "Certainly, I can assist you in locating your book. Let's start by checking the areas where you usually keep your books."
+  },
+  {
+    "intent": "find_item",
+    "statement": "I've lost my umbrella. Can you help me find it?",
+    "response": "I'd be happy to help you find your umbrella. Let's start by retracing your steps and checking the areas where you usually place it."
+  },
+  {
+    "intent": "find_item",
+    "statement": "I can't find my watch. Can you assist me in locating it?",
+    "response": "Sure, I can assist you in locating your watch. Have you checked your wrist and the places where you usually keep it?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I've misplaced my headphones. Can you help me find them?",
+    "response": "Of course, I can help you find your headphones. Let's start by checking the areas where you usually keep them."
+  },
+  {
+    "intent": "find_item",
+    "statement": "I can't find my pen. Can you assist me in locating it?",
+    "response": "Certainly, I can assist you in locating your pen. Have you checked the areas where you usually keep your pens?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I've lost my wallet. Can you help me find it?",
+    "response": "I'd be happy to help you find your wallet. Let's start by retracing your steps and checking the areas where you usually place it."
+  },
+  {
+    "intent": "find_item",
+    "statement": "I can't find my keys. Can you assist me in locating them?",
+    "response": "Sure, I can assist you in locating your keys. Have you checked your pockets and the places where you usually keep them?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I've misplaced my phone. Can you help me find it?",
+    "response": "Of course, I can help you find your phone. Let's start by checking the areas where you usually keep it or any recent locations you visited."
+  },
+  {
+    "intent": "find_item",
+    "statement": "I can't find my glasses. Can you assist me in locating them?",
+    "response": "Certainly, I can assist you in locating your glasses. Have you checked your eyes or any areas where they might be?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I've lost my book. Can you help me find it?",
+    "response": "I'd be happy to help you find your book. Let's start by retracing your steps and checking the areas where you usually place it."
+  },
+  {
+    "intent": "find_item",
+    "statement": "I can't find my umbrella. Can you assist me in locating it?",
+    "response": "Sure, I can assist you in locating your umbrella. Have you checked the places where you usually keep it or any recent locations you visited?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I've misplaced my watch. Can you help me find it?",
+    "response": "Of course, I can help you find your watch. Let's start by checking the areas where you usually keep it."
+  },
+  {
+    "intent": "find_item",
+    "statement": "I can't find my headphones. Can you assist me in finding them?",
+    "response": "Certainly, I can assist you in finding your headphones. Have you checked your ears or the places where you usually keep them?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I've lost my pen. Can you help me find it?",
+    "response": "I'd be happy to help you find your pen. Let's start by retracing your steps and checking the areas where you usually place it."
+  },
+  {
+    "intent": "find_item",
+    "statement": "I can't find my wallet. Can you assist me in locating it?",
+    "response": "Sure, I can assist you in locating your wallet. Have you checked your pockets and the places where you usually keep it?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I've misplaced my keys. Can you help me find them?",
+    "response": "Of course, I can help you find your keys. Let's start by retracing your steps and checking the areas where you usually place them."
+  },
+  {
+    "intent": "find_item",
+    "statement": "I can't find my phone. Can you assist me in locating it?",
+    "response": "Certainly, I can assist you in locating your phone. Have you tried calling it or checking the usual places where you usually keep it?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I'm looking for my keys. Can you help me find them?",
+    "response": "Of course, I can help you find your keys. Let's start by retracing your steps. When was the last time you saw them?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I've misplaced my wallet. Can you assist in locating it?",
+    "response": "Certainly, I can assist you in locating your wallet. Can you remember the last place you had it?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I can't find my glasses. Any idea where they might be?",
+    "response": "I understand. Let's try to retrace your steps. Where were you the last time you remember wearing your glasses?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "My phone is missing. Can you help me find it?",
+    "response": "Of course, I can help you find your phone. Do you remember where you last used it or if it's on silent mode?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I've misplaced my bag. Can you assist in locating it?",
+    "response": "Certainly, I can assist you in locating your bag. Can you remember where you last had it or any places you visited recently?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I can't find my headphones. Any idea where they might be?",
+    "response": "I understand. Let's try to retrace your steps. Where were you the last time you remember using your headphones?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I've lost my umbrella. Can you help me find it?",
+    "response": "Of course, I can help you find your umbrella. Do you recall where you last had it or if you left it somewhere specific?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I can't find my watch. Any idea where it might be?",
+    "response": "I understand. Let's try to retrace your steps. When was the last time you remember wearing your watch?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I've misplaced my keys. Can you assist in locating them?",
+    "response": "Certainly, I can assist you in locating your keys. Can you remember the last place you had them or if you put them somewhere specific?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I can't find my wallet. Any idea where it might be?",
+    "response": "I understand. Let's try to retrace your steps. When was the last time you remember having your wallet?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I've lost my glasses. Can you help me find them?",
+    "response": "Of course, I can help you find your glasses. Let's start by checking the places you frequently visit or where you last had them."
+  },
+  {
+    "intent": "find_item",
+    "statement": "My phone seems to be missing. Can you assist in locating it?",
+    "response": "Certainly, I can assist you in locating your phone. Do you remember where you last used it or if it's on silent mode?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I've misplaced my bag. Can you help me find it?",
+    "response": "Of course, I can help you find your bag. Can you remember where you last had it or any places you visited recently?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I can't find my headphones. Any idea where they might be?",
+    "response": "I understand. Let's try to retrace your steps. When was the last time you remember using your headphones?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I've lost my umbrella. Can you help me find it?",
+    "response": "Certainly, I can help you find your umbrella. Do you recall where you last had it or if you left it somewhere specific?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I can't find my watch. Any idea where it might be?",
+    "response": "I understand. Let's try to retrace your steps. When was the last time you remember wearing your watch?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I've misplaced my keys. Can you assist in locating them?",
+    "response": "Certainly, I can assist you in locating your keys. Can you remember the last place you had them or if you put them somewhere specific?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I can't find my wallet. Any idea where it might be?",
+    "response": "I understand. Let's try to retrace your steps. When was the last time you remember having your wallet?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I've lost my glasses. Can you help me find them?",
+    "response": "Of course, I can help you find your glasses. Let's start by checking the places you frequently visit or where you last had them."
+  },
+  {
+    "intent": "find_item",
+    "statement": "My phone seems to be missing. Can you assist in locating it?",
+    "response": "Certainly, I can assist you in locating your phone. Do you remember where you last used it or if it's on silent mode?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I've misplaced my bag. Can you help me find it?",
+    "response": "Of course, I can help you find your bag. Can you remember where you last had it or any places you visited recently?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I can't find my headphones. Any idea where they might be?",
+    "response": "I understand. Let's try to retrace your steps. When was the last time you remember using your headphones?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I've lost my umbrella. Can you help me find it?",
+    "response": "Certainly, I can help you find your umbrella. Do you recall where you last had it or if you left it somewhere specific?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I can't find my watch. Any idea where it might be?",
+    "response": "I understand. Let's try to retrace your steps. When was the last time you remember wearing your watch?"
+  },
+  {
+    "intent": "find_item",
+    "statement": "I've misplaced my keys. Can you assist in locating them?",
+    "response": "Certainly, I can assist you in locating your keys. Can you remember the last place you had them or if you put them somewhere specific?"
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "Can you recommend a good book to read?",
+    "response": "Certainly! What genre or author are you interested in? Or do you prefer fiction or non-fiction?"
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "I'm looking for a new TV show to watch. Any recommendations?",
+    "response": "Absolutely! What genre or type of TV shows do you enjoy? Any preferences in terms of comedy, drama, or specific themes?"
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "I need a new restaurant to try. Any suggestions?",
+    "response": "Of course! What type of cuisine are you in the mood for? Any dietary restrictions or specific location preferences?"
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "I'm planning a vacation. Can you recommend a destination?",
+    "response": "Certainly! Are you looking for a beach getaway, a cultural experience, or an adventurous trip? Any specific countries or regions in mind?"
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "I want to buy a new phone. Any recommendations?",
+    "response": "Absolutely! Are you looking for a specific brand or operating system? Any preferences in terms of camera quality, storage capacity, or budget?"
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "I need a new workout routine. Any recommendations?",
+    "response": "Great! Are you interested in cardio exercises, strength training, or a combination of both? Do you have any fitness goals or specific areas you want to focus on?"
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "I'm looking for a new podcast to listen to. Any suggestions?",
+    "response": "Certainly! What topics or genres are you interested in? Are you looking for educational podcasts, storytelling, interviews, or something else?"
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "Can you recommend a good movie to watch?",
+    "response": "Of course! What genre or type of movies do you enjoy? Any preferences in terms of comedy, drama, action, or specific actors/directors?"
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "I need a new skincare product. Any recommendations?",
+    "response": "Absolutely! What specific skincare concerns do you have? Are you looking for moisturizers, serums, cleansers, or any other type of product?"
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "I'm looking for a new hobby. Any suggestions?",
+    "response": "Great! What are your interests or things you've always wanted to try? Are you more inclined towards indoor activities, outdoor adventures, or creative pursuits?"
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "I want to start reading more. Can you recommend a classic book?",
+    "response": "Certainly! Classic literature offers a wide range of timeless masterpieces. Are you interested in fiction, non-fiction, or a specific time period?"
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "I need a new workout playlist. Any song recommendations?",
+    "response": "Of course! What genre or style of music do you prefer for your workouts? Any specific artists, tempo, or mood you're looking for?"
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "Can you recommend a good book to read?",
+    "response": "Of course! I recommend checking out 'The Alchemist' by Paulo Coelho. It's a captivating story about following your dreams and discovering your true purpose in life."
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "I'm looking for a new TV series to watch. Any recommendations?",
+    "response": "Absolutely! I highly recommend 'Stranger Things'. It's a thrilling sci-fi series with a perfect blend of mystery, suspense, and nostalgia."
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "I'm planning a vacation. Any recommendations for a beautiful destination?",
+    "response": "Certainly! I suggest considering the breathtaking beaches of Bali, Indonesia. It offers stunning landscapes, rich culture, and a serene atmosphere perfect for relaxation and exploration."
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "I'm in the mood for some new music. Can you recommend an artist or a song?",
+    "response": "Absolutely! I recommend checking out the talented artist Billie Eilish. Her unique style and mesmerizing vocals make for an incredible listening experience."
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "I want to try a new restaurant. Any recommendations for a great dining experience?",
+    "response": "Of course! If you're into Italian cuisine, I highly recommend trying 'La Trattoria'. They offer authentic dishes made with fresh ingredients and provide a cozy ambiance."
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "I'm looking for a new hobby. Any recommendations?",
+    "response": "Absolutely! How about trying your hand at painting? It's a wonderful way to express creativity and relax. Grab some paints, brushes, and a canvas, and let your imagination run wild!"
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "I need a new smartphone. Can you recommend a reliable brand?",
+    "response": "Certainly! I highly recommend considering the latest iPhone models. Apple has a reputation for producing reliable and user-friendly smartphones with cutting-edge technology."
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "I'm in the mood for a comedy movie. Any recommendations?",
+    "response": "Absolutely! I suggest checking out the hilarious comedy 'Bridesmaids'. It's filled with laugh-out-loud moments and a fantastic cast that will keep you entertained throughout."
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "I want to start reading more. Any recommendations for a thought-provoking novel?",
+    "response": "Of course! I recommend diving into '1984' by George Orwell. It's a dystopian classic that explores themes of government surveillance, totalitarianism, and the power of language."
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "I'm looking for a new workout routine. Any recommendations?",
+    "response": "Certainly! I suggest trying high-intensity interval training (HIIT). It's a time-efficient workout method that combines short bursts of intense exercises with brief recovery periods, making it great for burning calories and improving fitness."
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "I need a new laptop. Can you recommend a reliable brand?",
+    "response": "Absolutely! I highly recommend considering laptops from the 'Dell' brand. They offer a wide range of reliable and high-performance models suitable for various needs and budgets."
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "I'm in the mood for some romantic music. Can you recommend a playlist?",
+    "response": "Of course! I suggest checking out the 'Romantic Love Songs' playlist on your favorite music streaming platform. It features a collection of beautiful and heartfelt songs perfect for setting a romantic mood."
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "I want to start practicing mindfulness. Any recommendations for meditation apps?",
+    "response": "Certainly! I highly recommend trying 'Headspace' or 'Calm' meditation apps. They provide guided meditation sessions, mindfulness exercises, and soothing sounds to help you relax and find inner peace."
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "I'm looking for a new puzzle game to play. Any recommendations?",
+    "response": "Absolutely! I suggest trying 'Sudoku' or 'Candy Crush Saga'. Both games offer addictive and challenging gameplay that will keep you entertained and mentally engaged."
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "I need a new car. Can you recommend a reliable brand?",
+    "response": "Of course! I highly recommend considering cars from the 'Toyota' brand. They are known for their reliability, fuel efficiency, and wide range of models suitable for different preferences and budgets."
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "I'm in the mood for some adventure. Any recommendations for thrilling activities?",
+    "response": "Certainly! How about trying skydiving? It's an exhilarating adventure sport that offers an unforgettable adrenaline rush and breathtaking views as you freefall through the sky."
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "I want to start learning a musical instrument. Any recommendations for beginners?",
+    "response": "Absolutely! I suggest starting with the acoustic guitar. It's a versatile instrument that allows you to play various genres of music, and there are plenty of online resources and tutorials available for beginners."
+  },
+  {
+    "intent": "get_recommendation",
+    "statement": "I'm looking for a new podcast to listen to. Any recommendations?",
+    "response": "Of course! I recommend checking out 'The Joe Rogan Experience'. It's one of the most popular podcasts featuring engaging conversations with a wide range of fascinating guests."
   }
 ]
