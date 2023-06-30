@@ -1,4 +1,3 @@
-import pickle
 import os
 import calendar
 import json
@@ -12,11 +11,12 @@ import warnings
 import speech_recognition as sr
 import random
 import wolframalpha
-import actions
-import data
+import pickle
+
+from actions import Actions
 
 
-class Assitant:
+class Assistant:
     name = "nebula"
     password = ""
     key = ""
@@ -55,15 +55,27 @@ class Assitant:
         voices = self.engine.getProperty('voices')
         self.engine.setProperty('voice', voices[self.options['voice']].id)
 
-        self.options = data.get_json('data/ass==tant_options.json')
-        if self.options == None:
+        self.options = self.load_options()
+        if self.options is None:
             self.options = {
                 'user': None,
                 'language': 'en-in',
                 'input': 'speech'
             }
 
-    # Cognitive senses: speaking, l==tening, seeing
+    def load_options(self):
+        try:
+            with open('assistant_options.pickle', 'rb') as f:
+                options = pickle.load(f)
+                return options
+        except FileNotFoundError:
+            return None
+
+    def save_options(self):
+        with open('assistant_options.pickle', 'wb') as f:
+            pickle.dump(self.options, f)
+
+    # Cognitive senses: speaking, listening, seeing
     def speak(self, phrase):
         self.engine.say(phrase)
         self.engine.runAndWait()
@@ -75,8 +87,8 @@ class Assitant:
             recognizer = sr.Recognizer()
 
             with sr.Microphone() as source:
-                print("L==tening...")
-                audio = recognizer.l==ten(source)
+                print("Listening...")
+                audio = recognizer.listen(source)
 
                 try:
                     statement = recognizer.recognize_google(
@@ -91,7 +103,7 @@ class Assitant:
             statement = input('User: ')
             return statement.lower()
 
-    def vission(self):
+    def vision(self):
         pass
 
     def switch_input(self):
@@ -101,109 +113,39 @@ class Assitant:
             self.options['input'] = 'keyboard'
 
     def activate(self):
-        statement = self.l==ten().lower()
+        statement = self.listen().lower()
         if 'nebula' in statement:
             self.activated = True
 
     def edit_options(self, obj):
         self.options = obj
-        data.save_json(self.options)
+        self.save_options()
         return self.options
 
+    def change_password(self, new_password, old_password):
+        if old_password == self.password:
+            self.password = new_password
+            self.speak('password updated...')
+
+    def request_password(self, input_password):
+        if input_password == self.password:
+            return True
+        else:
+            return False
+
     def brain(self, statement):
+        if statement is not None or statement != '':
+            intent = Actions().get_intent(statement)
 
-        if statement == not None:
-            intent = actions.get_intent(statement)
-
-            if intent == 'stop program':
+            if intent == 'stop_assistant':
                 self.activated = False
 
-            if intent == 'greeting':
-                response = actions.greet(statement)
-                self.speak(response)
-            elif intent == 'open_app':
-                app = actions.analyze_statement(statement, intent)
-                response = actions.open_app(app)
-            elif intent == 'open_website':
-                website = actions.analyze_statement(statement, intent)
-                response = actions.open_website(website)
-            elif intent == 'get_time':
-                response = actions.get_time()
-                self.speak(response)
-            elif intent == 'get_date':
-                response = actions.get_date()
-                self.speak(response)
-            elif intent == 'get_weather':
-                response = actions.get_weather()
-                self.speak(response)
-            elif intent == 'get_location':
-                response = actions.get_location()
-                self.speak(response)
-            elif intent == 'find_location':
-                location = actions.analyze_statement(statement, intent)
-                response = actions.find_location(location)
-                self.speak(response)
-            elif intent == 'predict_location':
-                location = actions.analyze_statement(statement, intent)
-                response = actions.predict_location(location)
-                self.speak(response)
-            elif intent == 'track_obj':
-                obj = actions.analyze_statement(statement, intent)
-                response = actions.track_obj(obj)
-                self.speak(response)
-            elif intent == 'get_news':
-                response = actions.get_news()
-                self.speak(response)
-            elif intent == 'get_joke':
-                response = actions.get_joke()
-                self.speak(response)
-            elif intent == 'get_quote':
-                response = actions.get_quote()
-                self.speak(response)
-            elif intent == 'get_fact':
-                response = actions.get_fact()
-                self.speak(response)
-            elif intent == 'get_definition':
-                obj = actions.analyze_statement(statement, intent)
-                response = actions.get_definition(obj)
-                self.speak(response)
-            elif intent == 'get_wiki':
-                obj = actions.analyze_statement(statement, intent)
-                response = actions.get_wiki(obj)
-                self.speak(response)
-            elif intent == 'send_email':
-                email = actions.analyze_statement(statement, intent)
-                response = actions.send_email(email)
-                self.speak(response)
-            elif intent == 'get_email':
-                response = actions.get_email()
-                self.speak(response)
-            elif intent == 'send_message':
-                message = actions.analyze_statement(statement, intent)
-                response = actions.send_message(message)
-                self.speak(response)
-            elif intent == 'get_message':
-                response = actions.get_message()
-                self.speak(response)
-            elif intent == 'calculate':
-                question = actions.analyze_statement(statement, intent)
-                response = actions.calculate(question)
-                self.speak(response)
-            elif intent == 'search':
-                response = actions.search(statement)
-                self.speak(response)
-            elif intent == 'translate':
-                obj = actions.analyze_statement(statement, intent)
-                response = actions.translate(obj)
-                self.speak(response)
-            
-
-
-
-            
+            response = Actions().analyze_statement(statement)
+            self.speak(response)
         else:
             self.silent_notice += 1
             if self.silent_notice == 5:
+                print('going to sleep...')
                 self.activated = False
 
     def start(self):
@@ -220,5 +162,5 @@ class Assitant:
                     self.brain(statement)
 
 
-nebula = Assitant()
+nebula = Assistant()
 nebula.start()
